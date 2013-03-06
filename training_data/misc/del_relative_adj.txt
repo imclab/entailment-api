@@ -1,0 +1,50 @@
+
+
+*** SUBSECTIVE
+Are relative subsective adjectives still in the intersective class?
+subsective adjectives
+
+DEL,small,1
+DEL,large,1
+DEL,big,1
+DEL,large,4 (?)
+tall
+good
+short
+poor
+rich
+DEL,giant,1
+DEL,best,1
+skillful,1
+
+typical,1
+recent,1
+good,1
+perfect,1
+legendary,1
+
+
+
+*** PRIVATIVE
+privative: ADDED
+ex-girlfriend,3
+ex-mayor,3
+wouldbe,3
+past,3
+spurious,3
+imaginary,3
+ﬁctitious,3
+END ADDED
+
+
+*** NON-SUBSECTIVE
+plain non-subsective: ADDED
+`potential,6
+`alleged,6
+`arguable,6 
+`likely,6
+`predicted,6 
+`putative,6
+`questionable,6
+`disputed,6
+END ADDED

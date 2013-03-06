@@ -1,0 +1,62 @@
+# KEY: token, arity, operatorPattern, arg1Pattern, arg1Monotonicity, arg2Pattern, arg2Monotonicity, type (optional)
+
+without,unary,IN < /^[Ww]ithout$/,PP < (IN < /^[Ww]ithout$/),down,unk
+
+refused,unary,VBD < /^[Rr]efused$/,S > (VP < (VBD < /^[Rr]efused$/)),down,verb
+
+# TODO need to work on argument patterns for most
+most,binary,JJS < /^[Mm]ost$/ !> QP,__ >+(NP) (NP=proj !> NP),non,__ >> (S=proj !> S),up,quantifier
+
+# Is the QP applicable here?
+best,unary,JJS < /^[Bb]est$/ !> QP,NN > (NP < (JJS < /^[Bb]est$/)),non,intersective
+
+
+
+# ************* JJ JJS *************
+second,unary,JJ < /^[Ss]econd$/,JJS , (JJ < /^[Ss]econd$/),non,secondarymodification
+third,unary,JJ < /^[Tt]hird$/,JJS , (JJ < /^[Tt]hird$/),non,secondarymodification
+fourth,unary,JJ < /^[Ff]ourth$/,JJS , (JJ < /^[Ff]ourth$/),non,secondarymodification
+fifth,unary,JJ < /^[Ff]ifth$/,JJS , (JJ < /^[Ff]ifth$/),non,secondarymodification
+sixth,unary,JJ < /^[Ss]ixth$/,JJS , (JJ < /^[Ss]ixth$/),non,secondarymodification
+seventh,unary,JJ < /^[Ss]eventh$/,JJS , (JJ < /^[Ss]eventh$/),non,secondarymodification
+eighth,unary,JJ < /^[Ee]ighth$/,JJS , (JJ < /^[Ee]ighth$/),non,secondarymodification
+ninth,unary,JJ < /^[Nn]inth$/,JJS , (JJ < /^[Nn]inth$/),non,secondarymodification
+tenth,unary,JJ < /^[Tt]enth$/,JJS , (JJ < /^[Tt]enth$/),non,secondarymodification
+
+# ************* END JJ JJS *************
+
+
+
+
+
+# ************* NEGATION *************
+
+no,unary,DT < /^[Nn]o$/,NP < (DT < /^[Nn]o$/),down,negation
+
+# Not sure about this argument pattern
+no,unary,UH < /^[Nn]o$/,S << (UH < /^[Nn]o$/),down,negation
+
+
+# arg1 pattern might only work sometimes
+n't,unary,RB < /^[Nn]'t$/,S < (__ < (RB < /^n't$/)),down,negation
+
+n't,unary,RB < /^[Nn]'t$/,VP > (__ < (RB < /^[Nn]'t$/)),down,negation
+
+
+not,unary,RB < /^[Nn]ot$/,NP > (VP < (RB < /^[Nn]ot$/)),down,negation
+
+not,unary,RB < /^[Nn]ot$/,S < (__ < (RB < /^n't$/)),down,negation
+
+
+never,unary,ADVP < (RB < /^[Nn]ever$/),VP > (S < (ADVP < (RB < /^[Nn]ever$/))),down,negation
+
+# This could be problematic as 'Never' should not be captured.
+never,unary,ADVP < (RB < /^[Nn]ever$/),SINV < (ADVP < (RB < /^[Nn]ever$/)),down,negation
+
+anti,unary,NN < /^[Aa]nti$/,JJ > (NP < (NN < /^[Aa]nti$/)),down,negation
+# This is problematic; the first NNP ('anti') should not be captured.
+anti,unary,NNP < /^[Aa]nti$/,NNP > (NP < (NNP < /^[Aa]nti$/)),down,negation
+anti,unary,JJ < /^[Aa]nti$/,NNP > (NP < (JJ < /^[Aa]nti$/)),down,negation
+anti,unary,JJ < /^[Aa]nti$/,NN > (NP < (JJ < /^[Aa]nti$/)),down,negation
+
+# ************* END NEGATION *************

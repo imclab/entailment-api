@@ -1,0 +1,70 @@
+see p116
+
+factives have same implication signature in both contexts.
+
+*** IMPLICATIVES
+
++/-
+positive implication in positive context
+negative implication in negative context
+he managed to escape : he escaped
+he did not manage to escape : he did not escape
+miscdel0
+
++/o
+positive implication in positive context
+null implcaation in negative context
+he was forced to sell : he sold
+he was not forced to sell : he may have sold, he may not have sold
+miscdel1
+
+o/-
+null implication in positive context
+negative implcaation in negative context
+he was permitted to live : 
+he was not permitted to live : 
+miscdel2
+
+-/+
+negative implication in positive context
+positive implcaation in negative context
+miscdel3
+
+-/o
+negative implication in positive context
+null implication in negative context
+he refused to dance : he did not dance
+he didn't refuse to dance : does not imply that he danced, but he may have
+miscdel4
+
+o/+
+null implication in positive context
+positive implication in negative context
+he hesitated to ask : he may or may not have asked
+he did not hesitate to ask : he asked
+miscdel5
+
+
+*** FACTIVES
+
++/+
+positive implication in positive context
+positive implication in negative context
+admit that
+I admit that I am awesome : I am awesome is true
+I do not admit that I am awesome : I am awesome is true
+
+-/-
+negative implication in positive context
+negative implication in negative context
+pretend that
+I pretend that you are awesome : you are awesome is implied to be false
+I do not pretend that you are awesome : you are awesome is implied to be false
+
+o/o
+null implcation in positive context
+null implcation in negative context
+believe that
+I believe that you are awesome : no implication about the truth of 'you are awesome'
+I do not believe that you are awesome : no implcation about the truth of 'you are awesome'
+miscdel6

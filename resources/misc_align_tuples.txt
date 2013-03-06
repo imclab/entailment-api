@@ -1,0 +1,5 @@
+s,by
+humans,people
+human,person
+by,written
+by,created

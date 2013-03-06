@@ -1,0 +1,6 @@
+living,dead
+alive,dead
+in-stock,out-of-stock
+in-stock,sold-out
+off,on
+foreign,domestic

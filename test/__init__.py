@@ -1,0 +1,7 @@
+from classifier_test import Test_sequencer
+from joiner_test import Test_sequencer
+from lexent_classifier_del_test import Test_lexent_classifier
+from lexent_classifier_sub_test import Test_lexent_classifier
+from marker_test import Test_sequencer
+from projector_test import Test_sequencer
+from sequencer_test import Test_sequencer

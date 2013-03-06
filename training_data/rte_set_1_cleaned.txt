@@ -1,0 +1,1474 @@
+Claude Chabrol divorced Agnes , his first wife , to marry the actress Stephane Audran . His third wife is Aurore Paquiss .
+Aurore (21) Paquiss (22) married (11) Chabrol (2) . (16)
+Jimi Hendrix was naturally left handed but his father tried to force him to play right handed because Jimi Hendrix believed playing left handed was a sign of the devil .
+was (3) Jimi (1) Hendrix (2) left (5) handed (6) ? (31)
+Watson the IBM computer prevailed over Jeopardy 's 
+did (N) IBM (3) Watson (1) win (5) Jeopardy (7) ? (N)
+Yes many kinds of animal can pass rabies to people .
+can (6) humans (10) get (N) rabies (8) from (9) animal (5) bites (N) ? (11)
+Jimi Hendrix Death Conspiracy Jimi Hendrix was found dead on September 18 1970 in his flat at the Smarkand Hotel 22 Lansdowne Crescent Notting Hill 
+is (7) Jimi (1) Hendrix (2) dead (9) ? (N)
+Yes dogs are mammals .
+dogs (2) are (3) not (N) mammals (4) . (5)
+Yes dogs are mammals .
+are (3) dogs (2) reptiles (4) ? (5)
+Yes dogs are mammals .
+are (3) dogs (2) animals (4) ? (5)
+Yes dogs are mammals .
+are (3) dogs (2) mammals (4) ? (5)
+Equids are beautiful graceful mammals that have long slender 
+are (2) horses (1) mammals (5)
+Other mammals such as people horses and gorillas have hair .
+are (N) horses (6) mammals (2) ? (11)
+Other mammals such as people horses and gorillas have hair .
+are (N) people (5) mammals (2) ? (11)
+Other mammals such as people horses and gorillas have hair .
+are (N) horses (6) reptiles (2) ? (11)
+Other mammals such as people horses and gorillas have hair .
+are (N) gorillas (8) mammals (2) ? (11)
+J.Crew gladly honors a one-time price adjustment on full-price merchandise within seven days of the retail purchase or mail order ship date if accompanied by the original receipt .
+do (N) you (1) honor (3) price (6) adjustments (7) on (8) full-price (9) items (10) ? (29)
+J.Crew gladly honors a one-time price adjustment on full-price merchandise within seven days of the retail purchase or mail order ship date if accompanied by the original receipt .
+does (N) J.Crew (1) do (N) price (6) adjustments (7) ? (29)
+Items not purchased at full price are ineligible for price adjustments .
+are (7) items (1) purchased (3) on (N) sale (5) eligible (8) for (9) price (10) adjustments (11) ? (12)
+Our policy at Facebook is literally to hire as many talented engineers as we can find .
+is (5) the (N) policy (2) at (3) Facebook (4) to (7) hire (8) talented (11) engineers (12) ? (17)
+All monogrammed , personalized and final sale items may not be returned or exchanged . 
+can (9) monogrammed (2) items (8) be (11) returned (12) ? (15)
+All monogrammed , personalized and final sale items may not be returned or exchanged . 
+can (9) I (N) exchange (14) an (N) item (8) that (N) has (N) been (N) personalized (4) ? (15)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+can (N) gifts (8) be (10) exchanged (3) without (N) a (13) receipt (15) ? (16)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+can (N) I (N) exchange (3) a (7) gift (8) if (N) i (N) have (N) a (13) gift (14) receipt (15) ? (16)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+can (N) gifts (8) be (10) exchanged (3) without (N) a (13) gift (14) receipt (15) ? (16)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+can (N) merchandise (4) received (5) as (6) a (7) gift (8) be (10) exchanged (3) without (N) a (13) gift (14) receipt (15) ? (16)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+can (9) i (N) exchange (3) a (7) gift (8) without (N) a (13) receipt (15) ? (16)
+Requests to exchange merchandise received as a gift must be accompanied by a gift receipt .
+do (N) I (N) need (9) a (7) receipt (15) to (2) exchange (3) a (13) gift (14) ? (16)
+J.Crew gladly accepts returns of unworn , unwashed , undamaged or defective merchandise purchased in our retail stores for full refund or exchange within 30 days of original purchase .
+do (N) you (1) accept (3) returns (4) ? (30)
+Applicable sales tax will be charged on total merchandise , including shipping & handling fees , where applicable , for orders shipped to : AR , AZ , CA , CO , CT , DC , FL , GA , HI , IA , ID , IL , IN , KS , KY , LA , MA , MD , ME , MI , MN , MO , MS , NC , NE , NJ , NM , NV , NY , OH , OK , PA , RI , SC , TN , TX , UT , VA , VT , WA and WI .
+do (N) you (N) collect (6) sales (2) tax (3) on (7) orders (21) in (N) NY (81) ? (106)
+Applicable sales tax will be charged on total merchandise , including shipping & handling fees , where applicable , for orders shipped to : AR , AZ , CA , CO , CT , DC , FL , GA , HI , IA , ID , IL , IN , KS , KY , LA , MA , MD , ME , MI , MN , MO , MS , NC , NE , NJ , NM , NV , NY , OH , OK , PA , RI , SC , TN , TX , UT , VA , VT , WA and WI .
+do (N) you (N) charge (6) sales (2) tax (3) for (6) AK (N) orders (21) ? (106)
+We also accept J.Crew gift cards online .
+do (N) you (1) accept (3) J.Crew (4) gift (5) cards (6) online (7) ? (8)
+How did North Carolina freshman Harrison Barnes get ' The Black Falcon ' as a nickname ?
+is (N) Harrison (6) Barnes (7) 's (N) nickname (16) the (10) black (11) falcon (12) ? (17)
+Unfortunately , only one code can be used per order .
+can (6) i (N) use (8) multiple (4) coupon (N) codes (5) with (9) one (N) order (10) ? (11)
+Unfortunately , only one code can be used per order .
+can (6) i (N) use (8) multiple (4) codes (5) on (9) my (N) order (10) ? (11)
+We 're excited to offer flat-rate shipping to Canada for USD 9.95 .
+do (2) you (1) ship (7) to (8) Canada (9) ? (13)
+We ship via UPS Standard service directly to your door . 
+do (N) you (1) ship (2) with (3) UPS (4) ? (11)
+We are unable to ship to Canada P.O. Boxes .
+can (3) you (1) ship (5) to (6) a (N) PO (8) box (9) ? (10)
+We are unable to ship to Canada P.O. Boxes .
+can (3) you (1) ship (5) to (6) my (N) P.O. (8) box (9) ? (10)
+We are unable to ship to Canada P.O. Boxes .
+do (3) you (1) ship (5) to (6) po (8) boxes (9) ? (10)
+We are unable to ship to Canada P.O. Boxes .
+are (1) you (1) able (3) to (4) ship (5) to (6) PO (8) boxes (9) in (N) Canada (7) ? (10)
+We are unable to ship to Canada P.O. Boxes .
+do (2) you (1) ship (5) to (6) PO (8) boxes (9) in (N) Canada (7) ? (10)
+We do not offer overnight delivery to Canada .
+do (2) you (1) offer (3) overnight (5) delivery (6) in (7) Canada (8) ? (9)
+We do not offer overnight delivery to Canada .
+do (2) you (1) have (4) overnight (5) delivery (6) to (7) Canada (8) ? (9)
+We do not offer overnight delivery to Canada .
+do (2) you (1) deliver (6) overnight (5) to (7) Canada (8) ? (9)
+All shipments to Japan are processed via DHL Express . 
+do (5) you (N) ship (2) to (3) Japan (4) ? (10)
+John Adams 1735 1826 was a leader of the American Revolution and served as the second president of the United States from 1797 to 1801 .
+was (5) John (1) Adams (2) the (9) president (17) . (26)
+The achievements of Thomas Jefferson dwarf those of all but a handful of his contemporaries .
+was (N) Thomas (4) Jefferson (5) a (11) dwarf (N) ? (16)
+Although they all live in water dolphins and porpoises are not fish but mammals warm blooded vertebrate animals which feed their young milk produced by the 
+are (10) dolphins (7) fish (12) ? (N)
+Although they all live in water dolphins and porpoises are not fish but mammals warm blooded vertebrate animals which feed their young milk produced by the 
+are (10) dolphins (7) fish (12)
+ChaCha AnswerP With only 12 calories per servingP Sprite does not have any caffine !
+does (10) Sprite (9) have (12) caffeine (14) ? (15)
+Samsung designed it to dodge Apple ’s iPhone IP .
+Is (N) the (N) iPhone (8) designed (2) by (7) Samsung (1) ? (10)
+Just hours after the French foreign minister said confidently that France had blocked " the advance of the terrorists , " accomplishing its first mission in the conflict , the French defense minister acknowledged that the facts on the ground were different .
+The (4) French (5) foreign (6) minister (7) claimed (8) that (10) French (31) forces (N) " (14) blocked (13) the (15) advance (16) of (17) the (18) terrorists (19) . (43) " (21)
+The Chronicle 's staff continued to use the name and eventually Blue Devils became the official mascot and nickname of the Duke University
+is (N) Duke (22) University (23) 's (20) mascot (17) the (21) Blue (12) Devil (13)
+NC State 's wolfpack colors are red black and white !
+are (6) NC (1) State (2) 's (3) colors (5) red (7) and (9) black (8) ? (11)
+I heard its costs about $ 600 to make a brand new Reissue Gibson Les Paul that sells for around $ 6000 .
+does (N) Gibson (14) make (9) Les (15) Pauls (16) ? (23)
+Cats are mammals as they have all characters of mammals . 1 hair 2 mammary glands 3 7 cervical vertebrae non nucleated RBC .
+are (2) cats (1) mammals (3) ? (24)
+Cats are mammals as they have all characters of mammals . 1 hair 2 mammary glands 3 7 cervical vertebrae non nucleated RBC .
+are (2) cats (1) mammals (3)
+Cats are warm blooded as cats are mammals and all mammals are warm blooded .
+are (2) cats (1) warm (3) blooded (4) ? (15)
+Cats Are Warm Blooded .
+are (2) cats (1) warm (3) blooded (4) ? (5)
+Cats Are Warm Blooded .
+are (2) cats (1) warm (3) blooded (4)
+The Lake Bodom murders were an infamous multiple homicide that took place in Finland in 1960 .
+did (N) the (1) Lake (2) Bodom (3) murders (4) take (11) place (12) in (13) Finland (14) ? (17)
+ChaCha Answer Jim Morrison died of heart failure in 1971 at age 27 while living in Paris .
+was (N) Jim (3) Morrison (4) 27 (13) when (N) he (N) died (5) ? (18)
+Jimi Hendrix was naturally lefthanded but his father tried to force him to play righthanded because he believed playing left handed was a sign of the devil .
+was (3) Jimi (1) Hendrix (2) left (20) handed (21) ? (28)
+The 49ers have won the Super Bowl five times .
+have (3) the (1) 49ers (2) ever (N) won (4) a (5) Super (6) Bowl (7) ? (10)
+Carl likes red , white , and black .
+does (N) Carl (1) like (2) black (8) , (4) red (3) , (6) and (7) white (5) . (9)
+Notched lapels , the most common , are usually seen on business suits .
+do (N) business (12) suits (13) usually (9) have (N) notched (1) lapels (2) ? (14)
+Most business suits , will have notch lapels .
+do (N) business (2) suits (3) usually (1) have (6) notched (7) lapels (8) . (9)
+Yes dogs are mammals .
+are (3) dogs (2) mammals (4) ? (5)
+All cats are mammals so they are warm blooded
+are (3) cats (2) warm (8) blooded (9)
+NC State 's wolfpack colors are red , black and white !
+are (6) NC (1) State (2) University (N) 's (3) colours (5) red (7) and (10) black (9) ? (12)
+ECB spokeswoman , Regina Schueller , declined to comment on a report in Italy 's La Repubblica newspaper that the ECB council will discuss Mr. Fazio 's role in the takeover fight at its September 15 meeting .
+Regina (4) Shueller (5) works (N) for (N) Italy (14) 's (15) La (16) Repubblica (17) newspaper (18) . (38)
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the " threat " to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany .
+Ahmedinejad (33) was (N) attacked (34) by (53) the (54) US (55) , (56) France (57) , (58) Britain (59) and (60) Germany (61) . (62)
+The chaotic situation unleashed in Bogota last night , with the assasination of Justice Carlos Valencia , began on 28 July in Medellin , when motorized paid assasins murdered third public order Judge Maria Elena Diaz . 
+Justice (14) Carlos (15) Valencia (16) was (N) killed (12) on (19) 28 (20) July (21) . (37) 
+He met U.S. President , George W. Bush , in Washington and British Prime Minister , Tony Blair , in London . 
+Washington (11) is (N) part (N) of (N) London (21) . (22) 
+A powerful bomb , hidden in a truck , exploded outside the headquarters of Colombia 's secret police , Wednesday , causing severe damage , Bogota mayor Andres Pastrana said . 
+An (N) attempt (N) on (N) Andres (28) Pastrana (29) 's (N) life (N) was (N) carried (N) out (N) using (N) a (1) powerful (2) bomb (3) . (31) 
+Muslims make up some 3.2 million of Germany 's 82 million people , and Turks represent two thirds of the minority . 
+82 (10) million (11) people (12) live (N) in (N) Germany (8) . (22) 
+A.C. Milan is in second place with 13 points , after two first-half goals from captain Paolo Maldini earned them a 2-1 victory over Reggina . 
+Paolo (17) Maldini (18) plays (N) for (N) Reggina (25) . (26) 
+Muslims make up some 3.2 million of Germany 's 82 million people , and Turks represent two thirds of the minority . 
+3.2 (5) million (6) Muslims (1) live (N) in (N) Germany (8) . (22) 
+" The capacity people have to adjust and make peace with a new situation , even if they feel vulnerable , is really remarkable , " said Randy Quevillon , chair of the psychology department and the Disaster Mental Health Institute at the University of South Dakota . 
+Randy (28) Quevillon (29) is (N) employed (N) at (42) the (43) University (44) of (45) South (46) Dakota (47) . (48) 
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the " threat " to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany . 
+Ahmadinejad (33) attacked (34) the (49) UN (50) Security (51) Council (52) . (62) 
+Arsenal sneaked a 1-0 victory over Birmingham at Highbury , taking advantage of Stephen Clemence 's own-goal in the 81st minute . 
+Arsenal (1) lost (N) to (N) Birmingham (7) . (22) 
+Bogota , 4 May 88 - The dissemination of a document questioning Colombia 's oil policy , is reportedly the aim of the publicity stunt carried out by the pro-Castro Army Of National Liberation , which kidnapped several honorary consuls , newsmen , and political leaders . 
+Several (38) honorary (39) consuls (40) were (N) kidnapped (37) on (N) 4 (3) May (4) 88 (5) . (47) 
+The FMLN has prudently taken time before adopting a definite position , meanwhile the government has increased its detentions and attacked the residences of leaders of the Social Christian People 's Movement . 
+Social (28) Christian (29) People (30) 's (31) Movement (32) was (N) attacked (21) by (N) FMLN (2) . (33) 
+" A force majeure is an act of God , " said attorney Phil Wittmann , who represents the New Orleans Saints and owner Tom Benson 's local interests . 
+Phil (14) Wittmann (15) works (18) for (18) Tom (25) Benson (26) . (30) 
+Co-producing the film is Happy Madison , the company owned by Sandler , who has been a compatriot of Schneider 's since they met early in their careers , as mutually struggling stand-up comedians in Los Angeles . 
+Happy (5) Madison (6) works (N) for (N) the (8) company (9) owned (10) by (11) Sandler (12) . (38) 
+With Washington hinting it might soften its tough stance to break the deadlock , top US negotiator , Christopher Hill , said the two sides needed to review the situation . 
+Christopher (19) Hill (20) works (N) for (N) the (N) US (16) . (31) 
+Jean-Claude Trichet , the European Central Bank president , made it clear , on Wednesday , that he would oppose unwarranted political attempts to remove Antonio Fazio : the Bank of Italy governor , engulfed in controversy over his handling of bank takeover bids . 
+Antonio (26) Fazio (27) works (N) for (N) the (29) Bank (30) of (31) Italy (32) . (45) 
+The assassins of former Defense Minister Enrique Lopez Albujar Trint are presumably members of the Maoist terrorist organization , Shining Path , since the counterterrorism division has identified one of them as Gerardo Olivos Silva , through a composite made from witness ' reports . 
+Gerardo (33) Olivos (34) Silva (35) is (11) a (N) member (13) of (14) the (15) Maoist (16) terrorist (17) organization (18) Shining (20) Path (21) . (45) 
+Linda Johnson , who lives with her husband , Charles , and two cats in a rented one-bedroom apartment in San Francisco 's Mission District , said Katrina has made her realize she needs to gather together , in one accessible place , her scattered disaster supplies . 
+Linda (1) Johnson (2) is (N) married (8) to (N) Charles (10) . (48) 
+Mexico City ( Mexico ) , 12 Jan 90 ( DPA ) - Salvadoran Social Democratic politician Hector Oqueli Colindres was kidnapped today , in Guatemala city , along with Guatemalan Social Democratic leader Gilda Flores , his party , in Mexico City , reported . 
+Hector (18) Oqueli (19) Colindres (20) comes (N) from (N) El (14) Salvador (14) . (46) 
+From Joss Stone to Keith Richards to Sting , the artists joining Les on the rock-charged album share one clear common bond : Les Paul is one of their most respected and beloved mentors . 
+Eric (N) Clapton (N) is (N) in (N) business (N) with (N) Les (24) Paul (25) . (35) 
+Japan 's Toshiba Corp. announced Tuesday that it has developed the first laptop computer with its new HD DVD drive : a next-generation disc format it is promoting over a rival standard pushed by Sony Corp . 
+Toshiba (3) Corp. (4) 's (N) headquarters (N) is (N) in (N) Japan (1) . (37) 
+Two new Les Paul books arrive in stores this year : The Les Paul Legacy by Rob Lawrence is due from Hal Leonard Publishing on October 27 . 
+Rob (17) Lawrence (18) works (N) for (N) The (12) Les (13) Paul (14) Legacy (15) . (28) 
+The human rights promotion and protection secretariat of the FMLN strongly condemns the massacre of five Spanish-born Jesuit priests , and three Salvadoran citizens , carried out by the Salvadoran Armed Forces Soldiers . 
+The (29) Salvadoran (30) Armed (31) Forces (32) Soldiers (33) murdered (14) three (22) Salvadoran (23) citizens (24) . (34) 
+Jack Straw , the Foreign Secretary , will meet his Brazilian counterpart , Celso Amorim , in London today . 
+Jack (1) Straw (2) is (N) a (N) partner (N) of (N) Celso (14) Amorim (15) . (20) 
+The watchdog International Atomic Energy Agency meets in Vienna on September 19 . 
+The (1) International (3) Atomic (4) Energy (5) Agency (6) holds (N) a (N) meeting (7) in (8) Vienna (9) . (13) 
+Police sources stated that during the bomb attack involving the Shining Path , two people were injured . 
+Two (14) people (15) were (16) wounded (17) by (N) a (N) bomb (7) . (18) 
+Although they were born on different planets , Oscar-winning actor Nicolas Cage 's new son and Superman have something in common - both were named Kal-el . 
+Nicolas (11) Cage (12) 's (13) new (14) son (15) was (N) awarded (N) an (N) Oscar (N) . (27) 
+Olson , 62 , previously worked as a partner at Ernst & Young LLP , as a Minnesota bank president and as a congressional aide , before joining the Fed board in 2001 , to serve a term ending in 2010 . 
+Olson (1) is (N) a (N) member (N) of (N) the (29) Fed (30) board (31) . (42) 
+Valero Energy Corp. , on Monday , said it found " extensive " additional damage at its 250,000-barrel-per-day Port Arthur refinery . 
+Valero (1) Energy (2) Corp. (3) is (N) the (N) owner (N) of (N) Port (19) Arthur (20) refinery (21) . (22) 
+He said that his daughter was told that Clark had been cited to General Sessions Court . 
+Clark (9) is (N) employed (N) at (N) General (14) Sessions (15) Court (16) . (17) 
+Although Schneider 's father , Marvin , died of complications from diabetes only two weeks after " Deuce Bigalow " was released , his Filipino mother Pilar continues to live in Pacifica . 
+Pilar (27) is (N) the (N) mother (26) of (N) Schneider (2) . (33) 
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the " threat " to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany . 
+Ahmadinejad (33) is (N) a (8) TIME (9) magazine (9) journalist (10) . (62) 
+Hinostroza 's children told police that four hooded individuals broke into the house and shot their mother after having insulted her . 
+Hinostroza (1) 's (2) children (3) attaked (N) their (16) mother (17) with (N) a (N) gun (15) . (22) 
+Valero Energy Corp. , on Monday , said it found " extensive " additional damage at its 250,000-barrel-per-day Port Arthur refinery . 
+Valero (1) Energy (2) Corp. (3) caused (N) damages (15) to (N) Port (19) Arthur (20) refinery (21) . (22) 
+A Russian Soyuz spacecraft docked with the International Space Station , after a two-day flight from the Baikonur Cosmodrome in Kazakhstan . 
+Soyuz (3) spacecraft (4) were (N) built (N) by (N) Russia (2) . (22) 
+But according to Dr. Williams , other members of the panel have championed other ideas , for example , that planets should be larger than 2,000 kilometers ( or about 1,250 miles ) in diameter ( Pluto is about 1,500 miles ) . 
+The (N) diameter (35) of (N) Pluto (37) measures (38) 1,500 (40) miles (41) . (43) 
+An Afghan interpreter , employed by the United States , was also wounded . 
+An (1) interpreter (3) worked (5) for (N) Afghanistan (2) . (14) 
+The chaotic situation unleashed in Bogota last night , with the assasination of Justice Carlos Valencia , began on the 28th of July in Medellin , when motorized paid assasins murdered third public order Judge Maria Elena Diaz . 
+Justice (14) Carlos (15) Valencia (16) was (N) killed (12) in (5) Colombia (N) . (39) 
+Fernandez , of FEMA , was on scene when Martin arrived at a FEMA base camp before going to the hospital . 
+Fernandez (1) works (N) for (N) FEMA (4) . (22) 
+As a result , peptic ulcer disease has been transformed from a chronic , frequently disabling condition to one that can be cured by a short regimen of antibiotics and other medicines . 
+Antibiotics (29) are (N) used (N) against (N) peptic (5) ulcer (6) . (33) 
+Alan Mulally , Boeing 's head of the unit , said at the start of the strike that it may cause delivery delays that would give Airbus SAS an advantage in what is the strongest commercial aircraft market in five years . 
+Boeing (4) is (N) a (N) subsidiary (N) of (N) Airbus (27) SAS (28) . (42) 
+Oqueli was to fly to Nicaragua to join an international Socialist delegation , which will observe the Nicaraguan electoral campaign . 
+Oqueli (1) was (2) a (N) member (N) of (N) the (N) Socialist (11) party (11) . (21) 
+Earlier this year , 78 local , state and federal agencies took part in a chemical attack drill , called Rotunda Thunda , at the Las Vegas Convention Center and the Strip . 
+A (15) chemical (16) attack (17) took (N) place (N) at (24) the (25) Las (26) Vegas (27) Convention (28) Center (29) and (30) the (31) Strip (32) . (33) 
+Two persons were injured in dynamite attacks perpetrated this evening against two bank branches in this northwestern , Colombian city . 
+Two (12) bank (13) branches (14) were (3) attacked (7) with (N) dynamite (6) . (21) 
+The biopic of wannabe actor , Johnny Stompanato , may be directed by Adrian Lyne of " Fatal Attraction " and " Indecent Proposal " fame . 
+Johnny (7) Stomponato (8) starred (N) in (N) Fatal (18) Attraction (19) . (27) 
+Cage is a big fan of " Superman " ( who was born on the fictional planet Krypton ) and was to play the role in a film planned for the 1990s that never came to be . 
+Cage (1) played (23) Superman (8) . (38) 
+Second-half goals , from Danny Mills and Darius Vassell , lifted Manchester City to a 2-0 victory over Everton . 
+Manchester (12) was (N) beaten (17) by (N) Everton (19) . (20) 
+The memo , written by Marc Allen Connelly ( who was general counsel to the funeral services commission at the time ) and sent to Dick McNeil ( the Bush-appointed chairman of the funeral commission ) , stated that Connelly " received information " from Texas state officials that two of the funeral commissioners worked for SCI . 
+Marc (6) Allen (7) Connelly (8) worked (55) for (56) SCI (57) . (58) 
+Speaking of Jean Charles de Menezes , who was chased by armed officers into the station and shot five times at close range , his cousin , Alex Pereira , hinted today that his family would sue Scotland Yard over the killing . 
+Jean (3) Charles (4) de (5) Menezes (6) is (N) related (N) to (N) Alex (28) Pereira (29) . (43) 
+Nancy Vine , who sells tickets at the Big Sky drive-in , seven nights a week , is a daughter of Donald and Dorothy LeGros - part of the extended family that operates the drive-in . 
+Nancy (1) Vine (2) is (N) in (N) business (N) with (N) Donald (22) and (23) Dorothy (24) LeGros (25) . (36) 
+Helena Brighton , an attorney for Eliza May who served as executive director of the Texas Funeral Services Commission -the state agency that regulates the funeral business- claimed that she was fired from her state job because she raised questions about SCI . 
+Eliza (7) May (8) hired (N) Helena (1) Brighton (2) . (43) 
+The evidence for the continuing accretion of gas by the Milky Way involves high-velocity clouds , or HVCs--mysterious clumps of hydrogen , moving rapidly through the outer regions of the galaxy . 
+High-velocity (14) clouds (15) are (N) made (N) up (N) of (20) hydrogen (21) . (32) 
+Earlier this year , Kai-Uwe Ricke , chief executive of Deutsche Telekom , floated the possibility that T-Mobile USA might be sold . 
+Deutsche (11) Telekom (12) sold (22) T-Mobile (18) USA (19) . (23) 
+Martin was given water to drink , then taken to New Orleans Ochsner Foundation Hospital , where nurse Jinny Resor said he was treated for dehydration . 
+Ochsner (13) Foundation (14) Hospital (15) is (N) located (N) in (N) New (11) Orleans (12) . (27) 
+The Bulls agreed to trade center , Eddy Curry , to the New York Knicks on Monday . 
+Eddy (8) Curry (9) was (N) acquired (5) by (N) the (1) Bulls (2) . (18) 
+Microsoft Corp. and Intel Corp. , on Monday , threw their weight behind the next-generation , HD DVD format being promoted by Toshiba Corp. , in a blow to Sony Corp. 's Blu-ray format . 
+Microsoft (1) Corp. (2) is (N) a (N) competitor (N) of (N) Toshiba (23) Corp (24) . (35) 
+He also developed a breath test that could detect sulfur compounds emitted from the H. pylori . 
+The (14) H. (15) pylori (16) produces (12) sulphur (10) compounds (11) . (17) 
+Kaspars Ruklis , press official at the United States Embassy , told the Baltic News Service that Mrs. Bush chose to visit Latvia 's Occupation . 
+Kaspars (1) Ruklis (2) works (5) for (N) the (7) United (8) States (9) Embassy (10) . (26) 
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the " threat " to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany . 
+Ahmadinejad (33) is (N) a (N) citizen (N) of (43) Iran (44) . (62) 
+A.C. Milan is in second place with 13 points , after two first-half goals from captain Paolo Maldini earned them a 2-1 victory over Reggina . 
+A.C. (1) Milan (2) lost (N) to (N) Reggina (25) . (26) 
+After the press conference , I met up with a Microsoft guy , John Traynor : senior director of segment marketing for the mobile devices division . 
+John (14) Traynor (15) is (N) an (N) executive (18) of (19) Microsoft (11) . (27) 
+South African President Thabo Mbeki , the main mediator in Cote d ' Ivoire 's peace process , said , on Sunday , that Pretoria is heightening its intervention in the West African nation in order to pave the way for elections later this year . 
+Thabo (4) Mbeki (5) is (N) a (N) citizen (N) of (N) Cote (11) d (12) ' (13) Ivoire (14) . (46) 
+An investigation has found that Unity Party presidential candidate , Mrs. Ellen Johnson-Sirleaf , United Democratic standard bearer , Charles Brumskine , and Liberian National Union standard bearer , John Morlue , have been in the position of U.S. permanent residency or green card . 
+Mrs. (11) Ellen (12) Johnson-Sirleaf (13) is (N) the (N) leader (N) of (N) Unity (6) party (7) . (45) 
+Kevin Whitaker , who heads the Cuban affairs office at the Department of State , spoke with Lazo on two occasions about the effort to give his sons visas . 
+Kevin (1) Whitaker (2) is (N) a (N) manager (5) of (N) the (11) Department (12) of (13) State (14) . (30) 
+For Bechtolsheim , who designed the prototype for the first Sun workstation while he was a Birkenstock-shod Stanford University graduate student in 1982 , the new line of computers , code named Galaxy , is a return to the company 's roots . 
+The (9) Sun (11) workstation (12) was (N) created (5) by (N) Bechtlsheim (2) . (43) 
+The dual citizenship debate has been a major distraction for the Weah campaign and many of his opponents have been secretly advocating against his presence in the race . 
+Weah (12) does (N) business (N) with (N) his (17) opponents (18) . (29) 
+Craig Conway , fired as PeopleSoft 's chief executive officer before the company was bought by Oracle , was in England last week . 
+Craig (1) Conway (2) works (N) for (N) Oracle (17) . (24) 
+Around 50 million years ago , in contrast , oxygen levels in the atmosphere measured 23 percent--2 percent higher than today . 
+23 (16) % (18) of (N) the (13) atmosphere (14) is (N) made (N) up (N) by (N) oxygen (10) . (22) 
+The three drive-ins nearest to Madison , all less than an hour 's drive , are : Big Sky Twin Drive-In Theatres in Wisconsin Dells , Highway 18 Outdoor Theatre , near Jefferson , and Sky-Vu Drive-In , near Monroe . 
+Highway (27) 18 (28) Outdoor (29) Theatre (30) is (N) located (N) in (23) Wisconsin (24) Dells (25) . (41) 
+C?te d ' Ivoire 's President , Laurent Gbagbo , promulgated new election laws on July 14 . 
+President (6) Laurent (8) Gbagbo (9) lives (N) in (N) C?te (1) d (2) ' (3) Ivoire (4) . (18) 
+Those accused of the assassination of six Jesuits , if found guilty , will be punished whether they are civilians , military , or influential people . 
+Six (7) Jesuits (8) were (N) killed (5) by (N) civilians (20) . (27) 
+The seven refineries located in Lake Charles , La. , and the Texas cities of Beaumont and Port Arthur , appear to be the ones hardest hit by the water and wind that accompanied Rita . 
+Rita (35) caused (N) damages (27) to (N) seven (2) refineries (3) located (4) in (5) Lake (6) Charles (7) , (8) La (9) . (36) 
+Nicholas Cage 's wife , Alice Kim Cage , gave birth Monday , to a boy , Kal-el Coppola Cage , in New York City , said Cage 's Los Angeles-based publicist , Annett Wolf. No other details were available . 
+Nicholas (1) Cage (2) is (N) married (4) to (N) Alice (6) Kim (7) Cage (8) . (41) 
+" The aftershocks were less in the past two months , but they seem to be starting again. We are really worried about the fate of these islands , " Smriti Kana Saha of Ranjat village , in the Middle Andaman Island , told Reuters by phone . 
+Smriti (31) Kana (32) Saha (33) is (N) a (N) resident (N) of (34) Ranjat (35) village (36) . (48) 
+Hakimi also claimed that the rebels killed Mawlavi Waqifi , a religious leader in the southeastern province of Khost . 
+Mawlavi (8) Waqifi (9) lived (N) in (14) the (15) southeastern (16) province (17) of (18) Khost (19) . (20) 
+In that aircraft accident , four people were killed : the pilot , who was wearing civilian clothes , and three other people who were wearing military uniforms . 
+Four (6) people (7) were (8) assassinated (9) by (N) the (11) pilot (12) . (29) 
+The Actors Studio offering will be based on Simon 's female version of the play which was premiered in 1985 in New York , at the Broadhurst Theatre , with the characters ' names being Florence Unger and Olive Madison , played by Sally Struthers and Rita Moreno respectively . 
+Broadhurst (27) Theatre (28) is (N) located (N) in (21) New (22) York (23) . (50) 
+The solar system is much more complicated now , astronomers say , than in 1930 when Clyde Tombaugh added Pluto to the inventory of wandering lights circling the Sun . 
+Pluto (20) was (N) discovered (N) by (N) Clyde (17) Tombaugh (18) . (30) 
+The Southeast Asian ministers gather in Laos for their regional meeting . 
+Southeast (2) Asian (3) ministers (4) ' (N) meeting (11) is (N) held (N) in (6) Laos (7) . (12) 
+Australia was one of the countries in the U.S.-led coalition that invaded Iraq in 2003 . 
+The (8) coalition (10) is (N) coordinated (9) by (9) the (9) U.S (9) 
+Martin was taken to New Orleans Ochsner Foundation Hospital , where nurse Jinny Resor said he was treated for dehydration . 
+Martin (1) works (N) for (N) the (N) Ochsner (7) Foundation (8) Hospital (9) . (21) 
+" A force majeure is an act of God , " said attorney Phil Wittmann , who represents the New Orleans Saints and owner Tom Benson 's local interests . 
+New (20) Orleans (21) Saints (22) are (N) property (24) of (N) Tom (25) Benson (26) . (30) 
+The two rescuers who retrieved him are firefighters with a California-based FEMA team : J.D. Madden of Santa Clara and Eric Mijangos of Menlo Park . 
+A (10) FEMA (12) team (13) is (11) based (11) in (11) California (11) . (26) 
+Sir Ian Blair , the Metropolitan Police Commissioner , said , last night , that his officers were " playing out of their socks " , but admitted that they were " racing against time " to track down the bombers . 
+The (N) officers (17) belong (16) to (16) Sir (1) Ian (2) Blair (3) 's (N) family (N) . (42) 
+Helena Brighton , an attorney for Eliza May who served as executive director of the Texas Funeral Services Commission -the state agency that regulates the funeral business- claimed that she was fired from her state job because she raised questions about SCI . 
+Helena (1) Brighton (2) is (N) a (N) clerk (N) of (14) the (15) Texas (16) Funeral (17) Services (18) Commission (19) . (43) 
+Warrington-born Chris Evans denies he went wild , despite quitting Radio 1 in 1997 and later being sacked by Virgin Radio for not turning up for work during a five-day drinking binge . 
+Virgin (20) Radio (21) was (N) the (N) employer (N) of (N) Chris (2) Evans (3) . (33) 
+Self-sufficiency has been turned into a formal public awareness campaign in San Francisco , by Mayor Gavin Newsom . 
+Gavin (17) Newsom (18) is (N) a (N) politician (16) of (N) San (12) Francisco (13) . (19) 
+SCI , Houston 's largest funeral services company , was headed by Robert Waltrip--a close associate of the Bush family . 
+Robert (13) Waltrip (N) works (11) for (N) the (18) Bush (19) family (20) . (21) 
+Moscow ( USSR ) , 12 Jul 89 ( PRAVDA ) - Blood is flowing in Columbia , where last year , according to official statistics , there were 4,600 victims of political violence , including Jaime Pardo Leal ( president of Colombia 's national coordination committee ) , around 30 deputies and many municipal advisors and mayors . 
+Jaime (37) Pardo (38) Leal (39) was (N) killed (34) in (N) Moscow (1) . (59) 
+San Salvador , Jan. 13 , ' 90 ( Acan-Efe ) -The bodies of Hector Oqueli and Gilda Flores , who had been kidnapped yesterday , were found in Cuilapa , Guatemala , near the border with El Salvador , the relatives of one of the victims have reported . 
+Gilda (18) Flores (19) was (N) kidnapped (24) on (N) the (N) 13th (5) of (N) January (4) 1990 (8) . (50) 
+The automobile industry , led by General Motors and Ford , offered price discounts from June-August that temporarily boosted sales , but these discounts may have masked underlying weakness . 
+Ford (10) is (N) part (N) of (N) the (1) automobile (2) industry (3) . (30) 
+Ordonez Reyes accused Jose Jesus Pena , alleged chief of security for the Nicaraguan embassy in Tegucigalpa , of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama . 
+Manuel (27) Antonio (28) Rugama (29) was (N) killed (24) by (N) Jose (4) Jesus (5) Pena (6) . (30) 
+Alan Mulally , Boeing 's head of the unit , said at the start of the strike that it may cause delivery delays that would give Airbus SAS an advantage in what is the strongest commercial aircraft market in five years . 
+Alan (1) Mulally (2) is (N) the (N) owner (N) of (N) Boeing (4) . (42) 
+At the time , neither " USA Today " nor " The Observer " was able to verify which of the sixty-plus candidates it was . 
+" (6) USA (7) Today (8) " (9) is (N) a (N) subsidiary (N) of (N) " (11) The (12) Observer (13) . (26) " (14) 
+He is the professor of theater and drama at Loyola University and the director of Wilson 's " Two Trains Running , " now onstage at Pegasus Players . 
+" (18) Two (19) Trains (20) Running (21) " (23) was (N) written (N) by (N) Wilson (16) . (29) 
+Lima , Jan. 10 , ' 90 - The national police reported that over 15,000 people have been arrested in Lima in a dragnet aimed at uncovering the assassins of former Defense Minister Enrique Lopez Albujar Trint , who was murdered in a terrorist attack , yesterday . 
+Enrique (34) Lopez (35) Albujar (36) Trint (37) was (40) killed (41) on (N) Jan. (3) 9 (N) ' (6) 90 (7) . (48) 
+Sir Ian Blair , the Metropolitan Police Commissioner , said , last night , that his officers were " playing out of their socks " , but admitted that they were " racing against time " to track down the bombers . 
+Sir (1) Ian (2) Blair (3) works (N) for (N) the (5) Metroplitan (6) Police (7) . (42) 
+Mahbob Amiri , head of Afghanistan 's quick-reaction force , said Monday 's bomb in the capital detonated as a United Nations vehicle drove past . 
+The (N) United (21) Nations (22) produces (N) vehicles (23) . (26) 
+The government of El Salvador strongly condemns the terrorist attacks carried out with explosives , today , against the Salvadoran Workers National Union Federation , in which several persons were wounded and others died . 
+Terrorist (9) attacks (10) were (N) carried (11) out (12) in (N) El (4) Salvador (5) . (35) 
+He had been hand-picked by John Sculley to take over Steve Jobs ' position as head of the Macintosh group . 
+John (6) Sculley (7) was (N) an (N) executive (16) of (17) the (18) Macintosh (19) group (20) . (21) 
+With Washington hinting it might soften its tough stance to break the deadlock , top US negotiator , Christopher Hill , said the two sides needed to review the situation . 
+Christopher (19) Hill (20) is (N) a (N) relative (N) of (N) a (N) top (15) US (16) negotiator (17) . (31) 
+Another presidential candidate , who we thought was the one involved , was Charles Brumskine , the standard bearer of the United Democratic Party who also has residency in the Northern Virginia area . 
+Charles (14) Brumskine (15) is (N) a (N) member (N) of (20) the (21) United (22) Democratic (23) Party (24) . (34) 
+Lao government spokesman , Yong Chantalangsy , said Rangoon has promised to announce its decision in Vientiane . 
+Yong (5) Chantalangsy (6) is (N) a (N) representative (3) of (N) Laos (1) . (18) 
+Moscow ( USSR ) , 12 Jul 89 ( PRAVDA ) - Blood is flowing in Columbia , where last year , according to official statistics , there were 4,600 victims of political violence , including Jaime Pardo Leal ( president of Colombia 's national coordination committee ) , around 30 deputies and many municipal advisors and mayors . 
+Around (50) 30 (51) deputies (52) were (N) killed (34) on (N) 12 (6) Jul (7) 89 (8) . (59) 
+The main library at 101 E. Franklin St. changes its solo and group exhibitions monthly in the Gellman Room , the Second Floor Gallery , the Dooley Foyer and the Dooley Hall . 
+Dooley (27) Foyer (28) is (N) located (N) in (N) Dooley (31) Hall (32) . (33) 
+Toshiba , the world 's third-largest notebook computer maker behind Dell Inc. and Hewlett-Packard Co. , said the PC would be introduced in Japan in early 2006 . 
+Toshiba (1) produces (9) notebook (7) computers (8) . (28) 
+Larry Estrada , whose father served in the Marine Corps in Vietnam , said he has always had a great appreciation for the military and wanted to do his part to help . 
+Larry (1) Estrada (2) 's (4) father (5) belonged (6) to (N) the (8) Marine (9) Corps (10) . (33) 
+Also , in a landmark deal with Disney , iTunes is now offering current and past episodes from two of the most popular shows on television . 
+I-tunes (10) does (N) business (6) with (7) Disney (8) . (27) 
+The experiment helped establish that the bacteria came first , causing inflammation , then ulcers . 
+Inflammation (12) is (N) the (N) result (11) of (N) ulcers (15) . (16) 
+San Salvador , Jan. 13 , ' 90 ( Acan-Efe ) -The bodies of Hector Oqueli and Gilda Flores , who had been kidnapped yesterday , were found in Cuilapa , Guatemala , near the border with El Salvador , the relatives of one of the victims have reported . 
+Guatemala (32) borders (36) on (N) El (38) Salvador (39) . (50) 
+Martin was taken to New Orleans Ochsner Foundation Hospital , where nurse Jinny Resor said he was treated for dehydration . 
+Jinny (13) Resor (14) is (N) employed (N) at (N) Ochsner (7) Foundation (8) Hospital (9) . (21) 
+Mexico City ( Mexico ) , 12 Jan 90 ( DPA ) -Salvadoran Social Democratic politician Hector Oqueli Colindres was kidnapped today in Guatemala city , along with Guatemalan Social Democratic leader Gilda Flores , his party , in Mexico City , reported . 
+Hector (17) Oqueli (18) Colindres (19) is (N) a (N) citizen (N) of (N) Mexico (4) . (44) 
+Toshiba , the world 's third-largest notebook computer maker behind Dell Inc. and Hewlett-Packard Co. , said the PC would be introduced in Japan in early 2006 . 
+Toshiba (1) is (N) a (N) subsidiary (N) of (N) Dell (11) Inc (12) . (28) 
+Alleged terrorists today , killed Dolores Hinostroza , the mayor of Mulqui district , shooting her five times . 
+The (9) mayor (10) of (11) Mulqui (12) district (13) was (N) murdered (5) with (N) a (N) firearm (15) . (19) 
+But Rajeev Dhawan , director of the Economic Forecasting Center at Georgia State University , says the main issue ahead is higher inflation . 
+The (7) Economic (8) Forecasting (9) Center (10) is (N) located (11) in (N) Georgia (12) . (24) 
+" The aftershocks were less in the past two months , but it seems to be starting again. We are really worried about the fate of these islands , " Smriti Kana Saha of Ranjat village in the Middle Andaman Island told Reuters by phone . 
+Smriti (31) Kana (32) Saha (33) of (34) Ranjat (35) village (36) is (N) part (37) of (N) the (38) Middle (39) Andaman (40) Island (41) . (46) 
+A mercenary group , faithful to the warmongering policy of former Somozist colonel Enrique Bermudez , attacked an IFA truck belonging to the interior ministry at 0900 on 26 March in El Jicote , wounded and killed an interior ministry worker and wounded five others . 
+A (1) mercenary (2) group (3) was (N) injured (35) in (31) El (32) Jicote (33) . (46) 
+ECB spokeswoman , Regina Schueller , declined to comment on a report in Italy 's la Repubblica newspaper that the ECB council will discuss Mr. Fazio 's role in the takeover fight at its Sept. 15 meeting . 
+The (20) ECB (21) council (22) meets (37) on (N) Sept. (35) 15 (36) . (38) 
+Microsoft Corp. and Intel Corp. , on Monday , threw their weight behind the next-generation , HD DVD format being promoted by Toshiba Corp. , in a blow to Sony Corp. 's Blu-ray format . 
+Toshiba (23) Corp. (24) is (N) a (N) partner (N) of (N) Sony (30) Corp (31) . (35) 
+The marriage is planned to take place in the Kiev Monastery of the Caves , whose father superior , Bishop Pavel , is Yulia Timoshenko 's spiritual father . 
+Yulia (24) Timoshenko (25) is (N) the (N) daughter (N) of (N) Bishop (20) Pavel (21) . (29) 
+" No , we do n't get any business from beach traffic , " said Butler , whose Men 's Shop is located in a small strip mall behind Krispy Kreme on Palmetto . 
+Men (19) 's (20) Shop (21) is (N) owned (18) by (N) Butler (16) . (34) 
+The 54-year-old man from London , who was not otherwise identified , was located following cooperation with British authorities , police said in a statement . 
+The (1) 54-year-old (2) man (3) resides (N) in (N) London (5) . (26) 
+Ordonez Reyes accused Jose Jesus Pena , alleged chief of security for the Nicaraguan embassy in Tegucigalpa , of masterminding the January 7th assassination of contra-commander Manuel Antonio Rugama . 
+Jose (4) Jesus (5) Pena (6) is (N) accused (3) of (19) the (21) assassination (24) of (25) Manuel (27) Antonio (28) Rugama (29) . (30) 
+The loss offered a minor moral victory for Liverpool , as they scored only the second goal this season against Chelsea in league play . 
+Liverpool (9) beat (2) Chelsea (21) . (25) 
+The Bank of Italy , the ultimate arbiter of Italian banking mergers , has been engulfed by scandal since police wire taps revealed Fazio and his wife advised a local banker in a bid for bank Antonveneta against Dutch bank ABN AMRO . 
+Dutch (39) bank (40) ABN (41) AMRO (42) bids (34) for (35) Bank (36) Antonveneta (37) . (43) 
+Toshiba , with NEC Corp. and Sanyo Electric Co. Ltd. , has been promoting a technology called HD DVD while Sony , along with Samsung Electronics Co. Ltd. and Matsushita Electric Industrial Co. Ltd. ( maker of Panasonic brand products ) , has been pushing for Blu-ray . 
+Panasonic (38) brand (39) products (40) are (N) produced (36) by (N) Samsung (25) Electronics (26) Co. (27) Ltd (N) . (48) 
+Nicholas Cage 's wife , Alice Kim Cage , gave birth Monday , to Kal-el Coppola Cage , in New York City , said the actor 's Los Angeles-based publicist , Annett Wolf . 
+Kal-el (15) Coppola (16) Cage (17) is (N) the (25) son (N) of (N) Nicholas (1) Cage (2) . (34) 
+San Salvador , Jan. 13 , ' 90 ( Acan-Efe ) -The bodies of Hector Oqueli and Gilda Flores , who had been kidnapped on the 12th of January , were found in Cuilapa , Guatemala , near the border with El Salvador , the relatives of one of the victims have reported . 
+A (N) kidnapping (24) took (N) place (N) in (N) San (1) Salvador (2) . (54) 
+Three plays later , quarterback James Pinkney was sacked by Wake 's Goryal Scales on third-and-one , forcing the team to punt . 
+James (6) Pinkney (7) was (8) an (N) employee (N) of (N) Goryal (13) Scales (14) . (23) 
+Mr. Olsen paid $ 20 million for the space trip , but says that in the future space travel will likely become as routine as air travel is today . 
+Air (26) travel (27) costs (3) $ (4) 20 (5) million (6) . (30) 
+Ms. Miers ' whole life was based in Dallas and revolved around her legal work , her family and an attachment to an evangelical church that led her to what her former pastor described as a flowering of faith late in life . 
+Ms. (1) Miers (2) was (N) a (N) leader (N) of (N) an (23) evangelical (24) church (25) . (43) 
+FMLN militias sabotaged power lines along the road linking Nueva Concepcion to the northern trunk highway at 1800 on 12 August . 
+Power (4) lines (5) were (N) attacked (3) by (N) FMLN (1) . (22) 
+A member of the Burmese delegation , Thaung Tun , told reporters on the eve of the meeting that his government did not wish to place ASEAN in a difficult position by insisting on assuming the chairmanship . 
+Thaung (8) Tun (9) is (N) a (1) representative (N) of (N) Burma (5) . (38) 
+The San Diego Padres ace , Jake Peavy , was hurt in an 8-5 loss to the St. Louis Cardinals . 
+The (1) San (2) Diego (3) Padres (4) won (N) the (N) game (N) against (N) the (17) St. (18) Louis (19) Cardinals (20) . (21) 
+It takes 560 years to complete one trip around the Sun ( versus 250 years for Pluto ) . 
+Pluto (17) 's (N) trip (8) around (9) the (10) Sun (11) lasts (2) 250 (14) years (15) . (19) 
+Referring to the April 2 car bomb explosion perpetrated in Santa Tecla , the FMLN-FDR claimed responsibility for the attack in a communique , and said that it was " an action aimed directly at the police " and that " they regret the death of a civilian , " but they did not mention compensation for the relatives . 
+A (47) civilian (48) was (45) killed (N) by (N) a (N) car (6) bomb (7) . (60) 
+Oqueli was to fly to Nicaragua to join an international Socialist delegation , which will observe the Nicaraguan electoral campaign . 
+Oqueli (1) was (2) taking (8) part (8) in (N) the (17) Nicaraguan (18) electoral (19) campaign (20) . (21) 
+FMLN guerrilla units ambushed the 1st company of military detachment no. 2 Jr. Battalion at la Pena Canton , Villa Victoria Jurisdiction . 
+FMLN (1) guerrilla (2) units (3) attacked (4) a (N) commercial (N) company (7) . (23) 
+The chaotic situation unleashed in Bogota last night , with the assasination of Justice Carlos Valencia , began on 28 July in Medellin , when motorized paid assasins murdered third public order Judge Maria Elena Diaz . 
+Justice (14) Carlos (15) Valencia (16) was (N) killed (12) in (22) Medellin (23) . (37) 
+The controversy became more desperate , this summer , when astronomers discovered a new object , larger than Pluto , orbiting in the Kuiper Belt at a distance of nine billion miles from the Sun . 
+The (23) Kuiper (24) Belt (25) is (28) nine (30) billion (31) miles (32) from (33) the (34) Sun (35) . (36) 
+Mufti Latifullah Hakimi , the spokesman for the Taliban rebels , claimed responsibility for the blast , but said that the insurgents had planted the bomb to target the Afghan police . 
+The (N) Taliban (9) is (N) the (8) rebels (10) ' (N) employer (N) . (32) 
+" I think we ' ve already seen the effect on oil and gas prices , " said economist Kathleen Camilli of New York-based Camilli Economics . 
+Kathleen (20) Camilli (21) works (N) for (N) Camilli (25) Economics (26) . (27) 
+Prices hit their lowest levels in five weeks Friday , with light , sweet crude for October closing at $ 63 on the New York Mercantile Exchange , the lowest settlement price since Aug. 5 . 
+Crude (15) oil (15) costs (N) $ (20) 63 (21) . (36) 
+Microsoft Corp. and Intel Corp. , on Monday , threw their weight behind the next-generation , HD DVD format being promoted by Toshiba Corp. , in a blow to Sony Corp. 's Blu-ray format . 
+Microsoft (1) Corp. (2) is (N) a (N) partner (N) of (N) Intel (4) Corp (5) . (35) 
+The 500,000 eligible , Muslim voters are likely to reward Chancellor Gerhard Schroeder 's Social Democrats ( SPD ) in the September 18 parliamentary election , for its anti-Iraq war position and pro-Muslim policies . 
+Gerhard (12) Schroeder (13) belongs (14) to (14) the (N) Social (15) Democrats (16) . (35) 
+Microsoft Corp. and Intel Corp. , on Monday , threw their weight behind the next-generation , HD DVD format being promoted by Toshiba Corp. , in a blow to Sony Corp. 's Blu-ray format . 
+Microsoft (1) Corp. (2) invented (N) the (14) next (15) generation (15) HD (17) DVD (18) format (19) . (35) 
+Others argue that Mr. Sharon should have negotiated the Gaza pullout - both to obtain at least some written promises of better Palestinian behavior , and to provide Mr. Abbas with a prime prize to show his people that diplomacy , not violence , delivered Gaza . 
+Mr. (29) Abbas (30) is (N) a (N) member (N) of (N) the (N) Palestinian (23) family (N) . (47) 
+Sunday 's explosion outside the Al-Rashi police station in the Al-Mashtel neighbourhood in the southeast of Baghdad , left a huge crater in the street . 
+Al (6) Rashi (6) is (N) an (N) executive (N) of (N) the (5) police (7) . (26) 
+Bechtolsheim left Sun in 1995 to found Granite Systems , a maker of high-speed networking systems , which he later sold to Cisco Systems . 
+Bechtolsheim (1) was (N) the (N) owner (N) of (N) Cisco (23) Systems (24) . (25) 
+General Miguel Maza Marquez , chief of the Colombian Administrative Department Of Security ( DAS ) , today confirmed foreign participation in the assassination of Luis Carlos Galan , senator and Liberal party presidential candidate , on 18 August in Bogota . 
+General (1) Miguel (2) Maza (3) Marquez (4) took (21) part (21) in (22) the (23) assassination (24) of (25) Luis (26) Carlos (27) Galan (28) . (42) 
+According to an Israeli official , the murders of Galan , a high-ranking police officer , and a judge last week were probably carried out by an Israeli mercenary paid by the Medellin cartel - the world 's most powerful drug-trafficking mafia - which has set up paramilitary squads accused of hundreds of individual murders and massacres against political and labor leaders , as well as peasants and patriotic union leftist militants in different parts of the country . 
+An (3) Israeli (4) official (5) was (N) killed (8) by (26) patriotic (69) union (70) leftist (71) militants (72) . (79) 
+Jack Straw , the Foreign Secretary , will meet his Brazilian counterpart , Celso Amorim , in London today . 
+Celso (14) Amorim (15) resides (N) in (17) London (18) . (20) 
+Valero Energy Corp. , on Monday , said it found " extensive " additional damage at its 250,000-barrel-per-day Port Arthur refinery . 
+Valero (1) Energy (2) Corp. (3) produces (N) 250,000 (N) barrels (N) per (N) day (N) . (22) 
+" The Extraditables " have claimed responsibility for the murder of two employees of Bogota 's daily El Espectador perpetrated today in Medellin , where two other El Espectator people , Miguel Soler Rodriguez and Martha Luz Lopez , were killed today in separate attacks carried out by gunmen . 
+Miguel (32) Soler (33) Rodriguez (34) and (35) Martha (36) Luz (37) Lopez (38) were (40) killed (41) by (48) two (12) employees (13) of (14) Bogota (15) 's (16) daily (17) El (18) Espectador (19) . (50) 
+The Bank of Italy , the ultimate arbiter of Italian banking mergers , has been engulfed by scandal since police wire taps revealed Fazio and his wife advised a local banker in a bid for Bank Antonveneta against Dutch bank ABN AMRO . 
+A (29) local (30) banker (31) bids (34) for (35) Bank (36) Antonveneta (37) . (43) 
+As a result of these weaknesses , computer systems and the operations that rely on the systems were highly vulnerable to tampering , disruption , and misuse from both internal and external sources . 
+Non-authorized (N) personnel (N) illegally (N) entered (N) into (N) computer (8) networks (9) . (34) 
+There has been a lot of concern over the rise of drug-resistant bacteria . 
+Bacteria (13) is (N) winning (N) the (N) war (N) against (N) antibiotics (N) . (14) 
+At the Amman Summit of Arab Women in Jordan last month , Secretary General of the Arab League Amr Moussa said womens ' advancement in the Arab world will be hobbled as long as they are so poorly represented in parliaments . 
+Women (7) are (36) poorly (38) represented (39) in (40) parliament (41) . (42) 
+Rockweed has been harvested commercially in Nova Scotia since the late 1950 's and is currently the most important commercial seaweed in Atlantic Canada . 
+Marine (1) vegetation (1) is (3) harvested (4) . (25) 
+The disputed waters lie close to the Sipadan and Ligitan islands , which Indonesia lost to Malaysia in a legal battle in the International Court of Justice in December 2002 . 
+There (N) is (N) a (N) territorial (N) waters (3) dispute (2) . (31) 
+Women form half the population and 54 % of the voters in the country , yet are very poorly represented in parliament . 
+Women (1) are (17) poorly (19) represented (20) in (21) parliament (22) . (23) 
+By the time a case of rabies is confirmed , the disease may have taken hold in the area . 
+A (4) case (5) of (6) rabies (7) was (8) confirmed (9) . (20) 
+A number of marine plants are harvested commercially in Nova Scotia . 
+Marine (4) vegetation (5) is (6) harvested (7) . (12) 
+Lastly , the author uses the precedent of marijuana legalization in other countries as evidence that legalization does not solve any social problems , but instead creates them . 
+Drug (9) legalization (10) has (N) benefits (N) . (29) 
+A United Nations vehicle was attacked in the Serbian province of Kosovo and at least one civilian policeman was killed , the United Nations said . 
+A (16) civilian (17) policeman (18) was (19) killed (20) . (26) 
+Nigeria has been the culprit so far , preventing the world from being completely polio-free . 
+Polio (N) is (N) under (N) control (N) in (N) the (10) world (11) . (16) 
+Environmental and social groups criticized the World Bank decision for shying from meaningful reform . 
+The (6) World (7) Bank (8) is (N) criticized (5) for (10) its (N) policies (9) . (15) 
+If legalization reduced current narcotics enforcement costs by one-third to one-fourth , it might save $ 6 - $ 9 billion per year . 
+Drug (5) legalization (2) has (N) benefits (N) . (24) 
+Ocean colour satellite remote sensing has developed rapidly within the last five years and satellite imagery is now processed automatically and made available via the WWW . 
+Ocean (1) remote (4) sensing (5) is (6) developed (7) . (27) 
+Drew Walker , NHS Tayside 's public health director , said : " It is important to stress that this is not a confirmed case of rabies . " 
+A (23) case (25) of (26) rabies (27) was (N) confirmed (24) . (28) 
+The June Movement has always been opposed to giving EU cooperation a military dimension . 
+The (N) introduction (N) of (N) the (N) euro (N) has (4) been (6) opposed (7) . (15) 
+The World Bank has also been criticized for its role in financing projects that have been detrimental to human rights and the natural environment . 
+The (1) World (2) Bank (3) is (6) criticized (7) for (8) its (9) activities (10) . (25) 
+The M-2000 uses a commercially manufactured NbTi superconductor , similar to that used in the M-2000 Maglev magnets . 
+Maglev (17) is (N) commercially (5) used (13) . (19) 
+A pet must have rabies protection confirmed by a blood test . 
+A (N) case (N) of (N) rabies (5) was (N) confirmed (7) . (12) 
+Humans have won notable battles in the war against infection - and antibiotics are still powerful weapons - but nature has evolution on its side , and the war against bacterial diseases is by no means over . 
+Bacteria (31) is (N) winning (3) the (7) war (8) against (9) antibiotics (13) . (38) 
+Asprin , an inexpensive drug helps protect survivors of heart attack and stroke from subsequent heart attacks and death , and even helps reduce the number of deaths that occur within the first hours following a heart attack . 
+People (N) experienced (N) adverse (N) effects (N) while (N) taking (N) aspirin (1) . (39) 
+The presence of oil in the South Atlantic was first proved in 1974 , but the distance and isolation of the Falklands deterred oil companies from exploring the area until the 1990s . 
+Petroleum (4) is (N) explored (27) in (5) the (6) South (7) Atlantic (8) . (33) 
+The unconfirmed case in Dundee concerns a rabies-like virus known only in bats . 
+A (N) case (3) of (N) rabies (N) was (N) confirmed (2) . (14) 
+Legalization would eliminate the harms caused by prohibition , but it would not eliminate the harms caused by drug use . 
+Drug (19) legalization (1) has (N) benefits (N) . (21) 
+A report by the AfricanElephant Specialist Group , which is responsible for monitoring the conservation of the elephants , concludes that elephant poaching has increased despite the 1989 international ban on ivory trading 
+The (27) ban (30) on (31) ivory (32) trade (33) has (N) been (N) effective (N) in (N) protecting (15) the (17) elephant (18) from (N) extinction (N) . (N) 
+US troops evacuated two injured soldiers said Staff Sgt. Duane Brown , a spokesman for the 42nd Infantry Division . 
+U.S. (1) Military (2) evacuated (3) U.S. (N) citizens (N) . (20) 
+Only 16 women were elected to the 223-member parliament in 1995 , and only 2 women hold ministerial posts . 
+Women (3) are (N) poorly (1) represented (N) in (6) parliament (9) . (20) 
+Often criticized and blamed for politically unpopular policies , and confronted with numerous setbacks , the World Bank is experiencing a difficult time with regard to which strategies to adopt , in particular in Africa . 
+The (16) World (17) Bank (18) is (N) criticized (2) for (5) its (N) policies (8) . (36) 
+German Siemens and ThyssenKrupp may sell relevant core technology to China , which owns the first commercially operated maglev line . 
+Maglev (19) is (N) commercially (17) used (18) . (21) 
+The introduction of the euro has dismantled barriers to cross-border trading and enhanced risk sharing and opportunities for diversification . 
+The (1) introduction (2) of (3) the (4) euro (5) has (6) been (N) opposed (N) . (20) 
+The use of aspirin ( acetylsalicylic acid ) in single doses should not pose any significant risks to the suckling infant . 
+People (N) experienced (N) adverse (N) effects (N) while (N) taking (2) aspirin (4) . (22) 
+Most commercial logwood is grown in Honduras . 
+Plants (N) are (4) grown (5) in (N) water (N) or (N) in (N) substances (N) other (N) than (N) soil (N) . (8) 
+The participation of women in parliament in Mauritius is expected to increase as more female candidates have contested Monday 's election . 
+Women (4) are (N) poorly (N) represented (2) in (5) parliament (6) . (22) 
+Definitely do not lift the ban on ivory , it will drive the species to near extinction again. Elephant numbers should be controlled but what has ivory got to do with it? It is a barbaric trade and should be banned permanently . 
+The (5) ban (6) on (7) ivory (8) trade (N) has (N) been (N) effective (N) in (N) protecting (N) the (N) elephant (14) from (N) extinction (17) . (43) 
+Geithner criticized the report 's findings on the World Bank , including a commission recommendation that the Bank stop lending to emerging market economies , concentrate its resources on the poorest countries and shift the IFI 's concessional assistance from loans to grants . 
+The (8) World (9) Bank (10) is (N) criticized (2) for (N) activities (N) . (44) 
+More than 2,000 people lost their lives in the devastating Johnstown Flood . 
+100 (N) or (N) more (1) people (4) lost (5) their (6) lives (7) in (8) a (N) ferry (N) sinking (N) . (13) 
+Only a few Mag-lev trains have been used commercially such as at the Birmingham airport in the UK . 
+Maglev (4) is (7) commercially (9) used (8) . (19) 
+Indonesia says the oil blocks are within its borders , as does Malaysia , which has also sent warships to the area , claiming that its waters and airspace have been violated . 
+There (N) is (N) a (N) territorial (9) waters (27) dispute (24) . (33) 
+The greatest threat to life and property associated with a hurricane and tropical storm is storm surge . 
+A (10) tropical (13) storm (14) has (N) caused (N) significant (2) property (7) damage (N) or (N) loss (N) of (N) life (5) . (18) 
+The ivory ban was imposed by CITES in 1989 after a wave of poaching across Africa saw elephant numbers fall from an estimated 1.3 million to a few hundred thousand . 
+The (1) ban (3) on (3) ivory (2) trade (N) has (N) been (N) effective (N) in (N) protecting (N) the (N) elephant (18) from (N) extinction (N) . (31) 
+Aleksandr Yakovenko , an official representative of the Russian ForeignMinistry , has announced that , in connection with the recent terrorist actin Srinagar , about 100 Russian citizens will be evacuated from Pakistan inthe near future . 
+U.S. (N) Military (N) evacuated (31) U.S. (N) citizens (28) . (37) 
+When patients interrupt a course of antibiotics , the surviving bacteria return with a vengeance , often having rapidly mutated to resist the therapy . 
+Bacteria (11) is (N) winning (N) the (N) war (N) against (N) antibiotics (7) . (25) 
+While Bush was in the air , the White House was evacuated , with many employees running away from the premises on orders from Secret Service agents . 
+The (N) U.S. (N) military (N) evacuated (12) U.S. (N) citizens (N) . (28) 
+The university server containing the information relating to Mason 's ID cards was illegally entered by computer hackers . 
+Non-authorized (18) personnel (18) illegally (14) entered (15) into (15) computer (3) networks (3) . (19) 
+Humic acids are complex organic molecules formed by the breakdown of organic matter in the soil. They are not considered to be fertilizers , but soil enhancers and improvers . 
+Organic (12) fertilizers (23) are (18) used (18) as (18) soil (26) enhancers (27) . (30) 
+A massive polio immunization drive is under way in more than 20 nations of West and Central Africa , but in Cote d ' Ivoire violence has forced a postponement of the vaccination campaign , the Global Polio Eradication Initiative ( GPEI ) announced November 18 . 
+Polio (3) is (N) under (N) control (N) in (9) the (N) world (N) . (47) 
+The May 3 ferry sinking in the Meghna River that claimed the lives of at least 370 people is a reminder of the dangers inherent in this sort of travel . 
+100 (N) or (N) more (N) people (18) lost (11) their (N) lives (13) in (N) a (N) ferry (4) sinking (5) . (31) 
+For instance , the direct and indirect economic cost of the floods in Mozambique caused by Tropical Storms Elyne and Gloria in February and March 2000 , is estimated at US $ 1 billion , as compared to the country 's export earning of only US $ 300 million in 1999 . 
+A (N) tropical (17) storm (18) has (N) caused (15) significant (N) property (N) damage (N) or (N) loss (N) of (N) life (N) . (52) 
+The harvest of sea-weeds is not allowed in the Puget Sound because of marine vegetation 's vital role in providing habitat to important species . 
+Marine (14) vegetation (15) is (5) harvested (2) . (25) 
+The Sea-Viewing wide Field-of-View Sensor , SeaWiFS , has brought to oceanographers a welcomed and improved renewal of the ocean color remote sensing data . 
+Ocean (20) remote (22) sensing (23) is (N) developed (17) . (25) 
+One reason for increased osteoporosis in developed countries is the sodium-potassium imbalance . 
+Dietary (N) intake (N) of (N) potassium (N) prevents (N) osteoporosis (5) . (13) 
+Tropical storm Koni dumped significant rains on the Philippines before becoming a minimal typhoon and eventually making landfall on the northern coast of Vietnam . 
+A (N) tropical (1) storm (2) has (N) caused (N) significant (5) property (N) damage (N) . (25) 
+Napkins , invitations and plain old paper cost more than they did a month ago . 
+The (N) cost (8) of (N) paper (7) is (N) rising (9) . (16) 
+Some plants grow really well in a hydroponic environment , but others do not . 
+Plants (2) are (N) grown (3) in (6) water (N) or (N) in (6) substances (N) other (N) than (N) soil (N) . (15) 
+By 45,000 years ago , humans had weathered the comings and goings of a number of ice ages , had spread themselves throughout most of Africa , Europe and Asia , and had reached a population of roughly a million . 
+Humans (6) existed (N) 10,000 (N) years (3) ago (4) . (41) 
+About one million years ago , these people began to slowly leave Africa . 
+Humans (8) existed (N) 10,000 (N) years (4) ago (5) . (14) 
+Meteorological observations suggest Claudette remained a tropical storm as she affected parts of west Texas . 
+A (6) tropical (7) storm (8) has (N) caused (11) significant (N) property (N) damage (N) . (16) 
+The increase in womens ' representation in the first elections to the Scottish Parliament has become a symbol for change , backed by the Parliament 's principled commitment to creating a more equal society . 
+Women (4) are (N) poorly (N) represented (6) in (11) parliament (14) . (35) 
+Albert Sabin developed an oral , attenuated ( live ) vaccine , which , with Salk 's discovery , brought polio under control . 
+Polio (21) is (20) under (22) control (23) in (N) the (N) world (N) . (24) 
+His research had been focused on near-shore beds of marine plants commercially harvested in western P.E.I . 
+Marine (10) vegetation (11) is (N) harvested (13) . (17) 
+The Bakun Hydroelectric Project ( BHEP ) comprises the construction of a 2,400MW hydroelectric dam , the transmission of its electricity , and the building of related infrastructure including access roads . 
+A (N) hydroelectric (3) project (4) is (N) proposed (N) or (N) is (N) under (N) construction (10) . (32) 
+Westbridge manufactures certified organic fertilizers including liquid growth enhancers and biostimulants . 
+Organic (4) fertilizers (5) are (N) used (N) as (N) soil (N) enhancers (9) . (12) 
+Capital punishment is a catalyst for more crime . 
+Capital (1) punishment (2) is (3) a (4) deterrent (N) to (N) crime (8) . (9) 
+There is growing evidence that magnesium may be an important factor in the qualitative changes of the bone matrix that determine bone fragility . 
+Dietary (N) intake (N) of (N) magnesium (6) prevents (N) osteoporosis (N) . (24) 
+Polio is no longer a serious health problem for people living in the developed nations , such as the United States , Germany , or France . 
+Polio (1) is (2) under (N) control (N) in (12) the (13) world (N) . (27) 
+In reality , legalization would dramatically expand America 's drug dependence , significantly increase the social costs of drug abuse , and put countless more innocent lives at risk . 
+Drug (10) legalization (4) has (N) benefits (N) . (30) 
+Deceased U.S. soldiers and their effects were evacuated to Japan and then shipped home in refrigerated containers for interment in the U.S . 
+The (N) U.S. (2) military (3) evacuated (8) U.S. (N) citizens (N) . (23) 
+The drugs that slow down or halt Alzheimer 's disease work best the earlier you administer them . 
+Alzheimer (8) 's (9) disease (10) is (N) treated (16) using (16) drugs (2) . (18) 
+The number of Danes opposed to swapping the krone for the euro has increased slightly to 35.3 percent , up from 34.6 percent in April , according to a poll published on Thursday by Danske Bank . 
+The (N) introduction (7) of (N) the (11) euro (12) has (N) been (N) opposed (5) . (37) 
+Yes , water is a critical area of dispute in the Arab-Israeli conflict ; but given the current climate of peacemaking , and given the general war-weariness among states and populations , such predictions are excitable pieces of subjectivism . 
+There (N) is (N) a (5) territorial (N) waters (3) dispute (9) . (40) 
+Vegetables help to preserve your bones , and help fight the bone-thinning disease osteoporosis . 
+Fruits (N) and (N) vegetables (1) prevent (10) osteoporosis (14) . (15) 
+For such patients , regular aspirin use significantly decreased the risk for fatal and nonfatal strokes or heart attacks . 
+People (3) experienced (N) adverse (N) effects (N) while (N) taking (7) aspirin (6) . (20) 
+The development of agriculture by early humans , roughly 10,000 years ago , was also harmful to many natural ecosystems as they were systematically destroyed and replaced with artificial versions . 
+Humans (7) existed (N) 10,000 (10) years (11) ago (12) . (31) 
+The Croatian intent is even more problematic because the border between Slovenian and Croatian territorial waters has not yet been established. The dispute about this border began in 1991 when both countries became independent . 
+There (N) is (N) a (N) territorial (15) waters (16) dispute (23) . (35) 
+Public health and animal health officials from the Departments of Health and Community Services and Forest Resources and Agrifoods today confirmed a rabies case involving a red fox in western Newfoundland . 
+A (22) case (24) of (N) rabies (23) was (N) confirmed (21) . (32) 
+Yet , we now are discovering that antibiotics are losing their effectiveness against illness. Disease-causing bacteria are mutating faster than we can come up with new antibiotics to fight the new variations . 
+Bacteria (16) is (17) winning (N) the (N) war (29) against (13) antibiotics (27) . (33) 
+Rather than deterring crime , capital punishment actually increases the level of brutality in society . 
+Capital (6) punishment (7) is (N) a (N) deterrent (3) to (N) crime (4) . (16) 
+Obesity is medically accepted to be a disease in its own right . 
+Obesity (1) is (2) medically (3) treated (N) . (13) 
+Initially the Bundesbank opposed the introduction of the euro but was compelled to accept it in light of the political pressure of the capitalist politicians who supported its introduction . 
+The (5) introduction (6) of (7) the (8) euro (9) has (N) been (N) opposed (4) . (30) 
+IBM stole trade secrets to copy two of its programs -- File-AID , a file manager , and Abend-AID , a program that helps users locate the source of glitches . 
+Trade (3) secrets (4) were (N) stolen (2) . (31) 
+Newspapers choke on rising paper costs and falling revenue . 
+The (N) cost (6) of (N) paper (5) is (N) rising (4) . (10) 
+These acoustic methods are now expected to be useful for the long-range remote sensing of schools of fish as well as for distant ocean bottom characterizations . 
+Ocean (24) remote (13) sensing (14) is (N) developed (N) . (27) 
+The World Trade Organization , the International Monetary Fund and the World Bank have all been criticized for their role in catalyzing the harmful impacts of corporate globalization on people , the environment and sustainable development . 
+The (11) World (12) Bank (13) is (16) criticized (17) for (18) its (19) activities (20) . (37) 
+Confidential scriptural materials allegedly stolen from a church were not " trade secrets " as defined by California statute . 
+Trade (12) secrets (13) were (N) stolen (5) . (20) 
+Women are poorly trained for politics . 
+Women (1) are (2) poorly (3) represented (N) in (N) parliament (N) . (7) 
+A wooden steamer of 293 ft sank on 10/13/1902 , 13.5 miles North by Northwest of Fairport Harbor , Ohio. The lives of ten of the 19 persons on board were lost in the wreck . 
+100 (N) or (N) more (N) people (28) lost (32) their (N) lives (22) in (33) a (N) ferry (N) sinking (7) . (36) 
+Eleven years after 852 people , mostly Swedes , perished when the ferry Estonia sank on a stormy Baltic night , an exhibition in the National Maritime Museum in Stockholm brings back the pain and controversy which have haunted Sweden since the disaster . 
+100 (N) or (N) more (N) people (5) lost (10) their (10) lives (10) in (11) a (N) ferry (13) sinking (14) . (44) 
+The total estimated project cost including financing , inflation and interest during construction , is approximately US $ 1.1 billion . 
+A (N) hydroelectric (N) project (4) is (N) proposed (N) or (N) is (N) under (N) construction (13) . (21) 
+It appears that the super-conducting maglev system is technically ready to be used commercially as a very high-speed , large-capacity transportation system . 
+Maglev (6) is (8) commercially (14) used (13) . (23) 
+This case of rabies in western Newfoundland is the first case confirmed on the island since 1989 . 
+A (N) case (2) of (3) rabies (4) was (8) confirmed (12) . (18) 
+These problems can be avoided by legalization , under which cannabis could be legally sold , taxed and regulated like alcohol or tobacco . 
+Drug (11) legalization (7) has (N) benefits (N) . (24) 
+About 3 million years ago , when Lucy was alive , she was rather short , about 4 feet tall , and probably weighed about 50 pounds . 
+Humans (N) existed (N) 10,000 (N) years (4) ago (5) . (28) 
+Sani-Seat can offset the rising cost of paper products 
+The (4) cost (6) of (7) paper (8) is (N) rising (5) . (N) 
+Fast forward a decade or two and scientists began to notice antibiotic-resistant strains of bacteria . 
+Bacteria (15) is (N) winning (N) the (N) war (N) against (N) antibiotics (N) . (16) 
+If the ruling is that these trade-secrets were stolen goods , I 'd be willing to bet that these three guys could refuse to answer any questions , by invoking the 5th Amendment , since they would incriminate themselves by saying anything . 
+Trade (7) secrets (7) were (8) stolen (9) . (43) 
+Hydroponics is the growth of plants in a substance other than soil with water . 
+Plants (6) are (N) grown (4) in (7) substances (9) other (10) than (11) soil (12) . (15) 
+Security forces gunned down six Maoists ; while the rebels killed a policeman and an abducted civilian drowned escaping from the Maoists , say latest insurgency related reports . 
+A (12) civilian (N) policeman (13) was (N) killed (11) . (29) 
+Diets that provide recommended levels of magnesium are beneficial for bone health , but further investigation on the role of magnesium in bone metabolism and osteoporosis is needed . 
+Dietary (1) intake (3) of (6) magnesium (7) prevents (N) osteoporosis (26) . (29) 
+Both sides of this argument are presented in this paper , but it is the attempt of this paper to emphasize that the legalization of drugs would be destructive to our society . 
+Drug (26) legalization (24) has (N) benefits (N) . (33) 
+Women are poorly represented in transactions financed by mortgage bonds . 
+Women (1) are (2) poorly (3) represented (4) in (5) parliament (N) . (11) 
+Though owning no trees and no waters , Takeshima Island has become the subject of a bitter political dispute between Japan and South Korea . 
+There (N) is (N) a (N) territorial (N) waters (7) dispute (19) . (25) 
+New security steps taken by the Customs Service may not be enough to stop a terrorist from smuggling in nuclear weapons . 
+Steps (3) are (N) being (N) taken (4) to (13) stop (14) the (N) smuggling (18) of (N) aliens (N) . (22) 
+No case of indigenously acquired rabies infection has been confirmed in man or any animal species during the past 2 years . 
+A (N) case (2) of (3) rabies (6) was (N) confirmed (10) . (22) 
+This taught postgraduate masters degree programme will provide specialised training at a postgraduate level in the methods and uses of remote sensing applied to the ocean . 
+Ocean (26) remote (21) sensing (22) is (N) applied (23) . (27) 
+Carmen was only slightly put out to find that women are as poorly represented among Australian political scientists as they are in parliament ( Leonie was asking , ' where are all the women? ' ) . 
+Women (10) are (11) poorly (13) represented (14) in (22) parliament (23) . (37) 
+Environment Minister David Anderson today announced his decision regarding the environmental assessment of the proposed Toulnustouc Hydroelectric Project . 
+A (N) hydroelectric (17) project (18) is (N) proposed (15) or (N) is (N) under (N) construction (N) . (19) 
+Some other objections to legalization point to the greater dangers of family violence , reckless driving , or reckless operation of subways and so on . 
+Drug (N) legalization (5) has (N) benefits (N) . (26) 
+These early men learned to make fire. They traveled over land bridges from Africa , and began to populate the world , about 1 million years ago . 
+Humans (N) existed (N) 10,000 (N) years (26) ago (27) . (28) 
+Alzheimer 's disease is successfully treated , and controlled by drugs which inhibit the synthesis of beta-amyloid protein . 
+Alzheimer (1) 's (2) disease (3) is (4) treated (6) using (10) drugs (11) . (19) 
+After two years , the aspirin subjects experienced a reduced risk of fatal and nonfatal stroke . 
+People (N) experienced (8) adverse (N) effects (N) while (N) taking (N) aspirin (6) . (17) 
+The most surprising news story of the past week must be the ' wonderful ' story that the AIDS epidemic in India is under control . 
+Polio (N) is (23) under (24) control (25) in (N) the (N) world (N) . (26) 
+The drawbacks of legalization do not imply that our current version of prohibition is the optimal drug strategy ; it may well be possible to implement prohibition in less harmful ways . 
+Drug (17) legalization (4) has (N) benefits (N) . (32) 
+They , too , have not produced a practical , commercially acceptable maglev . 
+Maglev (13) is (N) commercially (11) used (N) . (14) 
+Another factor in the rising cost of paper is the increased cost of wood pulp , from which paper is made 
+The (4) cost (6) of (7) paper (8) is (N) rising (5) . (N) 
+20 million years ago there were apes , and by 5 million years ago our closest ancestors and cousins , early ape-humans , had split from the other apes . 
+Humans (22) existed (N) 10,000 (N) years (13) ago (14) . (30) 
+INS predicts that the smuggling will continue to increase and that alien smuggling organizations will become more sophisticated , organized , and complex . 
+Steps (N) are (N) being (N) taken (N) to (N) stop (N) the (4) smuggling (5) of (N) aliens (12) . (24) 
+High dietary intake of potassium from fruits and vegetables throughout one 's life helps to preserve bone mass , thereby preventing bone loss that can lead to osteoporosis . 
+Dietary (2) intake (3) of (4) potassium (5) prevents (21) osteoporosis (28) . (29) 
+World Bank programs have been heavily criticized for many years for resulting in poverty . 
+The (N) World (1) Bank (2) is (5) criticized (7) for (8) its (N) activities (3) . (15) 
+The recent 14 % hike in third class postage rates , accompanied by simultaneous double-digit paper price increases , has hit smaller catalogers especially hard . 
+The (N) cost (17) of (N) paper (16) is (N) rising (18) . (26) 
+Primary prevention of Alzheimer 's disease is not possible at present . 
+Alzheimer (4) 's (5) disease (6) is (7) treated (N) using (N) drugs (N) . (12) 
+The German technology was employed to build Shanghai 's existing maglev line , the first in the world to be used commercially . 
+Maglev (11) is (20) commercially (22) used (21) . (23) 
+As the U.S. military evacuated Saigon in the Spring of 1975 , President Gerald Ford approved Operation Babylift , the plan to transport thousands of Vietnamese children to adoptive parents in the West , hundreds of them at a time , before the U.S. was forced out of the country . 
+The (2) U.S. (3) military (4) evacuated (5) U.S. (N) citizens (N) . (51) 
+Well , the yolk is on us , the bacteria are winning , and at a record pace . 
+Bacteria (10) is (11) winning (12) the (N) war (N) against (N) antibiotics (N) . (19) 
+On the other hand , the article , " Fiction and Facts About Drug Legalization " , by Joseph Califano identifies possible social problems that could occur as a result of marijuana being decriminalized in any form , whether for medical purposes or for recreational use . 
+Drug (14) legalization (15) has (N) benefits (N) . (47) 
+Compuware claims that Allan Tortorice and Jim Hildner were among several former employees who revealed trade secrets after they moved to IBM . 
+Trade (16) secrets (17) were (N) stolen (N) . (23) 
+Some of the stolen trade secrets were seized from the defendants at the San Francisco International Airport ( SFO ) while they were attempting to fly to China . 
+Trade (5) secrets (6) were (N) stolen (4) . (29) 
+Some people may think that there is no other way to grow plants other than in soil ; there is however , another way . 
+Plants (13) are (N) grown (12) in (16) substances (N) other (14) than (15) soil (17) . (25) 
+About 50 percent of all British party members are female ( in contrast to only about 25 percent in Germany ) but only 9.2 percent are represented in parliament . 
+Women (10) are (26) poorly (N) represented (27) in (28) parliament (29) . (30) 
+Tropical Storm Debby is blamed for several deaths across the Caribbean . 
+A (N) tropical (1) storm (2) has (N) caused (N) loss (8) of (8) life (8) . (12) 
+However , market players were more inclined towards weakening yen , as the yen plunged to its lowest levels since October 1998 , after foreign exchange markets interpreted comments made by visiting U.S. Treasury Secretary Paul O ' Neill to mean that Washington is not opposed to a weak Japanese currency . 
+The (N) introduction (N) of (N) the (N) euro (N) has (N) been (N) opposed (46) . (52) 
+Thanks to a global ban on the ivory trade that was passed in 1989 by the Convention on International Trade in Endangered Species of Wild Fauna and Flora ( CITES ) , the African elephant population may be reversing its spiral toward extinction 
+The (N) ban (5) on (6) ivory (8) trade (9) has (N) been (N) effective (N) in (N) protecting (N) the (33) elephant (35) from (42) extinction (43) . (N) 
+The commission 's order on the proposed hydroelectric development shall describe the Energy Facility Siting Council 's recommendations on the need for the power . 
+A (N) hydroelectric (8) project (9) is (N) proposed (7) or (N) is (N) under (N) construction (N) . (25) 
+A recent study offers sound medical proof that ACE inhibitors , like beta-blockers and aspirin , can improve a patient 's odds of surviving a heart attack . 
+People (N) experienced (N) adverse (N) effects (N) while (N) taking (N) aspirin (15) . (28) 
+This paper discusses marijuana , crack/cocaine , tranquilizers , hallucinogens , amphetamines , heroin , alcohol , nicotine and caffeine to provide a framework for the author 's argument that the legalization of drugs can in no way be deemed as ethical or moral . 
+Drug (34) legalization (32) has (N) benefits (N) . (45) 
+It is hoped that women , who constitute more than half of the population , will vote for other women and ensure that their issues are represented in parliament . 
+Women (20) are (26) poorly (N) represented (27) in (28) parliament (29) . (30) 
+Though the exact date is debated , dogs are thought to have been domesticated by humans approximately 12,000 years ago . 
+Humans (16) existed (N) 10,000 (N) years (19) ago (20) . (21) 
+A few growers place charcoal in the bottom of containers to absorb excess salts and maintain sweet soil , if plants are grown more than a few months . 
+Plants (21) are (22) grown (23) in (N) water (N) or (N) in (N) substances (N) other (N) than (N) soil (18) . (29) 
+Muslim fundamentalists such as the Islamic Resistance Movement , also known as Hamas , and the smaller Islamic Jihad are determined to torpedo the peace process . 
+The (5) Islamic (6) Resistance (7) Movement (8) is (N) also (10) known (11) as (12) Hamas (13) . (27) 
+Jader Barbalho , once president of the country 's largest political party , was arrested on Saturday in the Amazonian city of Belem , after officials in the neighbouring state of Tocantins issued a warrant against him . 
+Jader (1) Barbalho (2) is (N) the (N) president (5) of (6) Amazon (20) . (38) 
+In Nigeria , by far the most populous country in sub-Saharan Africa , over 2.7 million people are infected with HIV . 
+2.7 (15) percent (N) of (N) the (N) people (17) infected (19) with (20) HIV (21) live (N) in (N) Africa (12) . (22) 
+While the total population for Missouri increased by 2.8 percent , the Hispanic population shows a 24.9 percent increase between 2000 and 2004 . 
+Missouri (6) 's (5) population (4) is (N) 2.8 (9) million (N) . (24) 
+The first kibbutz was founded at Degania near the Sea of Galilee in 1909 and there are now some 300 kibbutzim in Israel . 
+The (1) first (2) kibbutz (3) was (4) founded (5) at (6) Degania (7) . (24) 
+John Lennon 's widow , Yoko Ono , approved this museum as the world 's first museum to honor John Lennon . 
+Yoko (6) Ono (7) is (N) John (1) Lennon (2) 's (3) widow (4) . (22) 
+Perhaps there is no expansion , at least not due to a big bang which never happened. About 20 years ago , Halton Arp and John Bahcall published a debate in The Redshift Controversy , presenting both sides of the argument . 
+We (N) estimate (N) that (N) the (N) Big (13) Bang (14) happened (17) 20 (19) years (20) ago (21) . (42) 
+In other words , with its 2 million inhabitants , Slovenia has only 5.5 thousand professional soldiers . 
+Slovenia (11) has (12) 5.5 (14) million (8) inhabitants (9) . (18) 
+As regards the headquarters building , the Swiss are stipulating that they would transfer it to the WTO for a value of about 51 million swiss franks . 
+The (17) WTO (18) headquarters (4) are (N) in (N) Switzerland (N) . (28) 
+The order is worth EUR 58 million and handover of the submarines to the Portuguese navy is scheduled for 2010. The contract also includes an option for the same equipment to be built into a third submarine . 
+The (14) Portuguese (15) Navy (16) has (N) 58 (6) submarines (12) . (38) 
+A smaller proportion of Yugoslavia 's Italians were settled in Slovenia ( at the 1991 national census , some 3000 inhabitants of Slovenia declared themselves as ethnic Italians ) . 
+Slovenia (11) has (N) 3,000 (20) inhabitants (21) . (30) 
+The town is also home to the Dalai Lama and to more than 10,000 Tibetans living in exile . 
+The (7) Dalai (8) Lama (9) has (N) been (N) living (16) in (17) exile (18) since (N) 10,000 (14) . (19) 
+About 10 million people live in the Paris metropolitan area , more than 15 percent of the country 's total population. France 's second largest city is Marseille ( 795,600 ) on the Mediterranean coast . 
+About (1) 10 (2) million (3) people (4) live (5) in (6) France (22) . (36) 
+In sub-Saharan Africa about one in every 30 people is infected with HIV . 
+30 (8) % (N) of (N) the (N) people (9) infected (11) with (12) HIV (13) live (N) in (1) Africa (3) . (14) 
+In support of the Earth Island Institute rebuttal , Greenpeace founder Don White made the following - unfortunately prophetic - public statement on 8/18/93 . 
+Don (12) White (13) is (N) the (N) founder (11) of (N) Greenpeace (10) . (25) 
+About 33.5 million people live in this massive conurbation. I would guess that 95 % of the 5,000 officially foreign-capital firms in Japan are based in Tokyo . 
+About (1) 33.5 (2) miilion (3) people (4) live (5) in (26) Tokyo (27) . (28) 
+Jacques Santer succeeded Jacques Delors as president of the European Commission in 1995 , the second Luxembourger to hold this high office . 
+Jacques (4) Delors (5) succeeded (3) Jacques (1) Santer (2) in (6) the (N) presidency (7) of (8) the (9) European (10) Commission (11) . (23) 
+The Chicago White Sox are a major league baseball team based in Chicago , Illinois . 
+The (N) Bulls (N) basketball (N) team (10) is (N) based (11) in (12) Chicago (13) , (14) Illinois (15) . (16) 
+Vatican spokesman Joaquin Navarro-Valls announced that Pope John Paul was still in serious condition , but he was not in a coma . 
+Joaquin (3) Navarro-Valls (4) is (N) the (N) Vatican (1) Spokesman (2) . (23) 
+No player scored more goals in European cup games than Miller : 66 goals in 74 games . 
+Miller (11) was (N) the (N) best (N) scorer (2) at (N) the (N) World (N) Championship (N) in (15) 1966 (N) . (18) 
+By 1979 , the literacy rate in Cuba was higher than 90 % , comparable to the rates in the United States and other developed countries . 
+The (4) literacy (5) rate (6) in (7) Cuba (8) is (N) 90 (12) % (13) . (27) 
+We learn that Claretta Petacci , Mussolini 's last mistress , had a tendency to whine and to lie all day in bed , eating chocolate . 
+Claretta (4) Petacci (5) was (N) Mussolini (7) 's (8) last (9) mistress (10) . (27) 
+Released in 1995 , Tyson returned to boxing , winning the World Boxing Council title in 1996. The same year , however , he lost to Evander Holyfield , and in a 1997 rematch bit Holyfield 's ear , for which he was temporarily banned from boxing . 
+In (N) 1996 (N) Mike (N) Tyson (5) bit (35) Holyfield (36) 's (37) ear (38) . (48) 
+Natalya Reshetovskaya , 84 , was the first wife of Alexander Solzhenitsyn . 
+Alexander (11) Solzhenitsyn (12) 's (10) wife (9) 's (N) name (N) was (6) Natalya (1) Reshetovskaya (2) . (13) 
+Today in the city of Sao Paulo ( from May 1 to May 30 ) we have a display on Ayrton Senna . 
+Ayrton (21) Senna (22) was (N) from (N) Sao (6) Paulo (7) . (23) 
+When Adolf Hitler heard of how Mussolini was executed and put on public display , he vowed he would not let this happen to him. Hitler shot his mistress and new wife , Eva Braunn , and then swallowing some poison , he shot himself in the mouth . 
+Mussolini (7) 's (N) mistress (29) was (N) Eva (34) Braunn (35) . (49) 
+Meanwhile , the inquiries spearheaded by Milan magistrates Antonio di Pietro and Gherardo Colombo began to focus on Italy 's private and public business sectors . 
+Antonio (9) di (10) Pietro (11) is (N) a (N) magistrate (8) . (26) 
+The twin buildings are 88 stories each , compared with the Sears Tower 's 110 stories . 
+The (11) Sears (12) Tower (13) has (14) 110 (15) stories (16) . (17) 
+But when the WTO headquarters issue came up , and Germany made an offer and a pitch to get the WTO to be headquartered in Bonn , the Swiss suddenly realised they were vulnerable and began improving their offers . 
+The (20) WTO (21) headquarters (24) is (23) in (25) Bonn (26) . (40) 
+Ask Andy Grove , chairman of Intel , about his toughest business challenge , and a pensive look appears in his piercing blue eyes . 
+Andy (2) Grove (3) is (N) chairman (5) of (6) Intel (7) . (25) 
+Sabena was the former national airline of Belgium , mainly operating from Brussels National Airport , now replaced by SN Brussels Airlines . 
+Sabena (1) is (2) a (N) national (5) airline (6) . (23) 
+El Nino is so named because the effects of the warmer water off Peru are usually noticed near Christmas time . 
+El (1) Nino (2) is (3) named (5) after (N) Peru (14) . (21) 
+The plan was never drawn up on paper , but discussed verbally , particularly between Prime Minister Pibul and the British Minister in Bangkok . 
+Pibul (18) was (N) the (20) minister (22) in (23) Bangkok (24) . (25) 
+The answer to the number one question , " how many continents are there? " , is seven . 
+There (14) are (13) seven (18) continents (12) . (19) 
+Born in 1946 , into a family many of whose members belonged to liberal professions , Radwa Ashour studied English Literature at Cairo University. She is now Professor of English Literature at Ain Shams University , a novelist , the wife of Palestinian poet Mourid Al-Barghouti and Umm Tamim . 
+Rwada (17) Ashour (18) is (N) a (N) Palestinian (43) poet (44) . (50) 
+Begun in 1989 with generous annual support from Lutheran Brotherhood ( now Thrivent Financial for Lutherans ) , the Nobel Peace Prize Forum 's stimulating array of programs has involved more than 21,000 participants and reached a much broader audience through national and regional media coverage . 
+Lutheran (9) Brotherhood (10) received (N) the (19) Nobel (20) Peace (21) Prize (22) in (2) 1989 (3) . (47) 
+We believe that , with the opening of Hong Kong Disneyland , visitors from Taiwan will be encouraged to stay longer in Hong Kong , to experience the magic of our theme park and of our city . 
+Disneyland (11) is (N) in (22) Hong (23) Kong (24) . (38) 
+It 's Biodiesel , and Bio-Beetle is the first all-BD rental car company . 
+Biodiesel (3) produces (N) the (N) ' (N) Beetle (N) ' (N) . (14) 
+Mr. McEveety told me he had discussed the quote voiced by Archbishop Dziwisz with the pope 's longtime official spokesman , Joaquin Navarro-Valls , head of the Vatican press office . 
+Joaquin (22) Navarro-Valls (23) is (N) the (15) pope (16) 's (17) official (19) spokesman (20) . (31) 
+Yemen , too , was reunified in 1990 . 
+Yemen (1) was (5) reunited (6) in (7) 1990 (8) . (9) 
+Nor is it clear whether any US support to Germany , in favour of Bonn as the WTO headquarters , would necessarily tilt a decision in that direction . 
+The (17) WTO (18) headquarters (19) is (N) in (N) Bonn (15) . (29) 
+NRDC states its mission as follows : The Natural Resources Defense Council 's purpose is to safeguard the Earth : its people , its plants , animals , and the natural systems on which all life depends . 
+The (8) Natural (9) Resources (10) Defense (11) Council (12) safeguards (17) the (18) Earth (19) . (38) 
+The Philippines has developed into a natural hub for U.S. contact center support with the use of English as the second national language and primary language of business . 
+English (18) is (19) the (20) primary (25) language (26) of (27) the (1) Philippines (2) . (29) 
+During the Tiananmen Square protest of 1989 , Chinese student demonstrators in Beijing built a 10-meter version of the Statue of Liberty to symbolize their struggle . 
+The (19) Statue (20) of (21) Liberty (22) was (N) built (14) in (6) 1989 (7) . (27) 
+Ruth 's 1927 single season record of 60 home runs stood unsurpassed until Roger Maris hit 61 in 1961 . 
+Babe (1) Ruth (1) hit (N) 60 (8) home (9) runs (10) in (N) his (N) lifetime (N) . (20) 
+Six time prime minister Giulio Andreotti is just one of the many casualties stemming from these investigations and subsequent trials . 
+Giulio (5) Andreotti (6) is (7) a (N) prime (3) minister (4) . (21) 
+In early December , Glavkos Clerides and Rauf Denktash , respectively the leaders of the two parts of Cyprus , startled Cypriots by announcing that they would meet for the first time in four years . 
+Cyprus (19) was (N) divided (N) into (N) two (16) parts (17) in (1) December (3) . (36) 
+The currency used in China is the Renminbi Yuan . 
+The (7) Renminbi (8) Yuan (9) is (6) the (1) currency (2) used (3) in (4) China (5) . (10) 
+For one , Israel can comfortably subtract Gaza 's 1.5m inhabitants from its demographic nightmare , maintaining , for a while longer perhaps , the Jewish majority . 
+Israel (4) has (N) 1.5m (10) Jewish (26) inhabitants (11) . (28) 
+To mark the 20th anniversary of John Lennon 's death tomorrow ( December 8 ) , his widow , Yoko Ono , has erected billboards supporting gun control in three major U.S. cities . 
+Yoko (20) Ono (21) is (N) John (7) Lennon (8) 's (9) widow (18) . (34) 
+Despite Bjork making her first live performance in two years , the crowd of 10,000 people was only half of what the hall in the Tokyo suburb of Makuhari could hold . 
+10,000 (15) people (16) live (N) in (24) Tokyo (26) . (32) 
+The abode of the Greek gods was on the summit of Mount Olympus , in Thessaly . 
+Mount (12) Olympus (13) is (N) in (15) Thessaly (16) . (17) 
+In Greek mythology Mount Olympus was the home of the gods and the site of the throne of Zeus , the chief deity . 
+Mount (4) Olympus (5) is (N) in (N) Greece (2) . (24) 
+Mount Olympus towers up from the center of the earth . 
+Mount (1) Olympus (2) is (N) in (5) the (6) center (7) of (8) the (9) earth (10) . (11) 
+John Paul II was the first non-Italian Pope in exactly 600 years , so other things being equal , his successor would presumably be Italian . 
+John (1) Paul (2) II (3) is (N) Italian (25) . (26) 
+The Dalai Lama has offered to send 50 trained teachers from the exile community to help the educational development of Tibet . 
+The (1) Dalai (2) Lama (3) has (4) been (N) living (N) in (N) exile (13) since (N) 1950 (N) . (22) 
+Pibul was anti-communist as well as nationalistic . 
+Pibul (1) was (2) nationalistic (7) . (8) 
+The Sears Tower in Chicago , finished in 1974 , has 110 stories and is 1,450 feet tall . 
+The (1) Sears (2) Tower (3) has (11) 110 (12) stories (13) . (19) 
+According to the 2002 census Slovenia has 1,964,036 inhabitants . 
+Slovenia (6) has (7) 1,964,036 (8) inhabitants (9) . (10) 
+The Rock and Roll Hall Of Fame and Museum opened the nation 's first major John Lennon retrospective Thursday ( October 19 ) with a gala party attended by his widow , Yoko Ono . 
+Yoko (33) Ono (34) is (N) John (16) Lennon (17) 's (30) widow (31) . (35) 
+There is a growing sense of urgency to deal with the country 's social issues , and a large number of professional NGOs can meet BOVESPA 's standards of transparency and accountability . 
+BOVESPA (26) is (N) an (N) NGO (23) . (33) 
+Black Tigers are selected for their discipline and their loyalty to Vilupillai Prabhakaran , 41 , the elusive leader of the LTTE . 
+Vilupillai (12) Prabhakaran (13) is (N) the (17) elusive (18) leader (19) of (20) the (21) LTTE (22) . (23) 
+That natural increase accounted for 56 percent of Missouri population growth during the past four years . 
+Missouri (9) 's (N) population (10) is (N) 56 (6) . (17) 
+Nine months later , John Glenn becomes the first American man to orbit the Earth . 
+John (5) Glenn (6) was (N) the (8) first (9) man (11) in (N) orbit (13) . (16) 
+About two weeks before the trial started , I was in Shapiro 's office in Century City . 
+Shapiro (12) works (N) in (15) Century (16) City (17) . (18) 
+On Tuesday , October 7 , 2003 , Arnold Schwarzenegger was elected Governor of California . 
+Arnold (9) Schwarzenegger (10) was (11) elected (12) Governor (13) of (14) California (15) . (16) 
+The Beetle has achieved an unbelievable cult status across the world , not least because its creation marked the launch of what has since become the largest car company in Europe . 
+Europe (31) produces (N) the (1) ' (N) Beetle (2) ' (N) . (32) 
+If no settlement is reached , a divided Cyprus will join the European Union on May 1 , 2004 . 
+Cyprus (9) was (N) divided (8) into (N) two (N) parts (N) on (15) May (16) 1 (17) , (18) 2004 (19) . (20) 
+The widow of John Lennon , Yoko Ono , may take legal action against a new breakfast cereal called " Strawberry Fields , " which she believes is too close in name to Lennon 's song . 
+Yoko (7) Ono (8) is (N) John (34) Lennon (34) 's (35) widow (2) . (37) 
+In 2000 there were 10,578 divorces in Bulgaria , which represents 301 divorces per 1000 marriages or a 1.3 % divorce rate per 1000 inhabitants . 
+In (1) 2000 (2) there (3) were (4) 301 (12) divorces (6) in (7) Bulgaria (8) . (26) 
+Egon Eiermann ( born September 29 , 1904 , Neuendorf ; died July 20 , 1970 , Baden-Baden ) was one of Germany 's most prominent architects in the second half of the 20th century . 
+Egon (1) Eiermann (2) died (12) on (N) September (5) 29 (6) , (7) 1904 (8) . (36) 
+A male rabbit is called a buck and a female rabbit is called a doe , just like deer . 
+A (9) female (10) rabbit (11) is (4) called (5) a (6) buck (7) . (20) 
+Today 's best estimate of giant panda numbers in the wild is about 1,100 individuals living in up to 32 separate populations mostly in China 's Sichuan Province , but also in Shaanxi and Gansu provinces . 
+There (N) are (N) 32 (20) pandas (7) in (9) the (10) wild (11) in (24) China (25) . (37) 
+Elizabeth Dowdeswell is the Under Secretary General at the United Nations Offices at Nairobi and Executive Director of the United Nations Environment Programme . 
+Elizabeth (1) Dowdeswell (2) is (3) Executive (16) Director (17) of (18) the (19) United (20) Nations (21) Environment (22) Programme (23) . (24) 
+Paul Watson , the founder of Greenpeace , will speak on campus Wednesday , March 3 . 
+Paul (1) Watson (2) is (N) the (4) founder (5) of (6) Greenpeace (7) . (17) 
+In the last few days of the war , Mussolini and his mistress , Clara Petacci , tried to escape to Switzerland . 
+Mussolini (10) 's (12) mistress (13) was (N) Clara (15) Petacci (16) . (23) 
+Since 1974 , Cyprus has been divided , de facto , into the government-controlled southern two-thirds of the island and the Turkish-Cypriot northern one-third . 
+Cyprus (4) was (6) divided (7) in (N) 1974 (2) . (25) 
+The curious Belgian compromise over the weed has some logic , even for a country which says it wants to reduce drug use. Surveys show that as many as 40 percent of the country 's 10 million population has experienced cannabis and with the Dutch border an hour away for most of the population , some liberalisation seems inevitable . 
+People (N) can (N) legally (N) have (N) 40 (N) grams (N) of (N) cannabis (41) in (N) their (N) possession (N) . (60) 
+By law , Mexico can only export half the oil it produces to the United States . 
+Mexico (4) produces (12) more (N) oil (10) than (N) any (N) other (N) country (N) . (17) 
+When the last member of the Hasmonean Dynasty died in 37 B.C. , Rome made Herod king of Judah. With Roman backing , Herod ( 37-34 B.C. ) ruled on both sides of the Jordan River. After his death the Jewish kingdom was divided among his heirs and gradually absorbed into the Roman Empire . 
+The (6) Hasmonean (7) Dynasty (8) rules (29) Jordan (N) . (55) 
+The sunset , touching distant hills with ribbons of fire across the waters of the Dead Sea , brings a sense of unreality to culminate a day 's visit to the lowest point on earth , some 400 meters below sea level . 
+The (31) lowest (32) point (33) on (34) earth (35) is (N) at (30) the (15) Dead (16) Sea (17) . (43) 
+Most of the life of Petko Kiryakov was not unveiled by historians but by the prominent Bulgarian writer Nikolai Haitov , who wrote a novel and a script which was turned into a TV series , which became a favourite of most Bulgarians . 
+Nikolai (19) Haitov (20) is (N) a (N) historian (12) . (44) 
+Democrat Culbert L. Olson , elected governor of California in 1938 , was a loyal supporter of Roosevelt 's New Deal . 
+Democrat (1) Culbert (2) L. (3) Olson (4) was (N) elected (6) governor (7) of (8) California (9) . (22) 
+A male rabbit is called a buck and a female rabbit is called a doe , just like deer . 
+A (9) female (10) rabbit (11) is (12) called (13) a (14) doe (15) . (20) 
+With its headquarters in Madrid , Spain , WTO is an inter-governmental body entrusted by the United Nations to promote and develop tourism . 
+The (N) WTO (9) headquarters (3) is (N) located (N) in (4) Madrid (5) , (6) Spain (7) . (24) 
+Today 's best estimate of giant panda numbers in the wild is about 1,100 individuals living in up to 32 separate populations mostly in China 's Sichuan Province , but also in Shaanxi and Gansu provinces . 
+There (N) are (12) 1,100 (14) pandas (7) in (9) the (10) wild (11) , (N) in (24) China (25) . (37) 
+Jerusalem was rebuilt and served as Israel 's capital off and on under various foreign rulers until 70 AD , when Roman legions burned the city and expelled its Jewish inhabitants . 
+Israel (7) has (N) 70 (N) Jewish (30) inhabitants (31) . (32) 
+For many years , Sudam was controlled by Jader Barbalho , who was the governor of the state of Par? and its senator . 
+Jader (9) Barbalho (10) is (13) the (14) governor (15) of (16) Sudam (5) . (24) 
+By 2010 the following countries have the potential to produce more oil than they have ever produced before : Saudi Arabia , Iraq , Kuwait , United Arab Emirates , Kazakhstan and Bolivia . 
+Kuwait (25) produces (10) more (11) oil (12) than (13) any (N) other (N) country (5) . (34) 
+Cyprus , divided or not , joins the EU on the 1st of May . 
+Cyprus (1) was (N) divided (3) into (N) two (N) parts (N) on (10) May (14) 1 (12) . (15) 
+The lion 's share of this traffic comes from Angola , where diamonds from the area controlled by UNITA ( National Union for the Total Independence of Angola ) rebels are subject to an embargo . 
+Angola (10) was (N) subject (32) to (33) an (34) embargo (35) on (N) the (N) export (N) of (N) diamonds (13) . (36) 
+Like the corporate logos , the ear is a representation , in mouth-watering chocolate , a delicious reminder of the infamous boxing incident in 1997 , when an enraged Mike Tyson bit Holyfield 's ear . 
+Mike (30) Tyson (31) bit (32) Holyfield (33) 's (34) ear (35) in (24) 1997 (25) . (36) 
+IKEA offers fantastic and affordable solutions for your home furnishing needs . 
+Ikea (1) is (N) a (N) home (9) . (12) 
+Saudi Arabia 's production mix will shift to a higher proportion of lighter crudes. Unlike last year 's Qatif and Abu Safah developments , nearly all of the proposed projects produce Arab Light or lighter crudes . 
+Saudi (1) Arabia (2) produces (4) more (N) oil (14) than (N) any (N) other (N) country (N) . (37) 
+In a move reminiscent for some of another actor , Ronald Reagan , who was twice elected governor of California , Schwarzenegger said he would be putting his movie career on hold so he can devote his time to running for governor . 
+Schwarzenegger (22) was (15) elected (17) governor (18) of (19) California (20) . (43) 
+Among the fascinating sites in the city are Independence Hall where the Declaration of Independence was signed , and one of America 's principal symbols of freedom , The Liberty Bell , located in Congress Hall . 
+The (12) US (N) Declaration (13) of (14) Independence (15) is (N) located (33) in (34) Independence (9) Hall (10) . (37) 
+The common binding of Catholic faith did little to prevent the Bavarians from slaughtering fellow believers in the 19th century under Prussian Protestant officers . 
+19 (N) Bavarians (12) are (N) Catholic (5) . (25) 
+Pollner , they say , began trading with Iraq before the 1991 Persian Gulf War and continued after a U.N. embargo. For his part , Chalmers had loaned money to Iraq since the 1980s and received repayment in oil , according to industry experts . 
+Persia (N) bought (N) oil (39) from (N) Iraq (9) during (N) the (N) embargo (21) . (45) 
+In all , Zerich bought $ 422 million worth of oil from Iraq , according to the Volcker committee. In the early 1990s after the Soviet Union collapsed , Rich quickly became the most powerful trader there . 
+Zerich (4) bought (5) oil (11) from (12) Iraq (13) during (N) the (N) embargo (N) . (38) 
+Today about 75 % of people live in cities or towns. Art and culture are an important part of France . 
+75 (3) people (6) live (7) in (8) France (20) . (21) 
+Although the birth rate is the highest it has been for five years , there were still more deaths in Scotland than births last year . 
+Scotland (21) is (N) the (N) European (N) country (N) with (N) the (6) highest (7) birth (3) rate (4) . (26) 
+Brought under Ottoman rule in the 16th century , Jordan has been led only since the 1920s by Hashemite rulers , a family whose roots are in present-day Saudi Arabia . 
+The (N) Hashemite (19) dynasty (N) rules (4) Jordan (10) . (31) 
+In a move reminiscent for some of another actor , Ronald Reagan , who was twice elected governor of California , Schwarzenegger said he would be putting his movie career on hold so he can devote his time to running for governor . 
+Ronald (11) Regan (12) was (15) elected (17) governor (18) of (19) California (20) . (43) 
+Tom Cruise is married to actress Nicole Kidman and the couple has 2 adopted children . 
+Tom (1) Cruise (2) is (3) married (4) to (5) Nicole (7) Kidman (8) . (16) 
+Anastasia , in the village of Nagutskoye , had a neighbor who gave birth in 1914 to Yuri Andropov : KGB chief and persecutor of Anastasia 's nephew , Alexander Solzhenitsyn . 
+Alexander (30) Solzhenitsyn (31) 's (N) wife (N) 's (N) name (N) is (N) Anastasia (1) . (32) 
+The headquarters of the WTO are in Geneva , but the disputes which come under its purview are settled in Paris , under ICC rules . 
+The (1) WTO (5) headquarters (2) are (6) located (6) in (7) Geneva (8) . (26) 
+On June 28 , 1997 , in what would become known as the bite fight , Mike Tyson bit Evander Holyfield 's ear , purportedly in retaliation for Holyfield headbutting him . 
+Mike (17) Tyson (18) bit (19) Evander (20) Holyfield (21) 's (22) ear (23) on (1) June (2) 28 (3) , (4) 1997 (5) . (32) 
+In other words , with its 2 million inhabitants , Slovenia has only 5.5 thousand professional soldiers . 
+Slovenia (11) has (12) 2 (7) million (8) inhabitants (9) . (18) 
+For a western European country , the birth rate in Finland is high . 
+Finland (11) is (N) the (N) European (4) country (5) with (N) the (7) highest (13) birth (8) rate (9) . (14) 
+It uses the first day of the first month of the Lunar Year as the start of the Chinese New Year . 
+The (18) Chinese (19) New (20) Year (21) 's (N) Day (N) falls (N) on (N) the (3) first (4) day (5) of (6) the (7) first (8) month (9) of (10) the (11) Lunar (12) Year (13) . (22) 
+The credit card mobile phones now provided on some aircraft , do not interfere with aircraft systems because they are wired to a special " base station " that has been designed to safely receive and transmit radio signals in the aircraft . 
+Mobile (4) phones (5) can (N) interfere (14) with (15) aircraft (16) systems (17) . (43) 
+Prolonged exposure to UV-B light can cause sunburn , and there are worries that damage to the ozone layer may lead to an increase in the incidence of skin cancer . 
+UV-B (4) light (5) is (N) damaging (15) the (17) ozone (18) layer (19) . (31) 
+Dr. Pridi was forced into exile , and Field Marshal Pibul again assumed power . 
+Pibul (11) was (N) a (N) field (9) marshal (10) . (15) 
+Named the Solomon R. Guggenheim Museum in honor of its founder , the building opened in 1959 , drawing huge crowds and stirring considerable controversy . 
+The (2) Solomon (3) R. (4) Guggenheim (5) Museum (6) was (N) opened (15) in (16) 1959 (17) . (26) 
+Edward VIII became King in January of 1936 and abdicated in December . 
+King (4) Edward (1) VIII (2) abdicated (10) in (11) December (12) 1936 (8) . (13) 
+In Africa today , the majority of infected people acquire HIV by the time they are in their 20s or 30s and , on average , die within ten years . 
+20-30 (N) percent (N) of (7) people (9) infected (8) with (N) HIV (11) live (N) in (1) Africa (2) . (31) 
+India , an enchanting country situated in the southern central peninsula of the Asian continent , covers over 3.28 million square kilometers . 
+India (1) is (6) on (N) the (13) Asian (14) continent (15) . (23) 
+Mount Olympus , the highest mountain in the Olympic Range , rises to a height of 7,965 feet ( 2,428 meters ) and is less than 25 miles ( 40 kilometers ) from the Strait of Juan de Fuca . 
+Mount (1) Olympus (2) is (N) in (7) the (8) Olympic (9) Range (10) . (40) 
+The city is twinned with Glasgow , Dortmund , Pleven , and Le Mans . 
+Dortmund (8) is (3) twinned (4) with (5) Glasgow (6) . (15) 
+IBM is now at the top of my list of where I want to work. Ivy alone had nine interviews when the team visited the company 's headquarters in Armonk last week . 
+IBM (26) 's (N) has (27) its (N) headquarters (28) in (29) Armonk (30) . (33) 
+And , despite its own suggestions to the contrary , Oracle will sell PeopleSoft and JD Edwards financial software through reseller channels to new customers . 
+Oracle (11) sells (13) financial (18) software (19) . (26) 
+Among the fascinating sites in the city are Independence Hall where the Declaration of Independence was signed , and one of America 's principal symbols of freedom , The Liberty Bell , located in Congress Hall . 
+The (12) US (N) Declaration (13) of (14) Independence (15) is (N) located (11) in (N) America (22) . (37) 
+Meanwhile , thousands of soldiers from the first Gulf War are still suffering from severe symptoms that have been linked to what is now known as Gulf War illness , say veterans advocates . 
+Many (3) US (N) soldiers (5) developed (N) Gulf (27) War (28) illness (29) after (N) the (7) Gulf (9) War (10) . (34) 
+The Antarctic ozone ' hole ' is defined as a thinning of the ozone layer , over the continent , to levels significantly below pre-1979 levels . 
+The (1) ozone (3) hole (5) is (N) above (17) Antarctica (19) . (27) 
+On April 27th , Pavolini went on , ahead of his troops , and reached Mussolini. Accompanying him were Angela Curti , the former mistress of Mussolini . 
+Angela (20) Curti (21) was (N) Mussolini (27) 's (26) mistress (25) . (28) 
+The capital of Slovenia is Ljubljana , with 270,000 inhabitants . 
+Slovenia (4) has (N) 270,000 (9) inhabitants (10) . (11) 
+The PMDB is also the party led by Senator Jader Barbalho , the recently elected Senate President heaped with serious corruption charges . 
+Jader (10) Barbalho (11) is (N) the (13) Senate (16) President (17) . (23) 
+Babe Ruth 's career total would have been 1 higher had that rule not been in effect in the early part of his career. The all-time career record for home runs in Major League Baseball is 755 , held by Hank Aaron since 1974 . 
+Babe (1) Ruth (2) hit (N) 755 (N) home (30) runs (31) in (N) his (N) lifetime (N) . (45) 
+O ' Connor then fought on the side of the Republicans in the 1921-22 Civil War , with those who favored rejection of the treaty which brought peace between Ireland and Britain , but at the cost of a divided island . 
+Ireland (30) has (N) been (N) divided (40) since (N) 1921 (N) . (42) 
+Maine knows he killed Lennon and that he is also a child molester. During the ' 92 election George Bush admitted twice on TV " Nobody likes who shot John ... I know the media is fascinated with this story but .. . " 
+John (5) Lennon (5) was (N) killed (4) in (N) 1992 (17) . (43) 
+John Lennon 's widow , Yoko Ono , has topped the US dance chart at the age of 71 with a song supporting gay marriage . 
+Yoko (6) Ono (7) is (N) John (1) Lennon (2) 's (3) widow (4) . (26) 
+On July 8th , the Mozilla team released a configuration change which resolves this problem by explicitly disabling the use of the shell : an external protocol handler . 
+A (N) shell (23) is (N) an (25) external (26) protocol (27) handler (28) . (29) 
+The longest stay in space was 438 days by Valeri Polyakov . 
+The (1) record (N) for (N) the (N) longest (2) stay (3) in (4) space (5) , (N) by (N) a (N) human (N) , (N) is (6) 438 (7) days (8) . (12) 
+The Statue of Liberty was reopened to the public on July 5 after its extensive refurbishing. 1986 is a common year starting on Wednesday of the Gregorian calendar . 
+The (1) Statute (2) of (3) Liberty (4) was (5) built (N) in (N) 1986 (17) . (29) 
+Joe Friday wore badge No. 714-in honor of the number of home runs Ruth hit in his career . 
+Ruth (14) hit (15) 714 (N) home (12) runs (13) in (16) his (17) lifetime (18) . (19) 
+The number of Gulf War veterans who suffer from Gulf War illness is difficult to grasp. Robinson and other advocates say they believe that many of the 330,000 Gulf War veterans who have sought medical treatment from the VA since the war , and 179,000 who are collecting some level of disability benefits , are suffering from one or more of the symptoms . 
+Many (N) US (N) soldiers (6) developed (8) Gulf (10) War (11) illness (12) after (40) the (41) Gulf (42) War (42) . (64) 
+Immediately after 1990 , however , Swedish fertility plummeted in another unique movement , and had fallen to 1.5 children per woman in 1998 and in 1999. This is the lowest birth rate in Sweden ever-although above the European average . 
+Sweden (35) is (N) the (38) European (39) country (N) with (N) the (30) highest (N) birth (32) rate (33) . (41) 
+As with the Babylonian New Year , the Chinese New Year , which occurred on the 1st of February in 2003 , the day before Groundhog Day , is correlated to the beginning of spring . 
+The (8) Chinese (9) New (10) Year (11) 's (N) Day (N) falls (N) on (15) the (16) 1st (17) of (18) February (19) in (20) 2003 (21) . (36) 
+Arabic , for example , is used densely across North Africa and from the Eastern Mediterranean to the Philippines , as the key language of the Arab world and the primary vehicle of Islam . 
+Arabic (1) is (6) the (22) primary (23) language (24) of (25) the (18) Philippines (19) . (35) 
+Mercedes-Benz is another German luxury-car manufacturer , but its M-Class sport-utility vehicle is assembled in Alabama and the new G-Class is from Austria . 
+Mercedes-Benz (1) is (2) a (N) German (4) car (N) manufacturer (6) . (24) 
+OTN profiles the Hamas ( Islamic Resistance Movement ) , which is a Palestinian Islamic fundamentalist group . 
+The (3) Islamic (6) Resistance (7) Movement (8) is (N) also (N) known (N) as (N) OTN (1) . (18) 
+The first kibbutz , Deganya , near the Sea of Galilee , was founded in 1910 . 
+The (1) first (2) kibbutz (3) was (13) founded (14) near (7) the (8) Sea (9) of (10) Galilee (11) . (17) 
+Her husband , political novice Juan Carlos Lecompte , scrambles to preserve Betancourt 's dream and sustain the Oxygen Green Party , the political party she founded . 
+Juan (6) Carlos (7) Lecompte (8) is (N) the (N) founder (27) of (N) the (18) Green (20) Oxygen (19) Party (21) . (28) 
+Michael Jordan , coach Phil Jackson and the star cast , including Scottie Pippen , took the Chicago Bulls to six National Basketball Association championships . 
+The (17) Bulls (19) basketball (23) team (N) is (N) based (N) in (N) Chicago (18) . (26) 
+Another French daily newspaper talks about PixVillage . 
+PixVillage (7) is (N) a (N) French (2) newspaper (4) . (8) 
+Mr. Balasingham will return to his London home and then move on to Sri Lanka in early October to consult with LTTE leader Vilupillai Prabhakaran , diplomats said . 
+Vilupillai (24) Prabhakaran (25) is (N) a (N) diplomat (27) . (29) 
+These days are special for St Petersburg - on January 18 , 1943 the siege of Leningrad was broken . 
+The (14) siege (15) of (16) Leningrad (17) was (18) broken (19) on (9) January (10) 18 (11) , (12) 1943 (13) . (20) 
+Cannabis is freely available in the Netherlands for sale in " coffee shops " in small quantities. The cost of five grammes , the maximum amount that can be legally purchased , is about .50 ( $ 19 ) , enough to make about a dozen cigarettes . 
+In (5) the (6) Netherlands (7) five (21) grams (22) of (N) cannabis (1) can (28) be (29) legally (30) held (N) in (N) possession (31) . (48) 
+Apart from the new substances entering the market , the phase out of existing ones , which have been definitely identified as damaging the ozone layer , is far from complete . 
+New (4) substances (5) are (N) damaging (23) the (24) ozone (25) layer (26) . (32) 
+The scandal is one of several threatening to undermine President Cardoso 's four-party government alliance , and could force out one of Brazil 's top politicians - the newly appointed President of the Senate , Jader Barbalho . 
+Jador (36) Barbalho (37) is (N) a (N) politician (26) . (38) 
+The two sectors of the divided island of Cyprus held a referendum on reunification on Saturday , April 24 , 2004 . 
+Cyprus (9) was (N) divided (6) on (15) April (18) 24 (19) , (20) 2004 (21) . (22) 
+The airline now flew under the name Sabena - Belgian World Airlines . 
+Sabena (8) is (N) an (N) airline (2) . (13) 
+Civic Alliance , the umbrella group of civic groups involved in rebuilding , hosted a large , public , town-hall meeting for 5,000 people , called " Listening to the City " in July 2002 . 
+The (N) Civic (1) Alliance (2) is (N) an (N) umbrella (5) group (6) . (36) 
+Prime Minister Mahmoud Abbas has offered ' the hand of peace ' to Israel after his landslide victory in Sunday 's presidential election . 
+Mahmoud (3) Abbas (4) has (5) claimed (N) victory (18) in (19) the (N) presidential (22) elections (23) . (24) 
+The Israeli army forces carried out , on Saturday , a widespread military operation into the West Bank town of Jenin and its refugee camp , local Palestinian sources said . 
+The (1) Israeli (2) army (3) carried (5) out (6) a (11) widespread (12) operation (14) in (15) Jenin (21) . (31) 
+The jet was carrying 152 tourists from Martinique , returning home after a week in Panama , officials said . 
+The (1) plane (2) was (3) returning (10) to (N) the (N) French (N) Caribbean (N) island (N) of (N) Martinique (8) , (9) from (N) Panama (16) . (20) 
+Analysts expected the company to earn $ 1.42 a share on revenue of $ 3.82 billion , according to a Thomson Financial survey . 
+Analysts (1) had (N) expected (2) revenue (12) of (13) $ (14) 3.8 (N) billion (16) , (17) according (18) to (19) Reuters (N) estimates (N) . (24) 
+Thousands of people are expected to return to New Orleans this week , as areas of the city are opened up to residents . 
+Over (N) the (N) coming (N) days (N) , (N) thousands (1) of (2) people (3) are (4) expected (5) to (N) make (N) the (N) decision (N) to (6) return (7) to (8) New (9) Orleans (10) . (24) 
+Goosen shot a 69 on Saturday , one of only two sub-par rounds on the day , to grab a three-shot lead through 54 holes at Pinehurst No. 2 . 
+Goosen (1) shot (2) a (3) 69 (4) and (N) has (19) a (20) three-shot (21) lead (22) . (30) 
+Also Friday , five Iraqi soldiers were killed and nine wounded in a bombing , targeting their convoy near Beiji , 150 miles north of Baghdad , the Iraqi military said . 
+Three (N) Iraqi (5) soldiers (6) also (N) died (8) Saturday (N) when (N) their (17) convoy (18) was (N) attacked (14) by (N) gunmen (N) near (19) Adhaim (N) . (32) 
+Israeli troops evicted hundreds of screaming and weeping Jewish settlers from their homes , schools and synagogues in the Gaza Strip on Wednesday , carrying out a chaotic and harrowing operation to end 38 years of occupation . 
+Israeli (1) troops (2) carried (3) settlers (10) out (3) of (N) homes (13) , (14) synagogues (17) and (16) even (N) nursery (N) schools (15) . (38) 
+The 26-member International Energy Agency said , Friday , that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina . 
+The (19) United (20) States (20) has (N) asked (N) member (11) states (12) of (N) the (1) International (3) Energy (4) Agency (5) to (N) provide (14) oil (15) . (27) 
+Rose made his first start since joining the Knicks 10 games ago , replacing Thomas , who has an infected elbow . 
+Rose (1) joined (7) the (8) Knicks (9) 10 (10) games (11) ago (12) . (22) 
+Injections of human stem cells seem to directly repair some of the damage caused by spinal cord injury , according to research that helped partially paralyzed mice walk again . 
+Anderson (N) and (N) colleagues (N) used (N) fetal (N) neural (N) stem (N) cells (N) , (N) a (N) type (N) that (N) are (N) slightly (N) more (N) developed (N) than (N) embryonic (N) stem (4) cells (5) because (N) they (N) 're (N) destined (N) to (N) make (N) cells (N) for (N) the (N) central (N) nervous (N) system (N) . (30) 
+Martha Stewart , 64 , is back , after serving five months in a West Virginia federal prison for lying about a 2001 stock sale . 
+Martha (1) Stewart (2) was (N) convicted (N) of (N) lying (20) about (21) a (22) stock (24) trade (25) and (N) served (10) five (11) months (12) in (13) prison (18) . (26) 
+Heavy rain flooded parts of the site , with dozens of tents lost under water , while lightning strikes affected the stages and knocked out power lines . 
+100 (N) tents (12) had (N) been (N) washed (N) away (N) . (28) 
+The settlement must be approved by Citigroup 's board of directors and the board of Regents of the University of California , the lead plaintiff for investors in the case . 
+The (1) settlement (2) is (N) pending (N) approval (5) by (6) Citigroup (7) 's (8) directors (11) and (12) the (13) board (14) of (15) Regents (16) at (17) the (18) University (19) of (20) California (21) . (31) 
+Kozlowski and the company 's former chief financial officer , Mark Swartz , were sentenced , on Monday , to up to 25 years in prison . 
+Two (N) former (6) bosses (9) of (N) US (N) manufacturer (4) , (N) Tyco (N) , (N) have (N) been (14) sentenced (15) to (20) up (21) to (22) 25 (23) years (24) in (25) jail (26) for (N) stealing (N) more (N) than (N) $ (N) 150m (N) ( (N) m (N) ) (N) from (N) the (3) company (4) . (27) 
+Rehnquist , appointed to the court in 1972 and promoted to chief justice in 1986 , was the longest-serving chief justice since 1910 and among the longest-serving jurists in the court 's history . 
+Rehnquist (1) served (19) the (19) second-longest (19) tenure (N) , (N) as (N) chief (20) justice (21) , (N) in (29) US (N) history (33) . (34) 
+On Friday evening , a car bomb exploded outside a Shiite mosque in Iskandariyah , 30 miles south of the capital , killing seven people and wounding 10 , doctors said on condition of anonymity . 
+A (5) bomb (7) exploded (8) outside (9) a (10) mosque (12) . (36) 
+US Federal Reserve boss , Alan Greenspan , sees increased US trade protectionism and ever-larger budget deficits as the biggest threats to the US economy . 
+Greenspan (7) also (N) said (N) that (N) bloated (10) trade (12) and (14) budget (16) deficits (17) threaten (21) the (23) long-term (N) health (N) of (N) the (N) U.S. (24) economy (25) . (26) 
+Moog built his first electronic instrument - a theremin - at the age of 14 and made the MiniMoog , ' the first compact , easy-to-use synthesiser ' , in 1970 . 
+Aged (N) just (N) 14 (N) , (N) Moog (1) built (2) his (3) first (4) electronic (5) instrument (6) , (7) a (8) theremin (9) . (32) 
+Seeking common ground amid sensitive differences on democracy , Bush and Putin agreed Thursday , on new efforts to keep nuclear arms away from terrorists as well as from sovereign nations like Iran and North Korea . 
+Putin (12) and (11) Bush (10) , (N) on (N) Thursday (14) , (15) agreed (13) that (N) Iran (33) , (N) along (34) with (34) North (35) Korea (36) , (N) must (N) not (N) become (N) a (N) nuclear (21) threat (N) . (37) 
+U.S. Secretary of State Condoleezza Rice said Thursday that North Korea should return to nuclear disarmament talks and avoid a path toward further international isolation . 
+North (10) Korea (11) says (N) it (N) will (N) rejoin (13) nuclear (15) talks (17) . (26) 
+The men , who will be able to apply for parole to avoid serving the full 25 years , were immediately taken into custody after the sentencing and whisked out of the courtroom in handcuffs . 
+Kozlowski (N) and (N) Swartz (N) , (3) who (4) were (N) found (N) guilty (N) of (N) stealing (N) more (N) than (N) $ (N) 150 (N) million (N) from (N) the (N) company (N) , (N) were (N) each (N) sentenced (27) , (N) on (N) Monday (N) , (N) to (N) up (N) to (N) 25 (17) years (18) in (N) prison (N) . (36) 
+The job gains mean that President Bush can celebrate - albeit by a very fine margin - a net growth in jobs in the US economy in his first term in office . 
+President (6) Bush (7) 's (28) first (29) term (30) in (31) office (32) showed (N) a (18) net (19) gain (20) in (21) payroll (N) jobs (22) . (33) 
+Food and Drug Administration , which regulates human experiments , says its regulations forbid human cloning without prior agency permission , and it has launched an investigation into whether Clonaid illegally performed any work on U.S. soil . 
+Food (1) and (2) Drug (3) Administration (4) forbids (14) human (15) cloning (16) without (17) prior (18) permission (20) . (38) 
+Energy analysts said oil prices could soar as high as $ 80 a barrel and drivers in the U.S. could soon be paying $ 3 a gallon for gasoline , if damage reports from oil companies bear bad news . 
+Oil (4) prices (5) surged (7) . (40) 
+He said a new study might include more than just Cox 2 drugs possibly adding such widely used painkillers as Ibuprofen naproxen and diclofenac . 
+Cox (11) 2 (12) inhibitors (N) are (N) pain (19) relief (19) drugs (19) . (25) 
+Washington Scientists have identified a hormone that significantly extends the lifespan of mice , a discovery that could mark a crucial step toward developing drugs that boost longevity in people . 
+Texas (N) researchers (2) have (3) found (4) a (5) naturally (N) occurring (N) hormone (6) that (7) can (N) extend (9) the (10) lifespan (11) of (12) mice (13) by (N) as (N) much (N) as (N) 30 (N) % (N) , (14) a (15) discovery (16) that (17) opens (N) a (20) new (N) avenue (N) of (N) research (N) into (N) human (30) longevity (28) . (31) 
+After the service , Lennon left the cathedral , made his way through a crush of reporters and television cameras and talked briefly with protesters , some of whom say they are victims of abusive priests . 
+After (1) the (2) service (3) , (4) Lennon (5) attempted (N) to (N) speak (22) to (24) victims (33) and (N) protesters (25) . (37) 
+She flew to Los Angeles last week , after her 74-year-old mother had a stroke , but is expected to return to Texas in a few days . 
+She (1) recently (N) left (N) her (N) camp (N) , (N) vowing (N) to (N) come (N) back (N) , (N) to (N) visit (N) her (10) mother (12) who (N) has (N) just (N) had (13) a (14) stroke (15) . (28) 
+Two Indian diplomats met the Indian prisoner facing death in Pakistan , Sarabjit Singh , on Tuesday at Kot Lakhpat jail in the eastern Pakistani city of Lahore . 
+Indian (2) diplomats (3) met (4) an (N) Indian (6) prisoner (7) , (N) on (N) death (9) row (N) , (15) on (16) Tuesday (17) . (29) 
+Herceptin was already approved to treat the sickest breast cancer patients , and the company said , Monday , it will discuss with federal regulators the possibility of prescribing the drug for more breast cancer patients . 
+Herceptin (1) can (N) be (N) used (N) to (5) treat (6) breast (9) cancer (10) . (37) 
+The Independent Police Complaints Commission ( IPCC ) is trying to reassure lawyers for the family of Jean Charles de Menezes that the inquiry is still on track . 
+Police (3) issued (N) John (N) Wadham (N) 's (N) statement (N) after (N) lawyers (13) for (14) the (15) de (20) Menezes (21) family (16) met (N) with (N) the (N) complaints (4) commission (5) , (N) demanding (N) more (N) information (N) about (N) the (N) killing (N) . (29) 
+95 % of the Gulf of Mexico 's oil output is now out of service following Katrina , together with more than 83 % of natural gas production . 
+Crude (N) oil (N) prices (N) have (N) hit (N) fresh (N) highs (N) as (N) fears (N) grow (N) over (N) the (N) extent (N) of (N) damage (N) , (N) done (N) by (N) Hurricane (17) Katrina (17) , (N) to (N) oil (9) output (10) in (3) the (4) Gulf (5) of (6) Mexico (7) . (29) 
+Still , the storm surge was both stronger and earlier than expected , apparently coming through waterways southeast of the city , said Col. Richard Wagenaar , the Army Corps of Engineers ' district chief in New Orleans . 
+Col. (24) Richard (25) Wagenaar (26) said (23) the (N) problems (N) would (N) set (N) back (N) repairs (N) at (N) least (N) three (N) weeks (N) , (N) but (N) June (N) was (N) still (N) the (N) target (N) for (N) having (N) the (N) levees (N) back (N) to (N) pre-Katrina (N) strength (N) . (39) 
+The 26-member International Energy Agency said , Friday , that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina . 
+Responding (N) to (N) a (N) plea (N) from (N) the (1) International (3) Energy (4) Agency (5) for (N) member (11) countries (12) to (N) release (14) reserves (15) , (N) Canada (N) is (N) prepared (N) to (16) help (17) . (27) 
+U.S. Secretary of State Condoleezza Rice said Thursday that North Korea should return to nuclear disarmament talks and avoid a path toward further international isolation . 
+North (10) Korea (11) has (N) a (N) stockpile (N) of (N) nuclear (15) weapons (N) . (26) 
+Justice Sandra Day O ' Connor announced her retirement in order to spend time with her ill husband . 
+Justice (1) Sandra (2) Day (3) O (4) ' (5) Connor (6) announced (7) her (8) retirement (9) . (19) 
+Hurricane Katrina petroleum-supply outlook improved somewhat , yesterday , as U.S. and European governments agreed to release 2 million barrels a day , of oil and refined products , from their reserves . 
+60 (N) million (19) barrels (20) of (24) oil (25) and (26) gasoline (N) will (N) be (N) available (17) to (N) the (N) marketplace (N) . (33) 
+The probe looked into the October 2000 shooting-deaths of 13 Arabs , during violent demonstrations in northern Israel that erupted days after the start of a Palestinian uprising . 
+Israel (N) will (N) not (N) prosecute (N) the (N) police (N) who (N) killed (8) 13 (10) Israeli (N) Arabs (11) during (13) pro-Palestinian (N) protests (15) in (N) 2000 (7) , (N) because (N) of (N) a (N) lack (N) of (N) evidence (N) , (N) an (N) official (N) inquiry (N) said (N) yesterday (N) . (29) 
+Officials said the Finnish suspect was among the dead but did not provide a motive for the attack . 
+Officials (1) said (2) that (N) the (3) suspect (5) , (N) a (N) Finnish (4) citizen (N) , (N) was (6) among (7) the (8) dead (9) . (19) 
+Thousands of Shiite Muslims rallied Friday , in the southern city of Basra , to show support for Iraq 's new constitution and the Shiite-dominated government . 
+Sunni (N) Arabs (N) say (N) they (N) 're (N) not (N) ready (N) to (N) re-join (N) the (N) committee (N) drafting (N) Iraq (19) 's (20) new (21) constitution (22) . (27) 
+Brian Brohm , the Louisville quarterback , threw for 368 yards and five touchdowns as the Cardinals beat visiting Oregon State 63-27 . 
+The (4) quarterback (6) threw (8) for (9) 413 (N) yards (11) and (12) three (N) touchdowns (14) , (N) and (N) then (N) ran (N) to (N) the (N) end (N) zone (N) two (N) more (N) times (N) . (23) 
+Microsoft 's ( MSFT ) own search engine will permanently replace the Yahoo ( YHOO ) search technology that has been used on Microsoft 's MSN website . 
+Yahoo (13) 's (N) technology (18) will (N) still (N) be (N) used (22) . (28) 
+The new work went an extra step , suggesting that the connections that the stem cells form to help bridge the damaged spinal cord , are key to recovery . 
+The (1) experiment (3) , (N) reported (N) Monday (N) , (N) is (N) n't (N) the (N) first (N) to (N) show (9) that (10) stem (15) cells (16) offer (N) tantalizing (N) hope (N) for (N) spinal (23) cord (24) injury (22) . (30) 
+The World Health Organization moved Friday , to revise alarming predictions that a pandemic stemming from the bird flu virus ravaging parts of Asia , could kill as many as 150 million people . 
+The (1) U.N. (N) health (N) agency (4) has (N) distanced (5) itself (N) from (N) a (N) top (N) official (N) 's (N) prediction (11) that (12) a (13) global (N) influenza (N) pandemic (14) could (26) kill (27) as (28) many (29) as (30) 150 (31) million (32) people (33) . (34) 
+Priscilla Presley greeted thousands of cheering Elvis fans at a concert Friday night , marking the 25th anniversary of the King 's death , telling them " you 're helping Elvis make history again . " 
+Priscilla (1) Presley (2) told (25) fans (8) , (N) " (27) you (28) 're (29) helping (30) Elvis (31) make (32) history (33) again (34) . (35) " (36) 
+World leaders expressed concern on Thursday that North Korea will quit six-party nuclear disarmament talks and will bolster its nuclear weapons arsenal . 
+World (1) leaders (2) have (N) condemned (N) North (8) Korea (9) for (N) pulling (11) out (11) of (N) talks (15) . (23) 
+The maker of a promising ovarian cancer drug said , Friday , that he stopped enrolling women in a study because several patients developed gastrointestinal holes . 
+A (19) study (20) of (3) a (4) promising (5) cancer (7) drug (8) was (N) stopped (15) because (21) of (N) a (N) serious (N) side (N) effect (N) . (27) 
+Iran will hold the first runoff presidential election in its history , between President Akbar Hashemi Rafsanjani and Tehran 's hard-line mayor , election officials said Saturday . 
+Akbar (15) Hashemi (16) Rafsanjani (17) is (N) the (N) president (14) . (28) 
+Green Day , who arrived at the venue in the vintage green convertible from their gritty " Boulevard of Broken Dreams " video , won best rock video and video of the year for the clip and two of their leading eight nominations . 
+Rock (27) was (N) resplendent (N) at (6) the (7) MTV (N) Video (N) Music (N) Awards (N) on (N) Sunday (N) night (N) , (N) as (N) the (N) veteran (N) punk (N) group (N) , (N) Green (1) Day (2) , (N) took (25) home (25) seven (N) moonmen (N) . (44) 
+A Colombian airliner has crashed in a remote area of Venezuela killing all 160 people on board . 
+A (1) Colombian (2) plane (3) crashed (5) in (6) a (7) remote (8) region (9) of (10) Venezuela (11) . (18) 
+Shiite and Kurdish political leaders continued talks , on Monday , on forming a new government , saying they expected a full cabinet to be announced within a day or two . 
+Washington (N) is (N) pressing (N) Iraq (N) 's (N) leaders (5) to (N) end (N) weeks (N) of (N) political (N) deadlock (N) and (N) to (N) form (N) a (14) new (15) government (16) as (N) soon (N) as (N) possible (N) , (N) US (N) officials (N) say (N) . (32) 
+He determined that there were 1,678 illegal votes cast in the election , but he said Republicans had provided no real proof that illegal votes benefited Gregoire . 
+Most (N) of (N) the (N) illegal (7) votes (8) cast (9) in (10) the (11) election (12) went (26) to (26) Gregoire (27) . (28) 
+The 26-member International Energy Agency said , Friday , that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina . 
+Foreign (12) oil (15) reserves (N) will (N) be (N) made (N) available (14) to (16) the (19) U.S. (20) in (N) the (N) wake (N) of (N) Hurricane (25) Katrina (26) . (27) 
+That police statement reinforced published reports , that eyewitnesses said de Menezes had jumped over the turnstile at Stockwell subway station and was wearing a padded jacket , despite warm weather . 
+However (N) , (N) the (N) documents (6) leaked (N) to (N) ITV (N) News (N) suggest (N) that (N) Menezes (12) , (N) an (N) electrician (N) , (N) walked (N) casually (N) into (N) the (N) subway (20) station (21) and (22) was (23) wearing (24) a (25) light (N) denim (N) jacket (27) . (32) 
+Rehnquist served longer as chief justice than anyone in a century , and his 33-year career as a justice was among the half-dozen longest in the court 's history . 
+Rehnquist (1) served (2) the (N) second-longest (N) tenure (N) , (N) as (4) chief (5) justice (6) , (N) in (25) US (N) history (29) . (30) 
+The focus on the engines and the fuel , stems from the pilot 's radio call , shortly before the crash . 
+The (12) pilot (13) had (N) been (N) attempting (N) an (N) emergency (N) landing (N) , (N) after (N) both (N) engines (5) failed (N) . (22) 
+Basra 's governor said he would not cooperate with British troops until there was an apology for a raid to free two UK soldiers . 
+The (N) governor (3) of (2) Basra (1) will (6) not (7) work (8) with (9) British (10) troops (11) until (12) there (13) is (14) an (15) apology (16) for (17) a (18) raid (19) to (20) free (21) two (22) UK (23) soldiers (24) . (25) 
+The 26-member International Energy Agency said , Friday , that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina . 
+An (N) international (3) oil (4) agency (5) will (13) make (14) 60 (N) million (N) barrels (N) of (N) oil (15) and (N) gasoline (N) available (14) to (N) the (N) marketplace (N) . (27) 
+Miller died Thursday night , of congestive heart failure , at his home in Roxbury , Conn. , surrounded by his family , his assistant , Julia Bolus , said Friday . 
+Miller (1) died (2) Thursday (3) night (4) , (5) of (6) heart (8) failure (9) , (18) surrounded (19) by (20) family (22) members (N) . (32) 
+Also ruled out , for the moment , is any tie-up with a new alliance of Social Democrat dissidents and former communists known as the Left Party , which garnered 8.7 % . 
+It (N) seems (N) unlikely (N) that (N) there (N) will (N) be (9) a (13) coalition (15) between (N) Gerhard (N) Schroeder (N) 's (N) Social (17) Democrats (18) and (N) Angela (N) Merkel (N) 's (N) Christian (N) Democratic (N) Union (N) . (33) 
+Bledsoe will be released by the Buffalo Bills , a move that upset the 33-year-old quarterback who started every game for the team the past three seasons . 
+The (6) Buffalo (7) Bills (8) are (3) releasing (4) Drew (1) Bledsoe (1) , (N) their (N) quarterback (16) . (28) 
+That request is at odds with the law signed early yesterday , by Bush , directing the federal courts to consider the case de novo without taking into account the state court 's findings . 
+Bush (14) pushed (16) the (17) issue (N) to (N) federal (18) courts (19) . (35) 
+The state Division of Occupational Safety and Health said that the plant was inspected in October , and cited for 15 safety violations , seven of which were considered serious . 
+The (11) plant (12) was (13) inspected (14) in (15) October (16) and (18) cited (19) for (20) numerous (N) safety (22) violations (23) . (31) 
+Amazon shares fell nearly 4 percent following the results as the company said operating income would drop as much as 42 percent in the second quarter . 
+Shares (2) of (N) Amazon (1) fell (3) 4 (5) percent (6) . (27) 
+In clashes between Israeli forces and gunmen , one Palestinian was killed and 10 wounded , hospital officials said . 
+A (9) Palestinian (10) was (11) killed (12) and (13) other (N) people (N) were (N) wounded (15) . (20) 
+Qwest 's revised bid , which did not offer more cash for MCI stock as expected , was deemed disappointing by one major MCI shareholder , and Qwest 's shares fell more than 8 percent . 
+MCI (24) shareholders (25) accepted (N) a (N) $ (N) 6.7 (N) billion (N) offer (4) over (N) Qwest (28) 's (29) initial (N) $ (N) 8 (34) billion (N) . (36) 
+The job gains mean that President Bush can celebrate - albeit by a very fine margin - a net growth in jobs in the US economy in his first term in office . 
+More (3) jobs (2) were (3) created (3) during (27) President (6) Bush (7) 's (28) first (29) term (30) . (33) 
+In a bowl , whisk together the eggs and sugar until completely blended and frothy . 
+In (1) a (2) bowl (3) , (4) whisk (5) together (6) the (7) egg (8) , (N) sugar (10) and (9) vanilla (N) until (11) light (N) in (N) color (N) . (16) 
+While the beet is roasting , make the vinaigrette : In a bowl , whisk together the orange juice , balsamic vinegar , and extra-virgin olive oil . 
+In (11) a (12) bowl (13) , (14) toss (N) the (N) olive (26) oil (27) with (N) salt (N) and (N) pepper (N) . (28) 
+Up to 150 workers were believed to have been inside the factory , which produces syringes and other plastic medical supplies , at the time of the explosion . 
+Workers (4) were (9) inside (10) the (11) plant (12) at (23) the (24) time (25) of (26) the (27) explosion (28) . (29) 
+The West Pharmaceutical Services plant , which had been cited for numerous safety violations last fall , made syringe plungers and IV supplies . 
+The (1) West (2) Pharmaceutical (3) Services (4) plant (5) had (8) been (9) cited (10) for (11) numerous (12) safety (13) violations (14) last (15) autumn (16) . (24) 
+Scientists had observed that mice with a defective Klotho gene aged prematurely and wondered if an enhanced gene would have an opposite effect . 
+Scientists (1) have (2) discovered (3) a (7) gene (10) that (N) produces (N) a (N) hormone (N) that (N) raises (N) the (N) life (N) expectancy (N) in (N) mice (5) by (N) 30 (N) percent (N) . (24) 
+Interim Palestinian leader , Mahmoud Abbas , has won a landslide victory in Sunday 's presidential election and will succeed the late Yasser Arafat . 
+Mahmoud (5) Abbas (6) has (8) claimed (9) victory (12) in (13) the (N) Palestinian (2) presidential (16) elections (17) , (N) and (18) has (N) dedicated (N) his (N) win (N) to (N) Yasser (23) Arafat (24) , (N) who (N) died (N) in (N) November (N) 2004 (N) . (25) 
+The measures currently in force include a travel ban on senior government figures , but France has invited Mr. Mugabe to a Franco-African summit in Paris next month , angering several countries . 
+France (16) angered (30) a (31) number (31) of (31) countries (32) , (N) by (N) inviting (18) Mr. (19) Mugabe (20) to (21) attend (21) a (22) Franco-African (23) summit (24) in (25) Paris (26) . (33) 
+The Prince of Wales and Bowles will marry on Friday , April 8 , at Windsor Castle , said Clarence House , Charles ' residence and office . 
+The (1) Prince (2) of (3) Wales (4) and (5) Bowles (6) will (7) marry (8) in (N) a (N) civil (N) ceremony (N) at (15) Windsor (16) Castle (17) . (28) 
+Clonaid scientist , Brigitte Boisselier , said the first human clone - a girl nicknamed Eve - was born on Thursday to an American mother . 
+Brigitte (4) Boisselier (5) announced (7) that (N) a (N) cloned (11) baby (10) had (N) been (18) born (19) . (26) 
+British actor , Hugh Laurie , had been favourite to win best drama actor for " House " , but lost out to " Boston Legal " 's James Spader . 
+James (29) Spader (30) won (11) best (12) actor (14) for (15) " (24) Boston (25) Legal (26) . (31) " (27) 
+Prime Minister Mahmoud Abbas has offered ' the hand of peace ' to Israel after his landslide victory in Sunday 's presidential election . 
+Mahmoud (3) Abbas (4) has (5) won (N) a (N) landslide (17) victory (18) in (19) Sunday (20) 's (21) presidential (22) election (23) . (24) 
+Moog 's synthesiser , which bears his name , revolutionised music from the 1960s onwards , and was used by bands like The Beatles and The Doors . 
+Moog (1) 's (2) instruments (3) were (18) used (19) by (20) The (23) Beatles (24) and (25) The (26) Doors (27) among (N) others (N) . (28) 
+An audience of 8.3 million people watched rural soap , " Emmerdale " , on Thursday , while a live episode of " The Bill " got 7.9 million viewers . 
+Hour-long (N) special (N) episodes (N) of (N) ITV (N) soaps (9) , (10) " (11) Emmerdale (12) " (13) and (N) " (23) The (24) Bill (25) " (26) , (N) were (N) the (N) top-rated (N) UK (N) TV (N) shows (N) on (N) the (N) commercial (N) channel (N) 's (N) 50th (N) anniversary (N) . (31) 
+According to the Occupational Safety and Health Administration , the plant was inspected in October , cited for safety violations , and fined about $ 10,000 . 
+According (1) to (2) the (3) Occupational (4) Safety (5) and (6) Health (7) Administration (8) , (9) the (10) plant (11) was (12) inspected (13) in (14) October (15) and (22) fined (23) for (18) safety (19) violations (20) . (27) 
+Pyongyang said there was no point in the talks since the US had termed North Korea an ' outpost of tyranny ' . 
+The (11) US (12) labelled (14) North (15) Korea (16) part (N) of (N) an (17) ' (18) axis (N) of (20) evil (N) ' (22) . (23) 
+Miller , the Pulitzer Prize-winning playwright whose most famous fictional creation , Loman in ' Death of a Salesman ' came to symbolize the American Dream gone awry , has died . 
+Playwright (1) Miller (1) , (2) the (3) Pulitzer (4) Prize-winning (5) author (6) of (7) ' (15) Death (16) of (17) a (18) Salesman (19) ' (20) , (29) has (30) died (31) . (32) 
+Bowles will take the title HRH Duchess of Cornwall , changing it to the Princess Consort , when Charles becomes King . 
+Bowles (1) will (2) be (N) known (5) as (N) HRH (6) Duchess (7) of (8) Cornwall (9) . (22) 
+A Miami International Airport concourse was evacuated for three hours Wednesday , after a pepper spray can discharged , causing 43 people to suffer respiratory distress . 
+An (1) Airport (4) concourse (5) was (6) evacuated (7) Wednesday (11) , (12) after (13) people (22) began (N) having (24) trouble (26) breathing (25) . (27) 
+The focus on the engines and the fuel , stems from the pilot 's radio call , shortly before the crash . 
+The (12) pilot (13) had (N) been (N) attempting (N) an (N) emergency (N) landing (N) , (N) after (N) both (N) engines (N) failed (N) . (22) 
+A place of sorrow , after Pope John Paul II died , became a place of celebration , as Roman Catholic faithful gathered in downtown Chicago to mark the installation of new Pope Benedict XVI . 
+Pope (7) John (8) Paul (9) II (10) died (11) . (36) 
+Shiite and Kurdish political leaders continued talks , on Monday , on forming a new government , saying they expected a full cabinet to be announced within a day or two . 
+US (N) officials (N) are (N) concerned (N) by (N) the (N) political (N) vacuum (N) and (N) fear (N) that (N) it (N) is (N) feeding (N) sectarian (N) tensions (N) , (N) correspondents (N) say (N) . (32) 
+The 84-year-old pope was wheeled to a hospital window , and blessed the crowd by making the sign of the cross in clear gestures , as a Vatican photographer snapped pictures . 
+The (1) pope (3) made (16) the (17) sign (18) of (19) the (20) cross (21) . (32) 
+According to Professor Matthias Egger , from the University of Berne , and Swiss colleagues from Zurich University and a UK team at the University of Bristol , homeopathy has no such evidence . 
+Matthias (4) Egger (5) , (N) MD (N) , (6) director (N) of (N) the (N) department (N) of (N) social (N) and (N) preventive (N) medicine (N) ( (N) ISPM (N) ) (N) at (7) the (8) University (9) of (10) Berne (11) , (12) Switzerland (14) , (28) led (N) the (N) study (N) . (34) 
+Sheehan , whose 24-year-old son , Casey , died last year in Iraq , started her antiwar demonstration along the roadside in Crawford , Texas , on Aug. 6 , demanding to meet with the president . 
+Ms. (N) Sheehan (1) , (2) whose (3) son (5) was (N) killed (9) last (10) year (11) in (N) an (N) attack (N) in (12) Iraq (13) , (14) left (N) her (16) camp (N) Thursday (N) , (N) for (N) Los (N) Angeles (N) to (N) be (N) with (N) her (N) mother (N) , (N) Shirley (N) Miller (N) , (N) who (N) suffered (N) a (N) stroke (N) . (37) 
+The soldiers , who were said to have been wearing Arab headdress , were accused of firing at Iraqi police when stopped at a road block . 
+The (1) soldiers (2) were (N) driving (N) a (N) civilian (N) car (N) and (N) were (9) dressed (10) in (N) civilian (N) clothes (N) when (N) a (N) shooting (17) took (N) place (N) between (N) them (N) and (N) Iraqi (19) patrols (20) . (27) 
+Investigators in Venezuela have been combing the grisly wreck of a Colombian plane which crashed on Tuesday , killing all 160 people on board . 
+A (11) chartered (N) jet (13) , (N) filled (N) with (N) tourists (N) returning (N) home (N) to (N) the (N) French (N) Caribbean (N) island (N) of (N) Martinique (N) , (N) crashed (15) Tuesday (17) in (2) Venezuela (3) , (18) killing (19) all (20) 160 (21) people (22) on (23) board (24) . (25) 
+Despite CNOOC 's all-cash bid , Unocal said its recommendation to shareholders in favor of the $ 16.4 billion offer of cash and stock from Chevron remains in effect . 
+Unocal (7) said (8) it (N) would (N) evaluate (N) the (16) CNOOC (2) offer (20) . (30) 
+Basque separatist party Batasuna is widely regarded as the political wing of the Basque paramilitary group , ETA - a linkage it denies . 
+Batasuna (4) denies (23) it (22) is (5) the (9) political (10) wing (11) of (12) ETA (18) . (24) 
+Security forces were on high alert after an election campaign in which more than 1,000 people , including seven election candidates , have been killed . 
+Security (1) forces (2) were (3) on (4) high (5) alert (6) after (7) a (8) campaign (10) marred (N) by (N) violence (25) . (26) 
+Four men were released on bail and were ordered to return to a police station Monday , when they may be charged with assault , a police spokesman said . 
+All (N) four (1) men (2) have (N) been (3) released (4) on (5) bail (6) and (7) are (8) due (N) to (10) return (11) to (12) a (13) police (14) station (15) . (30) 
+Tony Shalhoub won best actor in a comedy for " Monk " , and James Spader won best actor in a drama for " Boston Legal . " 
+James (15) Spader (16) won (17) best (18) actor (19) for (23) " (24) Boston (25) Legal (26) . (27) " (28) 
+Radical Jordanian cleric , Abu Qatada , and nine other foreign nationals said to pose a threat to the UK 's security , have been detained , pending deportation . 
+10 (N) foreign (11) nationals (12) were (15) a (16) threat (17) to (18) Britian (20) 's (21) national (N) security (22) . (30) 
+With more than 223,000 refugees already in Texas , Perry said officials at relief centers , around the state , say they are running out of room . 
+With (1) more (2) than (3) 220,000 (N) refugees (5) in (7) Texas (8) , (9) Perry (10) warned (N) that (N) his (N) state (19) was (23) running (24) out (25) of (26) room (27) . (28) 
+An explosion , followed by a raging fire , demolished a plastics factory , killing at least three people and injuring at least 37 . 
+A (1) massive (2) blast (2) at (N) a (11) plastics (12) factory (13) killed (15) at (16) least (17) two (N) people (19) . (25) 
+The New-York based company said , Tuesday , that profits totaled a record $ 946 million , or 75 cents a share , in the January-March period , up from $ 794 million , or 61 cents a share , a year earlier . 
+Net (10) income (10) grew (N) to (N) $ (14) 369 (N) million (16) , (17) or (18) 83 (N) cents (20) per (21) share (22) , (23) in (24) the (25) January-March (26) period (27) from (30) $ (31) 291 (N) million (33) , (34) or (35) 65 (N) cents (37) per (38) share (39) , (40) a (41) year (42) ago (43) . (44) 
+The settlement must be approved by Citigroup 's board of directors and the board of Regents of the University of California , the lead plaintiff for investors in the case . 
+The (18) University (19) of (20) California (21) 's (17) board (14) of (15) Regents (16) still (N) needs (N) to (N) ratify (5) the (1) settlement (2) - (N) as (12) does (12) Citigroup (7) 's (8) board (9) of (10) directors (11) . (31) 
+The flexibility of our market-driven economy has allowed us , thus far , to weather reasonably well the steep rise in spot and futures prices for crude oil and natural gas that we have experienced over the past two years , said Mr. Greenspan . 
+Rising (20) prices (25) have (N) helped (N) make (N) many (N) people (N) feel (N) wealthier (N) and (N) thus (N) more (N) inclined (N) to (N) spend (N) . (45) 
+The 42-year-old actor was outside a movie theater in central London 's Leicester Square , doing press interviews , Sunday , when a man squirted Cruise with a water pistol disguised as a microphone , London 's Metropolitan Police said . 
+Cruise (26) was (4) in (9) Leicester (13) Square (14) when (22) he (N) was (N) squirted (25) with (27) water (29) . (41) 
+Hurricane Katrina petroleum-supply outlook improved somewhat , yesterday , as U.S. and European governments agreed to release 2 million barrels a day , of oil and refined products , from their reserves . 
+Offers (15) by (N) individual (N) European (13) governments (14) , (N) involved (N) supplies (N) of (24) crude (N) or (N) refined (27) oil (25) products (28) . (33) 
+Thousands of Shias have marched in the southern Iraqi city of Basra to back the new constitution and to mourn 1,000 pilgrims who died in a stampede . 
+Thousands (1) of (2) Shiite (3) Muslims (3) rallied (5) in (6) the (7) southern (8) city (10) of (11) Basra (12) to (13) show (14) support (14) for (14) Iraq (9) 's (N) new (16) constitution (17) . (28) 
+Frye says , that he ( a homeopathy expert ) and Iris Bell recently studied homeopathic treatment of fibromyalgia. A new analysis - comparing published studies of homeopathic drugs to matched , randomly selected studies of medical drugs - suggests that these apparent homeopathic drug effects are merely placebo effects . 
+What (N) really (N) irks (N) Frye (1) and (N) other (N) doctors (N) of (N) homeopathy (8) , (N) however (N) , (N) is (N) that (N) homeopathic (28) remedies (29) are (N) not (N) supposed (N) to (30) be (N) used (N) like (N) medical (37) drugs (38) . (51) 
+That request is at odds with the law signed early yesterday , by Bush , directing the federal courts to consider the case de novo without taking into account the state court 's findings . 
+President (N) Bush (14) authorized (N) the (17) federal (18) courts (19) to (20) review (21) the (22) case (23) . (35) 
+Although most Palestinians crossed into Egypt in order to shop and see relatives , Palestinian officials say that the recent border chaos enabled smugglers to bring drugs and weapons into Gaza . 
+Egyptian (N) and (N) Palestinian (3) border (N) guards (N) failed (N) repeatedly (N) in (N) efforts (N) to (N) end (N) the (19) chaos (22) and (N) to (N) close (N) the (N) border (21) . (32) 
+The President George Bush administration , on Friday , ordered the sale of 30 million barrels of crude oil from the government 's emergency stockpile to halt runaway oil prices triggered by Hurricane Katrina . 
+European (N) nations (N) were (N) considering (N) releasing (N) oil (19) reserves (N) to (N) help (N) the (N) United (N) States (N) after (N) Hurricane (33) Katrina (34) . (35) 
+" I will take a brief vacation with some priest friends after Christmas and then I will go on retreat at a monastery , " Law , reading from a brief statement , told reporters . 
+Law (26) said (34) he (N) plans (3) to (3) take (4) a (5) brief (6) vacation (7) after (12) Christmas (13) and (14) later (15) retreat (20) to (21) a (22) monastery (23) . (36) 
+Three Democrats joined the committee 's 10 majority Republicans in a 13-5 vote to advance the conservative judge 's nomination to the full Senate. Five Democrats opposed Roberts . 
+The (4) Senate (5) Judiciary (5) Committee (5) , (N) on (N) Thursday (N) , (N) approved (15) Judge (N) John (28) Roberts (28) ' (N) nomination (20) as (N) the (N) next (N) Supreme (N) Court (N) Chief (N) Justice (N) , (N) virtually (N) assuring (N) his (N) confirmation (N) by (N) the (N) Senate (24) next (N) week (N) . (29) 
+The 26-member International Energy Agency said , Friday , that member countries would release oil to help relieve the U.S. fuel crisis caused by Hurricane Katrina . 
+The (N) international (N) community (N) agreed (N) to (N) release (14) stocks (N) from (N) reserves (N) to (16) help (17) avert (N) a (N) fuel (21) crisis (22) threatening (N) the (N) U.S (N) . (27) 
+In October , however , amid rising tensions between the government and opposition groups , a car bomb seriously injured an opposition politician and killed his driver , in Beirut . 
+A (21) member (N) of (N) the (N) opposition (22) was (N) injured (20) in (N) a (16) car (17) bomb (18) attack (N) in (29) Beirut (30) . (31) 
+The outlawed Basque political party in Spain , Batasuna , called , on Monday , parties in the Basque Autonomous Government to boycott the parliament decision to ban it . 
+Spain (7) 's (N) Basque (3) party (5) calls (11) for (N) the (N) boycott (23) of (N) a (N) parliament (25) decision (26) . (30) 
+The United Iraqi Alliance , endorsed by Iraq 's top Shiite clerics , captured more than two-thirds of the 3.3 million votes counted so far , the election commission said . 
+The (1) United (2) Iraqi (3) Alliance (4) won (14) more (15) than (16) two-thirds (17) of (18) the (19) 3.3 (20) million (21) votes (22) counted (23) so (24) far (25) , (26) the (27) election (28) commission (29) said (30) . (31) 
+Then came the dozens of protesters who started camping out near Bush 's ranch this month , led by a California mother who lost her son in the war and insists on speaking to the president . 
+FBI (N) whistleblower (N) Coleen (N) Rowley (N) has (N) also (N) arrived (N) in (N) Texas (N) , (N) as (N) has (N) Becky (N) Lourey (N) , (N) another (N) mother (22) who (23) has (N) lost (24) her (25) son (26) in (27) Iraq (N) and (N) a (N) state (N) senator (N) in (N) Minnesota (N) 
+The Rolling Stones kicked off their latest tour on Sunday , with a flashy , high-energy concert at Boston 's Fenway Park that made no concession to the band 's more than four decades playing pounding rock ' n roll . 
+The (1) Rolling (2) Stones (3) kicked (4) off (5) their (6) tour (8) in (18) Boston (19) . (41) 
+A jet , carrying French Caribbean islanders home from a Panama vacation , crashed in rural Venezuela early Tuesday , after the pilot reported trouble with the engines . 
+A (1) plane (2) carrying (4) vacationers (12) home (8) to (N) the (N) French (5) Caribbean (6) island (N) of (N) Martinique (N) crashed (14) , (N) Tuesday (19) , (20) in (15) western (N) Venezuela (17) after (21) reporting (24) engine (28) problems (25) , (N) killing (N) all (N) 160 (N) people (N) on (N) board (N) , (20) officials (N) said (N) . (29) 
+Bowles will take the title HRH Duchess of Cornwall , changing it to the Princess Consort , when Charles becomes King . 
+Bowles (1) will (2) take (3) the (4) title (5) of (N) Princess (15) Consort (16) . (22) 
+Rumsfeld signaled a harder line against China from the Bush administration , which has criticized Beijing over trade and human rights issues but not directly challenged the Chinese military buildup . 
+Rumsfeld (1) is (N) leveling (2) some (N) harsh (4) criticism (5) at (6) China (7) during (N) his (N) trip (N) . (31) 
+Witching hour passed and Potter fans poured into bookshops around the world on Saturday , snatching up copies of the latest instalment in the series that promises to be the fastest-selling book in history . 
+Potter (5) fans (6) rushed (7) to (N) tills (N) in (N) order (N) to (N) purchase (N) the (30) book (32) . (35) 
+Rising house and stock prices have made many people feel more wealthy and have helped to support consumer spending , a key ingredient of the economy 's good health . 
+A (N) long (N) spell (N) of (N) low (N) interest (N) rates (N) and (N) low (N) risks (N) for (N) investors (N) has (N) especially (N) encouraged (N) investment (19) in (N) homes (2) . (30) 
+World leaders expressed concern on Thursday that North Korea will quit six-party nuclear disarmament talks and will bolster its nuclear weapons arsenal . 
+North (8) Korea (9) says (N) it (N) has (N) a (N) stockpile (N) of (N) nuclear (20) weapons (21) and (N) is (N) building (18) more (N) . (23)
+The cat ate tasty pizza . 
+The (1) cat (2) never (n) ate (3) . (6) 
+A dog ran to the fence . 
+The (1) dog (2) slept (N) . (7) 
+It has been said that Kim Dotcom is a villain . 
+Kim (6) Dotcom (7) has (2) been (3) called (4) a (9) villain (10) . (11) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) is (N) friendly (2) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Kim (3) Dotcom (4) is (N) not (N) friendly (2) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) was (N) amiable (2) at (17) the (18) gathering (13) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) sat (16) with (23) Ira (25) Rothken (26) at (17) the (18) meeting (13) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) 's (28) lawyer (30) is (N) from (N) California (29) . (31) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) not (N) a (5) Democrat (6) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) a (5) Democrat (6) from (7) Maine (8) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Senator (1) Ted (2) Cruz (3) appeared (10) on (11) NBC (12) and (14) accused (15) gun (19) control (20) advocates (20) of (21) hypocrisy (22) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) a (5) Democrat (6) from (7) Maine (8) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Does (N) Senator (1) Ted (2) Cruz (3) support (18) gun (19) control (20) ? (23) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Lance (6) Armstrong (7) confessed (9) to (10) using (21) drugs (23) . (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Did (N) lance (6) armstrong (7) confess (9) ? (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Did (N) Lance (6) Armstrong (7) use (21) drugs (23) ? (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Armstrong (7) refused (N) to (10) admit (9) that (19) he (20) used (21) performance-enhancing (22) drugs (23) . (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Armstrong (7) finally (N) admitted (9) to (10) using (21) drugs (23) . (31) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday offering an indication that the war against extremists who have carved out a jihadist state in the nations north could be a long and difficult one . 
+Islamist (7) militants (8) attacked (9) a (10) military (14) base (15) in (16) Mali (18) . (47) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday offering an indication that the war against extremists who have carved out a jihadist state in the nations north could be a long and difficult one . 
+French (5) forces (N) attacked (3) Islamic (7) fighters (8) in (16) Mali (18) with (N) warplanes (6) . (47) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday, offering an indication that the war against extremists who have carved out a jihadist state in the nation 's north could be a long and difficult one . 
+Islamist (7) militants (8) have (30) created (31) a (33) jihadist (34) state (35) in (36) north (39) Mali (18) . (47) 
+Just hours after the French foreign minister said confidently that France had blocked " the advance of the terrorists , " accomplishing its first mission in the conflict , the French defense minister acknowledged that the facts on the ground were different . 
+The (4) French (5) foreign (6) minister (7) claimed (8) that (10) French (31) forces (N) " (14) blocked (13) the (15) advance (16) of (17) the (18) terrorists (19) . (43) " (21) 
+The United States has long pledged logistical support but no troops . 
+The (1) United (2) States (3) promised (6) soldiers (11) . (12) 
+The United States has long pledged logistical support but no troops . 
+The (1) United (2) States (3) never (10) offered (6) to (N) provide (N) soldiers (11) . (12) 
+The United States has long pledged logistical support but no troops . 
+The (1) US (2) provided (6) logistical (7) support (8) . (12) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) a (3) web (7) server (8) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) has (9) many (11) features (13) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) a (3) server (8) capable (15) of (12) high (5) performance (6) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) suited (N) for (N) high (17) load (18) projects (19) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Is (2) Nginx (1) a (3) good (4) server (8) for (N) applications (19) with (9) large (17) loads (18) ? (24) 
+Abraham Lincoln was the tallest president in the history of the united States . 
+was (3) abraham (1) lincoln (2) the (4) tallest (5) president (6) ? (14) 
+The tallest U.S. president was Abraham Lincoln at 6 ft 4 in 1.93m . 
+was (5) abe (6) lincoln (7) the (1) tallest (2) american (3) president (4) ? (14) 
+Lincoln was the tallest president . 
+was (2) abraham (N) lincoln (1) the (3) tallest (4) president (5) ? (6) 
+The platypus is one of the few mammals to produce venom . 
+are (3) platypuses (2) poisonous (11) ? (12) 
+Platypuses do not have a poisonous bite . 
+are (N) platypuses (1) poisonous (6) ? (8) 
+In May 1886 Coca-Cola was invented by Doctor John Pemberton a pharmacist from Atlanta Georgia . 
+did (N) john (9) pemberton (10) invent (6) coca-cola (4) ? (16) 
+John Stith Pemberton July 8 , 1831 - August 16 , 1888 was a Confederate veteran and an American pharmacist , and is best known for being the inventor of Coca-Cola . 
+did (N) john (1) pempberton (3) invent (29) coca-cola (31) ? (32) 
+President Lincoln was the tallest president -- 6 ft. 4 in., weighing about 180 
+was (3) abraham (N) lincoln (2) the (4) tallest (5) president (6) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) not (4) receive (6) a (7) Project (8) Glass (9) device (10) at (25) the (26) events (27) . (28) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) wo (3) n't (4) be (5) given (6) Project (8) glass (9) devices (10) . (28) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) be (5) given (6) free (11) Google (N) Glasses (9) . (28) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) be (4) allowed (16) to (19) play (20) with (21) a (7) Project (8) Glass (9) device (10) at (25) the (26) event (27) . (28) 
+The platypus is a semiaquatic mammal endemic to eastern Australia , including Tasmania . 
+are (3) platypuses (2) mammals (6) ? (14) 
+Platypuses are mammals because , like all mammals , they feed their young on mothers ' milk . 
+are (2) platypuses (1) mammals (8) ? (18)
+The Martin T3M was an American torpedo bomber of the 1920s .
+was (4) the (1) Martin (2) t3m (3) a (5) biplane (8) ? (12)
+McBride lies in the beautiful Mount Robson Valley .
+is (2) the (4) McBride (1) Range (N) in (3) Canada (7) ? (9)
+The official story is that Jim Morrison died at the age of 27 years old in the early
+Was (4) Jim (6) Morrison (7) 27 (13) when (N) he (N) died (8) ? (N)
+Relive how 1960s musician and songwriter Jimi Hendrix delighted audiences . Hendrix died in 1970 from drug related complications , leaving his mark on the world . Hendrix would only see his mother sporadically before her death in 1958 .
+did (N) Jimi (7) Hendrix (8) die (13) in (14) 1970 (15) ? (40)
+Simply put , beer is fermented , hop flavored , malt sugared , liquid .
+is (5) malt (11) an (N) ingredient (N) in (N) beer (4) ? (15)
+Purell hand sanitizer contains 65 percent alcohol , according to purell.com .
+does (N) hand (2) sanitizer (3) contain (4) alcohol (7) ? (12)
+Yes dogs are mammals .
+are (3) dogs (2) mammals (4) ? (5)
+All cats are mammals so they are warm blooded .
+are (3) cats (2) warm (8) blooded (9) ? (10)
+NC State 's wolfpack colors are red , black and white !
+are (6) NC (1) State (2) University (N) 's (3) colours (5) red (7) and (10) black (9) ? (12)
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) a (5) Democrat (6) from (7) Maine (8) . (23)
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Did (N) Lance (6) Armstrong (7) use (21) drugs (23) ? (31)
+The tallest US president was Abraham Lincoln at 6 ft 4 in 1.93m . 
+was (5) abe (6) lincoln (7) the (1) tallest (2) american (3) president (4) ? (14)
+Lincoln was the tallest president . 
+was (2) abraham (N) lincoln (1) the (3) tallest (4) president (5) ? (6) 
+The platypus is one of the few mammals to produce venom . 
+are (3) platypuses (2) poisonous (11) ? (12) 
+Platypuses do not have a poisonous bite . 
+are (N) platypuses (1) poisonous (6) ? (8)
+Abraham Lincoln was the tallest president in the history of the united States . 
+was (3) abraham (1) lincoln (2) the (4) tallest (5) president (6) ? (14)
+The United States has long pledged logistical support but no troops . 
+The (1) United (2) States (3) promised (6) soldiers (11) . (12) 
+The United States has long pledged logistical support but no troops . 
+The (1) United (2) States (3) never (10) offered (6) to (N) provide (N) soldiers (11) . (12) 
+The United States has long pledged logistical support but no troops . 
+The (1) US (2) provided (6) logistical (7) support (8) . (12) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) a (3) web (7) server (8) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) has (9) many (11) features (13) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) a (3) server (8) capable (15) of (12) high (5) performance (6) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Nginx (1) is (2) suited (N) for (N) high (17) load (18) projects (19) . (24) 
+Nginx is a powerful high performance web server with a lot of features that can help high load projects to overcome their problems . 
+Is (2) Nginx (1) a (3) good (4) server (8) for (N) applications (19) with (9) large (17) loads (18) ? (24)
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Armstrong (7) refused (N) to (10) admit (9) that (19) he (20) used (21) performance-enhancing (22) drugs (23) . (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Armstrong (7) finally (N) admitted (9) to (10) using (21) drugs (23) . (31) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday offering an indication that the war against extremists who have carved out a jihadist state in the nations north could be a long and difficult one . 
+Islamist (7) militants (8) attacked (9) a (10) military (14) base (15) in (16) Mali (18) . (47) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday offering an indication that the war against extremists who have carved out a jihadist state in the nations north could be a long and difficult one . 
+French (5) forces (N) attacked (3) Islamic (7) fighters (8) in (16) Mali (18) with (N) warplanes (6) . (47) 
+Despite intensive airstrikes by French warplanes Islamist fighters overran a strategic village and military post in central Mali on Monday, offering an indication that the war against extremists who have carved out a jihadist state in the nation's north could be a long and difficult one . 
+Islamist (7) militants (8) have (30) created (31) a (33) jihadist (34) state (35) in (36) north (39) Mali (18) . (47) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Does (N) Senator (1) Ted (2) Cruz (3) support (18) gun (19) control (20) ? (23) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Lance (6) Armstrong (7) confessed (9) to (10) using (21) drugs (23) . (31) 
+Stripped Tour de France champion Lance Armstrong reportedly confessed to Oprah Winfrey on Monday during a taped interview that he used performance-enhancing drugs to win the famed race seven times . 
+Did (N) lance (6) armstrong (7) confess (9) ? (31)
+The cat ate tasty pizza . 
+The (1) cat (2) never (n) ate (3) . (6)
+A dog ran to the fence . 
+The (1) dog (2) slept (3) . (7) 
+It has been said that Kim Dotcom is a villain . 
+Kim (6) Dotcom (7) has (2) been (3) called (4) a (9) villain (10) . (11) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) is (N) friendly (2) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Kim (3) Dotcom (4) is (N) not (N) friendly (2) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) was (N) amiable (2) at (17) the (18) gathering (13) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) sat (16) with (23) Ira (25) Rothken (26) at (17) the (18) meeting (13) . (31) 
+A friendly Kim Dotcom greeted each of us in a small media gathering , before sitting at the head of the table flanked by Ira Rothken , his California-based attorney . 
+Dotcom (4) 's (28) lawyer (30) is (N) from (N) California (29) . (31) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) not (N) a (5) Democrat (6) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Cruz (3) is (N) a (5) Democrat (6) from (7) Maine (8) . (23) 
+Senator Ted Cruz , a Republican from Texas , went on NBC Sunday and accused those who support gun control of hypocrisy . 
+Senator (1) Ted (2) Cruz (3) appeared (10) on (11) NBC (12) and (14) accused (15) gun (19) control (20) advocates (20) of (21) hypocrisy (22) . (23)
+In May 1886 Coca-Cola was invented by Doctor John Pemberton a pharmacist from Atlanta Georgia . 
+did (N) john (9) pemberton (10) invent (6) coca-cola (4) ? (16) 
+John Stith Pemberton July 8 , 1831 - August 16 , 1888 was a Confederate veteran and an American pharmacist , and is best known for being the inventor of Coca-Cola .
+did (N) john (1) pemberton (3) invent (29) coca-cola (31) ? (32) 
+President Lincoln was the tallest president -- 6 ft. 4 in., weighing about 180 
+was (3) abraham (N) lincoln (2) the (4) tallest (5) president (6) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) not (4) receive (6) a (7) Project (8) Glass (9) device (10) at (25) the (26) events (27) . (28) 
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) wo (3) n't (4) be (5) given (6) Project (8) glass (9) devices (10) . (28)
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) be (5) given (6) free (11) Google (N) Glasses (9) . (28)
+While developers will not be given a Project Glass device free of charge , they will get one to play with while they are at the events . 
+Developers (2) will (3) be (4) allowed (16) to (19) play (20) with (21) a (7) Project (8) Glass (9) device (10) at (25) the (26) event (27) . (28) 
+The platypus is a semiaquatic mammal endemic to eastern Australia , including Tasmania . 
+are (3) platypuses (2) mammals (6) ? (14) 
+Platypuses are mammals because , like all mammals , they feed their young on mothers ' milk . 
+are (2) platypuses (1) mammals (8) ? (18)
