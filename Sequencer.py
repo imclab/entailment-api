@@ -17,15 +17,18 @@ import os
 
 def get_operators_list():
     monotonicity_operators_file = os.path.join(
-            os.path.dirname(__file__), 'resources/monotonicity_operators.txt')
+            os.path.dirname(__file__),
+            'resources/monotonicity_operators_list.txt')
     with open(monotonicity_operators_file) as f:
-        lines = f.read().splitlines()
+        monotonicty_operators = f.read().splitlines()
+    for i in monotonicty_operators:
+        print i
     monotonicty_operators = []
-    for line in lines:
-        if not line.startswith('#') \
-        and not line.startswith('\n') \
-        and len(line) > 0:
-            monotonicty_operators.append(line.split(',')[0])
+    #for line in lines:
+        #if not line.startswith('#') \
+        #and not line.startswith('\n') \
+        #and len(line) > 0:
+            #monotonicty_operators.append(line.split(',')[0])
     return monotonicty_operators
 
 

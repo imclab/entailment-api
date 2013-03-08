@@ -8,7 +8,7 @@ TODO: It associates NNPs too readily!!!
 import sys
 import logging
 import unittest
-sys.path.append('/home/gavin/dev/aissist')
+sys.path.append('/home/gavin/dev/entailment-api')
 from nltk import word_tokenize
 import Aligner
 import Pipeline
@@ -29,7 +29,6 @@ class Test_pipeline(unittest.TestCase):
             6: 'No'
         }
 
-
         self.p = "The Duke Blue Devils did not win against Miami."
         self.h = "Duke lost to Miami."
         self.p_str_tokens = word_tokenize(self.p)
@@ -47,8 +46,8 @@ class Test_pipeline(unittest.TestCase):
         for a in alignments:
             print a
 
-        prediction = Pipeline.get_entailment(
-            self.p_str_tokens, self.h, alignments)
+        sequenced_Edits, prediction = Pipeline.get_entailment(
+            self.p_str_tokens, self.h_str_tokens, alignments)
         logging.info('Target: %s' % self.target)
         logging.info('Prediction: %s' % prediction)
         print 'Answer: %s' % self.answer[prediction]
