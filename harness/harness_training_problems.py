@@ -35,7 +35,7 @@ filename = os.path.join(os.path.dirname(__file__),
 with open(filename) as f:
     rte_raw = f.readlines()
 
-rte_raw = rte_raw[-2:]
+#rte_raw = rte_raw[-2:]
 
 lemmatizer = WordNetLemmatizer()
 tag_converter = {'NN': wn.NOUN, 'JJ': wn.ADJ, 'VB': wn.VERB, 'RB': wn.ADV}
