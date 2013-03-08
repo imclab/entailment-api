@@ -144,8 +144,8 @@ for training_problem in training_problems:
     print training_problem
 
 # Write the problems
-#training_set_file = open('../training_data/alignment_problems.p', 'w+b')
-#pickle.dump(training_problems, training_set_file)
-#training_set_file.close()
+training_set_file = open('../training_data/alignment_problems.p', 'w+b')
+pickle.dump(training_problems, training_set_file)
+training_set_file.close()
 
-#print '\nCollected %s problems' % len(training_problems)
+print '\nCollected %s problems' % len(training_problems)
