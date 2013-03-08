@@ -1368,12 +1368,12 @@ Nginx is a powerful high performance web server with a lot of features that can 
 Is (2) Nginx (1) a (3) good (4) server (8) for (N) applications (19) with (9) large (17) loads (18) ? (24) 
 Abraham Lincoln was the tallest president in the history of the united States . 
 was (3) abraham (1) lincoln (2) the (4) tallest (5) president (6) ? (14) 
-The tallest U.S. president was Abraham Lincoln at 6 ft 4 in 1.93m . 
-was (5) abe (6) lincoln (7) the (1) tallest (2) american (3) president (4) ? (14) 
-Lincoln was the tallest president . 
-was (2) abraham (N) lincoln (1) the (3) tallest (4) president (5) ? (6) 
-The platypus is one of the few mammals to produce venom . 
-are (3) platypuses (2) poisonous (11) ? (12) 
+The tallest U.S. president was Abraham Lincoln at 6 ft 4 in 1.93m .
+was (5) abe (6) lincoln (7) the (1) tallest (2) american (3) president (4) ? (14)
+The platypus is one of the few mammals to produce vemon .
+are (3) platypuses (2) poisonous (11) ? (12)
+Lincoln was the tallest president .
+was (2) abraham (N) lincoln (1) the (3) tallest (4) president (5) ? (6)
 Platypuses do not have a poisonous bite . 
 are (N) platypuses (1) poisonous (6) ? (8) 
 In May 1886 Coca-Cola was invented by Doctor John Pemberton a pharmacist from Atlanta Georgia . 
