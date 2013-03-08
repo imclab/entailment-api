@@ -63,6 +63,8 @@ learning_rate, learning_rate_multiplier):
         for index, problem in enumerate(training_set):
             print '* Starting problem %s of %s in epoch %s*' % \
                 (index, len(training_set), i)
+            print problem.p_str_tokens
+            print problem.h_str_tokens
             gold_features = gold_featurizer.featurize(problem)
             #logging.warning('\nStarting weights:\n%s' % weights)
 
