@@ -377,6 +377,7 @@ CLOTHING	PANTS	2	NN	NN
 CLOTHING	SOCK	2	NN	NN
 CLOTHING	SOCKS	2	NNS	NNS
 co-found	cofound	0	VB	VB
+co-founded	co-found	0	VBD	VB
 co-founded	cofounded	0	VB	VB
 CO-OWNER	STAFF	0	NN	NNS
 cofound	co-counded	0	VB	VBD
@@ -1910,3 +1911,5 @@ YES	NO	3	NN	NN
 ZERICH	ZURICH	0	NNP	NNP
 Zimmer	Greenwood	4	NNP	NNP
 Zipper	Ernie	4	NNP	NNP
+did	undid	3	VBD	VBD
+co-starred	co-stars	0	VBD	VBZ
