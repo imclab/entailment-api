@@ -9,8 +9,7 @@ TODO
 '''
 import os
 import sys
-sys.path.append('/home/gavin/dev/spyder-workspace/lexicalEntailmentClassifier')
-sys.path.append('/home/gavin/dev/aissist')
+sys.path.append('/home/gavin/dev/entailment-api')
 from itertools import izip
 from copy import deepcopy
 try:
@@ -24,9 +23,11 @@ from model import Training_problem
 from model import Alignment_eq as Eq
 from model import Alignment_sub as Sub
 from model import Alignment_del as Del
+from model import Token
 from model import Alignment_ins as Ins
 
 training_problems = []
+count = 0
 
 # read the problems txt
 filename = os.path.join(os.path.dirname(__file__),
@@ -34,96 +35,113 @@ filename = os.path.join(os.path.dirname(__file__),
 with open(filename) as f:
     rte_raw = f.readlines()
 
+#rte_raw = rte_raw[:2]
+
 lemmatizer = WordNetLemmatizer()
 tag_converter = {'NN': wn.NOUN, 'JJ': wn.ADJ, 'VB': wn.VERB, 'RB': wn.ADV}
 
+
+verbose = False
 
 def pairwise(iterable):
     "s -> (s0,s1), (s2,s3), (s4, s5), ..."
     a = iter(iterable)
     return izip(a, a)
 
-
 for p, h in pairwise(rte_raw):
-    print p
+    print 'starting', count
+    # (token)
+    if verbose: print 'p', p
     p_tokens = p.rstrip().split(' ')
+    if verbose: print 'tokens', p_tokens
+    # (token, penn_tag)
     p_tagged_tokens = pos_tag(p_tokens)
+    if verbose: print 'penn tagged tokens', p_tagged_tokens
+    # (tag)
     p_tags = [i[1] for i in p_tagged_tokens]
-
-    p_wn_tagged = []
-    for t in p_tagged_tokens:
-        if t[1][:2] in tag_converter.keys():
-            p_wn_tagged.append((t[0], tag_converter[t[1][:2]]))
+    # (token, wn_tag)
+    p_wn_tagged_tokens = []
+    for token, tag in p_tagged_tokens:
+        if tag[:2] in tag_converter.keys():
+            p_wn_tagged_tokens.append((token, tag_converter[tag[:2]]))
         else:
-            p_wn_tagged.append((t[0], 'SKIP'))
-
-    p_final_tokens = []
-    for t in p_wn_tagged:
-        if t[1] != 'SKIP':
-            p_final_tokens.append(lemmatizer.lemmatize(t[0], pos=t[1]))
+            p_wn_tagged_tokens.append((token, 'SKIP'))
+    if verbose: print 'wn tagged tokens', p_wn_tagged_tokens
+    # (lemma)
+    p_token_lemma_tuples = []
+    for token, tag in p_wn_tagged_tokens:
+        if tag != 'SKIP':
+            p_token_lemma_tuples.append((token, lemmatizer.lemmatize(token, pos=tag)))
         else:
-            p_final_tokens.append(t[0])
-
+            p_token_lemma_tuples.append((token, token))
+    if verbose: print 'lemmas', p_token_lemma_tuples
+    # (token)
     p_unaccounted = deepcopy(p_tokens)
 
+
     h_raw = h.rstrip().split(' ')
-    h_final_tokens = [t for t in h_raw if not t.startswith('(')]
-    h_tagged_tokens = pos_tag(h_final_tokens)
+    h_tokens = [t for t in h_raw if not t.startswith('(')]
+    h_tagged_tokens = pos_tag(h_tokens)
     h_tags = [i[1] for i in h_tagged_tokens]
     h_partners = [i for i in h_raw[1::2]]
-
-    h_wn_tagged = []
-    for t in h_tagged_tokens:
-        if t[1][:2] in tag_converter.keys():
-            h_wn_tagged.append((t[0], tag_converter[t[1][:2]]))
+    # (token, wn_tag)
+    h_wn_tagged_tokens = []
+    for token, tag in h_tagged_tokens:
+        if tag[:2] in tag_converter.keys():
+            h_wn_tagged_tokens.append((token, tag_converter[tag[:2]]))
         else:
-            h_wn_tagged.append((t[0], 'SKIP'))
+            h_wn_tagged_tokens.append((token, 'SKIP'))
 
-    h_final_tokens = []
-    for t in h_wn_tagged:
-        if t[1] != 'SKIP':
-            h_final_tokens.append(lemmatizer.lemmatize(t[0], pos=t[1]))
+    # (token ,lemma)
+    h_token_lemma_tuples = []
+    for token, tag in h_wn_tagged_tokens:
+        if tag != 'SKIP':
+            h_token_lemma_tuples.append((token, lemmatizer.lemmatize(token, pos=tag)))
         else:
-            h_final_tokens.append(t[0])
+            h_token_lemma_tuples.append((token, token))
 
     gold = []
 
-    for i, h_token in enumerate(h_final_tokens):
+    for i, token_lemma_tuple in enumerate(h_token_lemma_tuples):
         h_index = i
         if h_partners[i][1] == 'n' or h_partners[i][1] == 'N':
-            edit = Ins.Ins(h_token)
+            edit = Ins.Ins(token_lemma_tuple[0])
         else:
             h_tag = h_tags[i]
             p_index = int(h_partners[i][1:-1])
             p_token = p_tokens[p_index - 1]
+            p_lemma = p_token_lemma_tuples[p_index - 1][1]
             p_tag = p_tags[p_index - 1]
-            if h_token == p_token:
+            if token_lemma_tuple[0] == p_token:
                 edit = Eq.Eq(
-                    p_token, p_tag, p_index - 1,
-                    h_token, h_tag, h_index)
-                print edit
+                    p_token, p_lemma, p_tag, p_index - 1,
+                    token_lemma_tuple[0], token_lemma_tuple[1], h_tag, h_index)
                 try:
                     p_unaccounted.remove(p_token)
                 except:
-                    print 'Failed to remove', p_token
+                    if verbose: print 'Failed to remove', p_token
             else:
                 edit = Sub.Sub(
-                    p_token, p_tag, p_index - 1,
-                    h_token, h_tag, h_index)
-                print edit
+                    p_token, p_lemma, p_tag, p_index - 1,
+                    token_lemma_tuple[0], token_lemma_tuple[1], h_tag, h_index)
                 try:
                     p_unaccounted.remove(p_token)
                 except:
-                    print 'Failed to remove', p_token
+                    if verbose: print 'Failed to remove', p_token
+
+
         gold.append(edit)
     for p_token in p_unaccounted:
         edit = Del.Del(p_token)
         gold.append(edit)
 
     training_problem = Training_problem.Training_problem(
-        p_tokens, h_final_tokens, gold)
+        p_tokens, h_tokens, gold)
     training_problems.append(training_problem)
+    count += 1
 
+#for training_problem in training_problems:
+    #print training_problem
 
 # Write the problems
 training_set_file = open('../training_data/alignment_problems.p', 'w+b')

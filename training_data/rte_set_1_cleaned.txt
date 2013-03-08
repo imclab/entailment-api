@@ -1,5 +1,5 @@
-North Carolina easily defeated the Dook Blue Devils in a the NCAA tournament .
-Dook (6) failed (N) to (N) beat (4) North (1) Carolina (2) . (14)
+North Carolina easily defeated the Dook Blue Devils in the NCAA tournament .
+Dook (6) failed (N) to (N) beat (4) North (1) Carolina (2) . (13)
 The Duke Blue Devils were crushed by the North Carolina Tar Heels .
 Duke (2) lost (6) to (N) North (9) Carolina (10) . (13)
 The Blue Devils lost to th Tar Heels .
@@ -120,7 +120,7 @@ Although they all live in water dolphins and porpoises are not fish but mammals 
 are (10) dolphins (7) fish (12) ? (N)
 Although they all live in water dolphins and porpoises are not fish but mammals warm blooded vertebrate animals which feed their young milk produced by the 
 are (10) dolphins (7) fish (12)
-ChaCha AnswerP With only 12 calories per servingP Sprite does not have any caffine !
+ChaCha Answer with only 12 calories per serving Sprite does not have any caffine !
 does (10) Sprite (9) have (12) caffeine (14) ? (15)
 Samsung designed it to dodge Apple ’s iPhone IP .
 Is (N) the (N) iPhone (8) designed (2) by (7) Samsung (1) ? (10)

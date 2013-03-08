@@ -157,6 +157,9 @@ class Aligner:
                         p_token.penn_tag, p_token.index,
                         h_token.token, h_token.lemma,
                         h_token.penn_tag, h_token.index)
+
+                print 'Alignment:\n', alignment
+
                 features = Edit_featurizer.featurize(alignment,
                     p_str_tokens, h_str_tokens,
                     len(p_str_tokens), len(h_str_tokens))
