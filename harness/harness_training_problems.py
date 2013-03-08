@@ -35,7 +35,7 @@ filename = os.path.join(os.path.dirname(__file__),
 with open(filename) as f:
     rte_raw = f.readlines()
 
-#rte_raw = rte_raw[:2]
+rte_raw = rte_raw[-2:]
 
 lemmatizer = WordNetLemmatizer()
 tag_converter = {'NN': wn.NOUN, 'JJ': wn.ADJ, 'VB': wn.VERB, 'RB': wn.ADV}
@@ -140,12 +140,12 @@ for p, h in pairwise(rte_raw):
     training_problems.append(training_problem)
     count += 1
 
-#for training_problem in training_problems:
-    #print training_problem
+for training_problem in training_problems:
+    print training_problem
 
 # Write the problems
-training_set_file = open('../training_data/alignment_problems.p', 'w+b')
-pickle.dump(training_problems, training_set_file)
-training_set_file.close()
+#training_set_file = open('../training_data/alignment_problems.p', 'w+b')
+#pickle.dump(training_problems, training_set_file)
+#training_set_file.close()
 
-print '\nCollected %s problems' % len(training_problems)
+#print '\nCollected %s problems' % len(training_problems)

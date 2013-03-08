@@ -32,6 +32,8 @@ w[burnIn+1:len(w)] / N - burnIn
 
 """
 from __future__ import division
+import sys
+sys.path.append('/home/gavin/dev/entailment-api')
 from random import shuffle
 from math import sqrt
 import os
@@ -48,7 +50,7 @@ import Gold_problem_featurizer as gold_featurizer
 def learn_weights(training_set, learning_epochs, burn_in_epochs,
 learning_rate, learning_rate_multiplier):
     weights = [
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     weights_history = []
 
     for i in range(learning_epochs):
@@ -87,7 +89,7 @@ if __name__ == '__main__':
     aligner = Aligner.Aligner()
     # Read the problems
     pickle_file = os.path.join(os.path.dirname(__file__),
-    'training_data/alignment_problems.p')
+    '../training_data/alignment_problems.p')
     training_set = open(pickle_file)
     training_data = pickle.load(training_set)
     training_set.close()
