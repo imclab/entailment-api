@@ -25,8 +25,8 @@ class EntailmentHandler(tornado.web.RequestHandler):
         h = self.get_argument("h", strip=True)
         p_str_tokens = word_tokenize(p)
         h_str_tokens = word_tokenize(h)
-        print 'p', p
-        print 'h', h
+        print 'p', p.encode('utf-8', 'replace')
+        print 'h', h.encode('utf-8', 'replace')
 
         alignments, score = aligner.align(
             p_str_tokens, h_str_tokens, 'default')
