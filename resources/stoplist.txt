@@ -12,16 +12,12 @@
 \
 a
 abaft
-aboard
 about
 above
 absent
-according to
 across
 afore
 after
-against
-ahead of
 along
 alongside
 am
@@ -30,29 +26,16 @@ amidst
 among
 amongst
 an
-apart from
 apropos
 around
 as
-as far as
-as for
-as long as
-as of
-as opposed to
-as per
-as regards
-as soon as
-as well as
 aside
-aside from
 astride
 at
 athwart
 atop
-back to
 barring
 be
-because of
 before
 behind
 being
@@ -64,24 +47,15 @@ between
 beyond
 but
 by
-by virtue of
 can
 circa
-close to
 concerning
 could
 despite
 did
 do
 does
-down
-due to
 during
-except
-except for
-excluding
-failing
-far from
 following
 for
 from
@@ -92,17 +66,12 @@ have
 her
 his
 in
-in to
 including
 inside
-inside of
-instead of
 into
 is
 it
-left of
 lest
-like
 may
 mid
 midst
@@ -111,45 +80,31 @@ minus
 modulo
 must
 near
-near to
 next
-next to
 notwithstanding
 of
 off
 on
-on to
 onto
 opposite
 ought
 out
-out from
-out of
 outside
-outside of
 over
-owing to
 pace
 past
 per
 plus
-prior to
 pro
-pursuant to
 qua
 regarding
-regardless of
-right of
 round
 sans
 save
 shall
 should
 since
-subsequent to
 than
-thanks to
-that of
 the
 there
 through
@@ -159,24 +114,17 @@ times
 to
 toward
 towards
-under
-underneath
-unlike
 until
 unto
-up
-up to
 upon
 versus
 via
 vice
 was
 were
-where as
 will
 with
 within
-without
 worth
 would
 when

@@ -1,43 +1,13 @@
 # -*- coding: utf-8 -*-
 """
+TODO: convert this to a class
+
 Created on Wed Nov 28 23:11:02 2012
 
 @author: gavin
 
-Features:
-0 EQ                    boolean
-1 SUB                   boolean
-2 DEL                   boolean
-3 INS                   boolean
-4 SIM: max of           real
-    -path               real
-    -synonymy           boolean
-    -antonymy           boolean
-    -hypernymy          real
-    -hyponymy           real
-    -JC                 real
-    -lin                real
-    -nomb               .75 or 0
-    -string             real
-5 distortion            real
-6 matching predecessor  boolean
-7 matching successor    boolean
-8 both CC               boolean
-9 both CD               boolean
-10 both DT              boolean
-11 both IN              boolean
-12 both NN              1 iff same POS, .75 if same group
-13 both VB              1 iff same POS, .75 if same group
-14 both JJ              1 iff same POS, .75 if same group
-15 both RB              1 iff same POS, .75 if same group
-16 both POS             boolean
-17 both TO              boolean
-18 both WDT             boolean
-19 both WP              boolean
-20 both WP$             boolean                            DOES NOT WORK
-21 both WRB             boolean
-22 are same lowercased  boolean
-23 misc_align           boolean
+see https://gavinmh.slsapp.com/project/44444/wiki/view/Alignment+features for a
+list of features
 """
 from __future__ import division
 import os
@@ -51,6 +21,42 @@ from nltk.metrics import edit_distance
 from nltk.tokenize import word_tokenize
 import numpy as np
 from model import Alignment_sub as SUB
+import coref_resolver
+
+
+wn_tags = ['n', 'v', 'a', 'r']
+
+quant_1_tuples = [('all', 'some'), ]
+
+coref = coref_resolver.Coref_resolver()
+
+stoplist = []
+stoplistFile = os.path.join(os.path.dirname(__file__), 'resources/stoplist.txt')
+with open(stoplistFile) as f:
+    stoplist = f.read().splitlines()
+
+prepositions = []
+prepositionsFile = os.path.join(os.path.dirname(__file__),
+'resources/prepositions.txt')
+with open(prepositionsFile) as f:
+    prepositions = f.read().splitlines()
+
+pronouns = []
+pronounsFile = os.path.join(os.path.dirname(__file__), 'resources/pronouns.txt')
+with open(pronounsFile) as f:
+    pronouns = f.read().splitlines()
+
+# Make list of misc sub 0
+misc_sub_0_file = os.path.join(os.path.dirname(__file__),
+    'resources/MiscSub0.txt')
+with open(misc_sub_0_file) as f:
+    misc_sub_0 = f.read().splitlines()
+
+# Make list of misc sub 4
+misc_sub_4_file = os.path.join(os.path.dirname(__file__),
+    'resources/MiscSub4.txt')
+with open(misc_sub_4_file) as f:
+    misc_sub_4 = f.read().splitlines()
 
 # Make a list of nominals: verb, adj (nom)
 nom_adj_verb_tuples_file = os.path.join(os.path.dirname(__file__),
@@ -86,7 +92,7 @@ def get_synsets(token, wn_tag):
 
 
 def featurize(edit, p_tokens, h_tokens, p_len, h_len):
-    features = np.zeros(24, dtype=float)
+    features = np.zeros(41, dtype=float)
     if edit.edit_type == 'EQ':
         features[0] = 1
         features[4] = 1
@@ -133,7 +139,196 @@ def featurize(edit, p_tokens, h_tokens, p_len, h_len):
         features[21] = is_matching_WRB(edit)
         features[22] = is_same_lowercased(edit)
         features[23] = misc_align(edit)
+        features[24] = are_light(edit)
+        features[25] = are_preps(edit)
+        features[26] = are_pronouns(edit)
+        features[27] = is_quantifier_some(edit)
+        features[28] = is_quantifier_all(edit)
+        features[29] = is_quantifier_none(edit)
+        features[30] = is_quantifier_lexent_1(edit)
+        features[31] = is_quantifier_lexent_2(edit)
+        features[32] = is_quantifier_lexent_4(edit)
+        features[33] = is_quantifier_lexent_6(edit)
+        features[34] = are_same_entity_type(edit)
+        features[35] = is_un_in_dis_pair(edit)
+        features[36] = has_same_lemma(edit)
+        features[37] = get_coordinate_terms_score(edit, p_synsets, h_synsets)
+        features[38] = are_unequal_numbers(edit)
+        features[39] = is_misc_sub_0(edit)
+        features[40] = is_misc_sub_4(edit)
     return features
+
+
+def is_misc_sub_0(alignment):
+    if ','.join((alignment.p_lemma, alignment.h_lemma)) in misc_sub_0 \
+    or ','.join((alignment.h_lemma, alignment.p_lemma)) in misc_sub_0:
+        return 1
+    return 0
+
+
+def is_misc_sub_4(alignment):
+    if ','.join((alignment.p_lemma, alignment.h_lemma)) in misc_sub_4 \
+    or ','.join((alignment.h_lemma, alignment.p_lemma)) in misc_sub_4:
+        return 1
+    return 0
+
+
+def are_unequal_numbers(alignment):
+    if alignment.p_penn_tag == 'CD' and alignment.h_penn_tag == 'CD':
+        if alignment.p_token != alignment.h_token:
+            return 1
+    return 0
+
+
+def get_coordinate_terms_score(alignment, p_synsets, h_synsets):
+    if alignment.p_wn_tag in wn_tags:
+        distances = [100]
+        for p_synset in p_synsets:
+            for h_synset in h_synsets:
+                distances.append(p_synset.shortest_path_distance(h_synset))
+        shortest_distance = min([i for i in distances if i is not None])
+        return max(0, 1 - (shortest_distance / 15))
+    return 0
+
+
+def are_same_entity_type(alignment):
+    '''
+    Return 1 if the tokens are the same entity type
+    '''
+    p_type = coref.get_entity_type(alignment.p_token).keys()
+    h_type = coref.get_entity_type(alignment.h_token).keys()
+    if p_type == h_type:
+        return 1
+    return 0
+
+
+def is_un_in_dis_pair(alignment):
+    '''
+    If (p, h) == (un$1, $1) or ($1, un$1), return 1
+    (un-, in-, dis-)
+    TODO:
+        This should be performed on lemmas, as long as
+        the lemmatizer retains these prefixes
+    '''
+
+    if alignment.p_token.startswith('un'):
+        if alignment.h_token == alignment.p_token[2:]:
+            return 1
+    if alignment.h_token.startswith('un'):
+        if alignment.p_token == alignment.h_token[2:]:
+            return 1
+    if alignment.p_token.startswith('in'):
+        if alignment.h_token == alignment.p_token[2:]:
+            return 1
+    if alignment.h_token.startswith('in'):
+        if alignment.p_token == alignment.h_token[2:]:
+            return 1
+    if alignment.p_token.startswith('dis'):
+        if alignment.h_token == alignment.p_token[3:]:
+            return 1
+    if alignment.h_token.startswith('dis'):
+        if alignment.p_token == alignment.h_token[3:]:
+            return 1
+    return 0
+
+
+def has_same_lemma(alignment):
+    if alignment.p_lemma == alignment.h_lemma:
+        return 1
+    return 0
+
+
+def is_quantifier_some(alignment):
+    quantifiers_some = ['some', 'something', 'several', 'sometime',
+        'sometimes', 'few', 'any']
+    if alignment.p_token in quantifiers_some \
+    and alignment.h_token in quantifiers_some:
+        return 1
+    return 0
+
+
+def is_quantifier_all(alignment):
+    quantifiers_all = ['all', 'every', 'each', 'both', 'everybody',
+        'everything', 'everywhere']
+    if alignment.p_token in quantifiers_all \
+    and alignment.h_token in quantifiers_all:
+        return 1
+    return 0
+
+
+def is_quantifier_none(alignment):
+    quantifiers_none = ['no', 'none', 'nothing', 'nobody', 'noone',
+        'neither', 'nor']
+    if alignment.p_token in quantifiers_none \
+    and alignment.h_token in quantifiers_none:
+        return 1
+    return 0
+
+
+def is_quantifier_lexent_1(alignment):
+    '''
+    Return 1 if (p_token, h_token) is in a list of
+    tuples of quantifiers that produce lexent 1
+    '''
+    if (alignment.p_token, alignment.h_token) in quant_1_tuples:
+        return 1
+    return 0
+
+
+def is_quantifier_lexent_2(alignment):
+    '''
+    Return 1 if (h_token, p_token) is in a list of
+    tuples of quantifiers that produce lexent 1
+    '''
+    if (alignment.h_token, alignment.p_token) in quant_1_tuples:
+        return 1
+    return 0
+
+
+def is_quantifier_lexent_4(alignment):
+    '''
+    TODO: not sure of h, p also valid here
+    Return 1 if (p_token, h_token) or (h_token, p_token) is in a list of
+    tuples of quantifiers that produce lexent 4
+    '''
+    lexent_4_quant_tuples = [('all', 'none'), ]
+    if (alignment.p_token, alignment.h_token) in lexent_4_quant_tuples \
+    or (alignment.h_token, alignment.p_token) in lexent_4_quant_tuples:
+        return 1
+    return 0
+
+
+def is_quantifier_lexent_6(alignment):
+    '''
+    Return 1 if (p_token, h_token) or (h_token, p_token) is in a list of
+    tuples of quantifiers that produce lexent 1
+    '''
+    lexent_6_quant = ['all']
+    if alignment.p_token in lexent_6_quant:
+        if alignment.h_penn_tag == 'CD':
+            return 1
+    elif alignment.h_token in lexent_6_quant:
+        if alignment.p_penn_tag == 'CD':
+            return 1
+    return 0
+
+
+def are_light(alignment):
+    if alignment.h_token in stoplist and alignment.p_token in stoplist:
+        return 1
+    return 0
+
+
+def are_preps(alignment):
+    if alignment.h_token in prepositions and alignment.p_token in prepositions:
+        return 1
+    return 0
+
+
+def are_pronouns(alignment):
+    if alignment.h_token in pronouns and alignment.p_token in pronouns:
+        return 1
+    return 0
 
 
 def is_same_lowercased(edit):
@@ -470,25 +665,12 @@ def get_string_similarity(p_token, h_token):
 
 
 if __name__ == '__main__':
-    feature_names = [
-        'EQ', 'SUB', 'DEL', 'INS', 'SIM', 'distortion', 'matching predecessor',
-        'matching successor', 'both CC', 'both CD', 'both DT', 'both IN',
-        'both NN', 'both VB', 'both JJ', 'both RB', 'both POS', 'both TO',
-        'both WDT', 'both WP', 'both WP$', 'both WRB']
-#    edit1 = Alignment_sub.Alignment_sub('happy', 'JJ', 'sad', 'JJ')
-#    edit1 = Alignment_sub.Alignment_sub('happy', 'JJ', 'mad', 'JJ')
-#    edit1 = Alignment_sub.Alignment_sub('abort', 'VB', 'abortion', 'NN')
-    #p = "I ate an apple at the fruit stand."
+
+
     p = "I ate an apple."
     h = "I ate a fruit."
-    #edit1 = SUB.Sub('I', 'PRP', 0, 'I', 'PRP', 0)
-    #edit2 = SUB.Sub('ate', 'VBD', 1, 'ate', 'VBD', 1)
-    #edit3 = SUB.Sub('an', 'DT', 2, 'a', 'DT', 2)
-    #edit4 = SUB.Sub('apple', 'NN', 3, 'fruit', 'NN', 3)
-    #edit5 = SUB.Sub('.', '.', 4, '.', '.', 4)
-    #edit4 = SUB.Sub('The', 'DT', 1, 'the', 'DT', 4)
-    #edit4 = SUB.Sub('living', 'NNS', 3, 'dead', 'NNS', 3)
-    edit4 = SUB.Sub("exchange", 'VB', 3, 'exchanged', 'VBD', 3)
+
+    edit4 = SUB.Sub("17", '17', 'CD', 3, '1', '1', 'CD', 3)
 
     p_tokens = word_tokenize(p)
     h_tokens = word_tokenize(h)
@@ -496,15 +678,8 @@ if __name__ == '__main__':
     h_len = len(h_tokens)
 
     features = featurize(edit4, p_tokens, h_tokens, p_len, h_len)
-    #print 'EQ:   %s' % features[0]
-    #print 'SUB:  %s' % features[1]
-    ##print 'DEL:  %s' % features[2]
-    #print 'INS:  %s' % features[3]
-    #print 'SIM:  %s' % features[4]
-    #print 'DIST: %s' % features[5]
-    #print 'MP:   %s' % features[6]
-    #print 'MS:   %s' % features[7]
-    print features[23]
-    zipped = zip(feature_names, features)
-    for name, feature in zipped:
-        print name, feature
+
+    num = range(0,42)
+    zipped = zip(num, features)
+    for i in zipped:
+        print i
