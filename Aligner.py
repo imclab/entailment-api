@@ -43,7 +43,8 @@ class Aligner:
         7.88702336e-04,
         -1.04303582e-02,
         6.93624232e-02,
-        7.89814727e-03
+        7.89814727e-03,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
         ]
         self.lemmatizer = WordNetLemmatizer()
 
@@ -65,8 +66,10 @@ class Aligner:
             weights = self.weights
 
         alignments_score = [
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0,
+        ]
         all_alignments = dict()
         predicted_alignments = []
         all_features = dict()

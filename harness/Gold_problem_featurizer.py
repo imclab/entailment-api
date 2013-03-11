@@ -17,7 +17,7 @@ def featurize(problem):
     features = [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        ]
+        0, ]
     for edit in problem.gold:
         features += Edit_featurizer.featurize(
             edit, problem.p_str_tokens, problem.h_str_tokens,
