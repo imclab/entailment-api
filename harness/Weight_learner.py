@@ -50,10 +50,14 @@ import Gold_problem_featurizer as gold_featurizer
 def learn_weights(training_set, learning_epochs, burn_in_epochs,
 learning_rate, learning_rate_multiplier):
     weights = [
+<<<<<<< HEAD
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0,
         ]
+=======
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>>>>>> parent of d05070f... updated edit featurizer
     weights_history = []
 
     for i in range(learning_epochs):

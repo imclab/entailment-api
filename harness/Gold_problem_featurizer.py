@@ -15,9 +15,13 @@ def featurize(problem):
     Return the summed feature vectors of each alignment in the problem
     '''
     features = [
+<<<<<<< HEAD
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
         0, ]
+=======
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+>>>>>>> parent of d05070f... updated edit featurizer
     for edit in problem.gold:
         features += Edit_featurizer.featurize(
             edit, problem.p_str_tokens, problem.h_str_tokens,

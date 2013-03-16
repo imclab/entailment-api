@@ -7,8 +7,9 @@ Created on Fri Jan 11 19:38:12 2013
 import sys
 import logging
 import unittest
+#sys.path.append('/home/gavin/dev/spyder-workspace/lexicalEntailmentClassifier')
 from nltk import word_tokenize
-sys.path.append('/home/gavin/dev/entailment-api')
+sys.path.append('/home/gavin/dev/aissist')
 
 import Aligner
 import Pipeline
@@ -17,8 +18,8 @@ import Pipeline
 class Test_pipeline(unittest.TestCase):
 
     def setUp(self):
-        self.p = "Everyone finished their theses."
-        self.h = "Stan was able to complete his thesis."
+        self.p = "An Irishman won a Nobel Prize."
+        self.h = "An Irishman won the Nobel Prize for Literature."
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'

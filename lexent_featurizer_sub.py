@@ -62,7 +62,6 @@ import coref_resolver
 class Lexent_featurizer_sub:
 
     def __init__(self):
-        print 'going'
         # Make distribution corpora
         self.brown_ic = wordnet_ic.ic('ic-brown.dat')
         self.semcor_ic = wordnet_ic.ic('ic-semcor.dat')
@@ -280,12 +279,8 @@ class Lexent_featurizer_sub:
         return 0
 
     def getPronoun(self, alignment):
-        print 'in pronoun 0'
-        print 'getPronoun for', alignment.h_token, alignment.p_token
-        print self.pronouns
         if alignment.h_token in self.pronouns \
         and alignment.p_token in self.pronouns:
-            print 'in pronoun'
             return 1
         return 0
 
@@ -573,7 +568,12 @@ class Lexent_featurizer_sub:
 
 
 if __name__ == '__main__':
-    edit1 = Alignment_sub.Sub('his', 'his', 'PRP', 0, 'their', 'their', 'PRP', 0)
+    #edit1 = Alignment_sub.Sub('99', 'CD', 0, '7.5', 'CD', 0)
+    #edit1 = Alignment_sub.Sub('red', 'red', 'NN', 0, 'green', 'green', 'NN', 0)
+    ##edit1 = Alignment_sub.Sub('design', 'design', 'VB', 0, 'planning', 'plan', 'VBZ', 0)
+    edit1 = Alignment_sub.Sub('Carl', 'Carl', 'NNP', 0, 'John', 'John', 'NNP', 0)
+
+    # edit1 = Alignment_sub.Sub('violating', 'violate', 'VBZ', 0, 'violated', 'violate', 'VBD', 0)
     featurizer = Lexent_featurizer_sub()
     #print 'NeqNum: %s' % featurizer.getNeqNum(edit1)
     pSynsets = []
@@ -582,4 +582,9 @@ if __name__ == '__main__':
     hSynsets = []
     if edit1.h_wn_tag != 'SKIP':
         hSynsets = wn.synsets(edit1.h_token, pos=edit1.h_wn_tag)
-    print featurizer.getPronoun(edit1)
+    #print 'CoordinateTerms: %s' % featurizer.are_coordinate_terms(
+        #edit1, pSynsets, hSynsets)
+    #print featurizer.get(edit1, pSynsets, hSynsets)
+    #print featurizer.is_same_lowercased(edit1)
+    # print featurizer.is_misc_sub_0(edit1)
+    print featurizer.are_same_entity_type(edit1)

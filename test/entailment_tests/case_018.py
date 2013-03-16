@@ -29,8 +29,8 @@ class Test_pipeline(unittest.TestCase):
             6: 'No'
         }
 
-        self.p = "Everyone finished their theses."
-        self.h = "Stan was able to complete his thesis."
+        self.p = "The Duke Blue Devils failed to beat Miami."
+        self.h = "Duke lost to Miami."
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'
