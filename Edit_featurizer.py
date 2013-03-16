@@ -5,9 +5,47 @@ TODO: convert this to a class
 Created on Wed Nov 28 23:11:02 2012
 
 @author: gavin
+<<<<<<< HEAD
 
 see https://gavinmh.slsapp.com/project/44444/wiki/view/Alignment+features for a
 list of features
+=======
+test
+Features:
+0 EQ                    boolean
+1 SUB                   boolean
+2 DEL                   boolean
+3 INS                   boolean
+4 SIM: max of           real
+    -path               real
+    -synonymy           boolean
+    -antonymy           boolean
+    -hypernymy          real
+    -hyponymy           real
+    -JC                 real
+    -lin                real
+    -nomb               .75 or 0
+    -string             real
+5 distortion            real
+6 matching predecessor  boolean
+7 matching successor    boolean
+8 both CC               boolean
+9 both CD               boolean
+10 both DT              boolean
+11 both IN              boolean
+12 both NN              1 iff same POS, .75 if same group
+13 both VB              1 iff same POS, .75 if same group
+14 both JJ              1 iff same POS, .75 if same group
+15 both RB              1 iff same POS, .75 if same group
+16 both POS             boolean
+17 both TO              boolean
+18 both WDT             boolean
+19 both WP              boolean
+20 both WP$             boolean                            DOES NOT WORK
+21 both WRB             boolean
+22 are same lowercased  boolean
+23 misc_align           boolean
+>>>>>>> reverting
 """
 from __future__ import division
 import os
