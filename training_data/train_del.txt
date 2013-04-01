@@ -31,6 +31,8 @@ DEL	are	0
 DEL	arguable	6
 DEL	as	0
 DEL	Asian	1
+DEL	assistant	1
+DEL	assistent	1
 DEL	at	0
 DEL	atrocious	1
 DEL	attractive	1
@@ -206,6 +208,7 @@ DEL	legendary	1
 DEL	lest	0
 DEL	like	0
 DEL	likely	6
+DEL	local	1
 DEL	lovely	1
 DEL	lower	1
 DEL	lucky	1
@@ -387,6 +390,7 @@ DEL	us	0
 DEL	valid	0
 DEL	vanilla	1
 DEL	via	0
+DEL	vice	1
 DEL	violet	1
 DEL	vulgar	1
 DEL	Was	0

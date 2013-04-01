@@ -29,13 +29,16 @@ class Test_pipeline(unittest.TestCase):
             6: 'No'
         }
 
-        self.p = "The Duke Blue Devils failed to beat Miami."
-        self.h = "Duke lost to Miami."
+        #self.p = "Butler did not defeat Marquette"
+        #self.h = "Did Marquette lose to Butler?"
+        self.p = "The Communist Party USA was a small Maoist political party which was founded in 1965 by members of the Communist Party around Michael Laski who took the side of China in the Sino-Soviet split."
+        #self.h = "the first president of the United States"
+        self.h = "Michael Laski was an opponent of China."
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'
         self.aligner = Aligner.Aligner()
-        self.target = 1
+        self.target = 6
 
     def runTest(self):
         start = time()

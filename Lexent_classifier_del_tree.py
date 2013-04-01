@@ -12,6 +12,7 @@ import os
 
 
 class Lexent_classifier_del:
+
     def __init__(self):
         del_model_file = os.path.join(os.path.dirname(__file__),
         'classifier_models/del_model.p')
@@ -32,3 +33,9 @@ class Lexent_classifier_del:
         predicted_target = self.clf.predict(feature_vector)
         logging.info('Prediction: %s', predicted_target)
         return predicted_target
+
+
+if __name__ == '__main__':
+    clf  = Lexent_classifier_del()
+    # the feature vector for 'went'
+    print clf.predict([0, 0, 0, 0, 0, 0, 0, 0, 0])

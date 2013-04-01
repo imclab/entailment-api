@@ -1,0 +1,132 @@
+[
+    [
+        {
+            "p": ["A man", "A0"],
+            "h": ["A man", "A0"]
+        },
+        {
+            "p": ["won", "V"],
+            "h": ["won", "V"]
+        },
+        {
+            "p": ["the Nobel Prize", "A1"],
+            "h": ["the Nobel Prize for Literature", "A1"]
+        }
+    ],
+    [
+        {
+            "p": ["An Irishman", "A0"],
+            "h": ["An Irishman", "A0"]
+        },
+        {
+            "p": ["won", "V"],
+            "h": ["won", "V"]
+        },
+        {
+            "p": ["the Nobel Prize", "A1"],
+            "h": ["the Nobel Prize for Literature", "A1"]
+        }
+    ],
+    [
+        {
+            "p": ["An Irishman", "A0"],
+            "h": ["An Irishman", "A0"]
+        },
+        {
+            "p": ["won", "V"],
+            "h": ["won", "V"]
+        },
+        {
+            "p": null,
+            "h": ["the Nobel Prize for Literature"]
+        }
+    ],
+    [
+        {
+            "p": ["George Washington", "A0"],
+            "h": ["Washington", "A0"]
+        },
+        {
+            "p": ["was", "V"],
+            "h": ["was", "V"]
+        },
+        {
+            "p": ["the first president of the United States", "A1"],
+            "h": ["America's first President", "A1"]
+        }
+    ],
+    [
+        {
+            "p": ["David Gilmour", "A0"],
+            "h": ["David", "A0"]
+        },
+        {
+            "p": ["plays", "V"],
+            "h": ["plays", "V"]
+        },
+        {
+            "p": ["guitar for Pink Floyd", "A1"],
+            "h": ["guitar", "A1"]
+        }
+    ],
+    [
+        {
+            "p": ["David Gilmour", "A0"],
+            "h": ["David Gilmour", "A0"]
+        },
+        {
+            "p": null,
+            "h": ["also", "AMDIS", "discourse marker"]
+        },
+        {
+            "p": ["plays", "V"],
+            "h": ["plays", "V"]
+        },
+        {
+            "p": ["guitar for Pink Floyd", "A1"],
+            "h": ["guitar which David Gilmour did on many Pink Floyd tracks", "A1"]
+        }
+    ],
+    [
+        {
+            "p": ["Carolina", "A0"],
+            "h": ["Carolina", "A1"]
+        },
+        {
+            "p": null,
+            "h": ["not", "AMNEG"]
+        },
+        {
+            "p": ["losing", "V"],
+            "h": ["beat", "V"]
+        },
+        {
+            "p": ["Kansas", "A2"],
+            "h": ["Kansas", "A0"]
+        }
+    ],
+    [
+        {
+            "p": ["Barack Obama", "A1"],
+            "h": ["Barack Obama, the first black president,", "A0"]
+        },
+        {
+            "p": ["was", "V"],
+            "h": null,
+        },
+        {
+            "p": ["the first black president", "A1"],
+            "h": ["Barack Obama, the first black president,", "A0"]
+        },
+        {
+            "p": null,
+            "h": ["went", "V"]
+        }
+    ],
+
+
+
+
+
+
+]

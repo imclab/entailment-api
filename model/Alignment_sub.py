@@ -7,7 +7,7 @@ Created on Fri Nov 23 11:25:40 2012
 from nltk.corpus import wordnet as wn
 
 
-class Sub:
+class Sub(object):
 
     def __init__(self,
         p_token, p_lemma, p_penn_tag, p_index,

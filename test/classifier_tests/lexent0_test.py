@@ -2,7 +2,7 @@
 from __future__ import division
 import sys
 import unittest
-sys.path.append('/home/gavin/dev/aissist')
+sys.path.append('/home/gavin/dev/entailment-api')
 from model import Alignment_sub as Sub
 import Classifier
 
@@ -14,18 +14,20 @@ class Test_classifier(unittest.TestCase):
         edit1 = Sub.Sub('buddy', 'buddy', 'NN', 0, 'friend', 'friend', 'NN', 0)
         edit2 = Sub.Sub('Mitt', 'Mitt', 'NNP', 0, 'Romney', 'Romney', 'NNP', 0)
         edit3 = Sub.Sub('Obama', 'Obama', 'NNP', 0, 'Obamma', 'Obamma', 'NNP', 0)
-        edit4 = Sub.Sub('happy', 'JJ', 0, 'glad', 'JJ', 0)
-        edit5 = Sub.Sub('jump', 'VB', 0, 'leap', 'VB', 0)
-        edit6 = Sub.Sub('is', 'VB', 0, 'was', 'VB', 0)
-        edit7 = Sub.Sub('bucket', 'NN', 0, 'pail', 'NN', 0)
-        edit8 = Sub.Sub('hit', 'VB', 0, 'strike', 'VN', 0)
-        edit9 = Sub.Sub('crush', 'VB', 0, 'defeat', 'VB', 0)
-        edit9 = Sub.Sub('films', 'NNS', 0, 'movies', 'NNS', 0)
-        edit10 = Sub.Sub('go', 'VB', 0, 'attend', 'VB', 0)
+        edit4 = Sub.Sub('happy', 'happy', 'JJ', 0, 'glad', 'glad', 'JJ', 0)
+        edit5 = Sub.Sub('jump', 'jump', 'VB', 0, 'leap', 'leap', 'VB', 0)
+        edit6 = Sub.Sub('is', 'be', 'VB', 0, 'was', 'be', 'VB', 0)
+        edit7 = Sub.Sub('bucket', 'bucket', 'NN', 0, 'pail', 'pail', 'NN', 0)
+        edit8 = Sub.Sub('hit', 'hit', 'VB', 0, 'strike', 'strike', 'VN', 0)
+        edit9 = Sub.Sub('crush', 'crush', 'VB', 0, 'defeat', 'defeat', 'VB', 0)
+        edit9 = Sub.Sub('films', 'film', 'NNS', 0, 'movies', 'movie', 'NNS', 0)
+        edit10 = Sub.Sub('go', 'go', 'VB', 0, 'attend', 'attend', 'VB', 0)
+        edit11 = Sub.Sub('beat', 'beat', 'VBD', 0, 'defeated', 'defeat', 'VBD', 0)
+        edit12 = Sub.Sub('beat', 'beat', 'VBD', 0, 'losing', 'lose', 'VBZ', 0)
         self.edits = [
             edit0, edit1, edit2, edit3, edit4, edit5, edit6, edit7, edit8,
-            edit9, edit10, ]
-        self.target = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
+            edit9, edit10, edit11, edit12]
+        self.target = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
 
     def runTest(self):
         Classifier.classify_edits(self.edits)

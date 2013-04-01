@@ -16,7 +16,7 @@ from model import Token
 import Stable_marriage_finder
 
 
-class Aligner:
+class Aligner(object):
 
     def __init__(self):
         self.weights = [
@@ -195,25 +195,37 @@ class Aligner:
                 predicted_alignments.append(
                     all_alignments[alignment[0] + alignment[1]])
 
+
+        summed_weights = 0
         for alignment in predicted_alignments:
-            alignments_score += Edit_featurizer.featurize(alignment,
+            alignment_score = Edit_featurizer.featurize(alignment,
                 p_str_tokens, h_str_tokens,
                 len(p_str_tokens), len(h_str_tokens))
+            alignments_score += alignment_score
+            weight = np.dot(alignment_score, self.weights)
+            summed_weights += weight
+            print alignment
+            print 'features', alignment_score
+            print 'weight', weight, '\n\n'
 
+        print 'average weight', summed_weights / len(predicted_alignments)
+        #print np.dot(alignments_score, self.weights)
         return predicted_alignments, alignments_score
 
 
 if __name__ == '__main__':
-    p = "An man won the Nobel Prize."
-    h = "An Irishman won the Nobel Prize for literature."
-
+    #p = "An man won the Nobel Prize."
+    #h = "An Irishman won the Nobel Prize for literature."
+    p = "Barack Obama was the president"
+    h = "Barack Obama"
+    #h = "fat"
     aligner = Aligner()
     p_str_tokens = word_tokenize(p)
     h_str_tokens = word_tokenize(h)
     alignments, alignments_score = aligner.align(
         p_str_tokens, h_str_tokens, 'default')
 
-    print alignments_score, '\n'
-    for alignment in alignments:
-        print alignment
+    #print alignments_score, '\n'
+    #for alignment in alignments:
+        #print alignment
 

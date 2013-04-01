@@ -182,7 +182,7 @@ class Lexent_featurizer_del:
 
 
 if __name__ == '__main__':
-    edit1 = Alignment_del.Del('Were')
+    edit1 = Alignment_del.Del('killed')
     print edit1
     featurizer = Lexent_featurizer_del()
     print featurizer.getFeatures(edit1)
