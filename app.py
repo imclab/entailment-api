@@ -13,18 +13,20 @@ import Pipeline
 import Aligner
 from model import Response
 
-class CheckHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.write('service minimally online')
-
 
 class EntailmentHandler(tornado.web.RequestHandler):
     def get(self):
         entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
         p = self.get_argument("p", strip=True)
         h = self.get_argument("h", strip=True)
-        p_str_tokens = word_tokenize(p)
-        h_str_tokens = word_tokenize(h)
+        if p == 'INS':
+            p_str_tokens = ''
+        else:
+            p_str_tokens = word_tokenize(p)
+        if h == 'DEL':
+            h_str_tokens = ''
+        else:
+            h_str_tokens = word_tokenize(h)
         print 'p', p.encode('utf-8', 'replace')
         print 'h', h.encode('utf-8', 'replace')
 
@@ -42,9 +44,45 @@ class EntailmentHandler(tornado.web.RequestHandler):
         d = json.dumps(response, sort_keys=True, indent=4)
         self.write(d)
 
+class NewEntailmentHandler(tornado.web.RequestHandler):
+    def get(self):
+        entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
+        p = self.get_argument("p", strip=True)
+        h = self.get_argument("h", strip=True)
+        mark_monotonicity = self.get_argument("mark", strip=True)
+        if mark_monotonicity == 'True':
+            mark_monotonicity = True
+        else:
+            mark_monotonicity = False
+
+        if p == 'INS':
+            p_str_tokens = ''
+        else:
+            p_str_tokens = word_tokenize(p)
+        if h == 'DEL':
+            h_str_tokens = ''
+        else:
+            h_str_tokens = word_tokenize(h)
+        print 'p', p.encode('utf-8', 'replace')
+        print 'h', h.encode('utf-8', 'replace')
+
+        alignments, score = aligner.align(
+            p_str_tokens, h_str_tokens, 'default')
+        sequenced_edits, entailment_code = Pipeline.get_entailment(
+            p_str_tokens, h_str_tokens, alignments, mark_monotonicity)
+
+        response = {
+            'p': p,
+            'h': h,
+            'entailment_code': str(entailment_code),
+            'entailment': entailment[entailment_code]
+            }
+        d = json.dumps(response, sort_keys=True, indent=4)
+        self.write(d)
+
 handlers = [
-            (r"/check", CheckHandler),
             (r"/e", EntailmentHandler),
+            (r"/entail", NewEntailmentHandler),
             ]
 
 

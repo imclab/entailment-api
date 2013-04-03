@@ -62,7 +62,6 @@ import coref_resolver
 class Lexent_featurizer_sub:
 
     def __init__(self):
-        print 'going'
         # Make distribution corpora
         self.brown_ic = wordnet_ic.ic('ic-brown.dat')
         self.semcor_ic = wordnet_ic.ic('ic-semcor.dat')
@@ -280,12 +279,8 @@ class Lexent_featurizer_sub:
         return 0
 
     def getPronoun(self, alignment):
-        print 'in pronoun 0'
-        print 'getPronoun for', alignment.h_token, alignment.p_token
-        print self.pronouns
         if alignment.h_token in self.pronouns \
         and alignment.p_token in self.pronouns:
-            print 'in pronoun'
             return 1
         return 0
 
@@ -315,7 +310,6 @@ class Lexent_featurizer_sub:
                 if big[i + j] != small[j]:
                     break
             else:
-                #return i, i+len(small)
                 return True
         return False
 
@@ -372,16 +366,12 @@ class Lexent_featurizer_sub:
                     brown_score = p_synset.lin_similarity(
                         h_synset, self.brown_ic)
                     scores.append(min(brown_score, 1))
-                    #logging.info('DLin: %s. %s: %s' % (
-                        #p_synset, h_synset, brown_score))
                 except WordNetError:
                     pass
                 try:
                     semcor_score = p_synset.lin_similarity(
                         h_synset, self.semcor_ic)
                     scores.append(min(semcor_score, 1))
-                    #logging.info('DLin: %s. %s: %s' % (
-                        #p_synset, h_synset, semcor_score))
                 except WordNetError:
                     pass
         return max(scores)
@@ -395,16 +385,12 @@ class Lexent_featurizer_sub:
                     brown_score = p_synset.jcn_similarity(
                         h_synset, self.brown_ic)
                     scores.append(min(brown_score, 1))
-                    #logging.info('Brown score: %s, %s: %s' % (
-                        #p_synset, h_synset, brown_score))
                 except WordNetError:
                     pass
                 try:
                     semcor_score = p_synset.jcn_similarity(
                         h_synset, self.semcor_ic)
                     scores.append(min(semcor_score, 1))
-                    #logging.info('Semcor score: %s, %s: %s' % (
-                        #p_synset, h_synset, semcor_score))
                 except WordNetError:
                     pass
         return max(scores)
@@ -412,19 +398,15 @@ class Lexent_featurizer_sub:
     def getWNHyper(self, pSynsets, hSynsets):
         path_distances = []
         for p_synset in pSynsets:
-            #logging.info('p synset is ' + str(p_synset))
             p_hypernyms = p_synset.hypernym_distances()
             for h_synset in hSynsets:
-                #logging.info('h synset is ' + str(h_synset))
                 if h_synset in [
                     synset_dist_tuple[0] for synset_dist_tuple in p_hypernyms]:
                     for synset in p_hypernyms:
                         if synset[0] == h_synset:
-                            #logging.info('Found h as hyper: ' + str(synset))
                             if synset[1] != 0:
                                 path_distances.append(synset[1])
         if len(path_distances) > 0:
-            #logging.info(path_distances)
             shortest_path = min(path_distances)
             score = 1 - (shortest_path / 8)
             return score
@@ -434,19 +416,15 @@ class Lexent_featurizer_sub:
     def getWNHypo(self, pSynsets, hSynsets):
         path_distances = []
         for h_synset in hSynsets:
-            #logging.info('h synset is ' + str(h_synset))
             h_hypernyms = h_synset.hypernym_distances()
             for p_synset in pSynsets:
-                #logging.info('p synset is ' + str(p_synset))
                 if p_synset in [
                     synset_dist_tuple[0] for synset_dist_tuple in h_hypernyms]:
                     for synset in h_hypernyms:
                         if synset[0] == p_synset:
-                            #logging.info('Found p as hyper: ' + str(synset))
                             if synset[1] != 0:
                                 path_distances.append(synset[1])
         if len(path_distances) > 0:
-            #logging.info(path_distances)
             shortest_path = min(path_distances)
             score = 1 - (shortest_path / 8)
             return score
@@ -466,7 +444,6 @@ class Lexent_featurizer_sub:
         for lemma_list in h_antonym_synsets:
             for lemma in lemma_list:
                 h_antonyms += [name for name in lemma.synset.lemma_names]
-        #print '\nH: %s\nants:\n%s' % (h_synsets, h_antonyms)
 
         # Antonyms of p
         p_antonym_synsets = [l.antonyms() for s in p_synsets for l in s.lemmas]
@@ -474,26 +451,21 @@ class Lexent_featurizer_sub:
         for lemma_list in p_antonym_synsets:
             for lemma in lemma_list:
                 p_antonyms += [name for name in lemma.synset.lemma_names]
-        #print '\nP: %s\nants:\n%s' % (p_synsets, p_antonyms)
 
         # Synonyms of p
         p_lemmas = []
         for synset in p_synsets:
             p_lemmas += synset.lemma_names
-        #print '\nP synonyms:\n%s' % p_lemmas
         # Synonyms of h
         h_lemmas = []
         for synset in h_synsets:
             h_lemmas += synset.lemma_names
-        #print '\nH synonyms:\n%s' % h_lemmas
 
         for p_synonym in p_lemmas:
             if p_synonym in h_antonyms:
-                #print 'ANTONYM: %s' % (p_synonym)
                 return 1
         for h_synonym in h_lemmas:
             if h_synonym in p_antonyms:
-                #print 'ANTONYM: %s' % (h_synonym)
                 return 1
         return 0
 
@@ -501,17 +473,12 @@ class Lexent_featurizer_sub:
     def getWNSyn(self, alignment, pSynsets, hSynsets):
         h_synonyms = [l.name for s in hSynsets for l in s.lemmas]
         p_synonyms = [l.name for s in pSynsets for l in s.lemmas]
-        #logging.info(h_synonyms)
-        #logging.info(p_synonyms)
+
         if alignment.h_token in p_synonyms:
-            #logging.info('h is a synonym of p')
             return 1
         elif alignment.p_token in h_synonyms:
-            #logging.info('p is a synonym of h')
             return 1
-        else:
-            #logging.info('p and h are not synonyms')
-            return 0
+        return 0
 
     def is_NNP_and_NN(self, alignment):
         '''
@@ -543,10 +510,6 @@ class Lexent_featurizer_sub:
         features[3] = self.getWNHypo(pSynsets, hSynsets)
         features[4] = self.getJiCo(pSynsets, hSynsets)
         features[5] = self.get_dlin(pSynsets, hSynsets)
-        #features[6] = self.getLemSubSeqF(alignment)
-        #features[7] = self.getLemSubSeqR(alignment)
-        #features[8] = self.getLemSubSeqE(alignment)
-        #features[9] = self.getLemSubSeqN(alignment)
         features[6] = self.is_same_lowercased(alignment)
         features[7] = self.is_NNP_and_NN(alignment)
         features[8] = self.is_NN_and_NNP(alignment)
@@ -575,7 +538,6 @@ class Lexent_featurizer_sub:
 if __name__ == '__main__':
     edit1 = Alignment_sub.Sub('his', 'his', 'PRP', 0, 'their', 'their', 'PRP', 0)
     featurizer = Lexent_featurizer_sub()
-    #print 'NeqNum: %s' % featurizer.getNeqNum(edit1)
     pSynsets = []
     if edit1.p_wn_tag != 'SKIP':
         pSynsets = wn.synsets(edit1.p_token, pos=edit1.p_wn_tag)

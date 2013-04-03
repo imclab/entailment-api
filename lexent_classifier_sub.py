@@ -33,26 +33,7 @@ class Lexent_classifier_sub:
         targets = pickle.load(targets_file)
         targets_file.close()
 
-        #self.clf = tree.DecisionTreeClassifier()
-        #self.clf = RandomForestClassifier(compute_importances=False)
         self.clf = RandomForestClassifier()
-        #self.clf = RandomForestClassifier(
-            #n_estimators=10,
-            #max_features='auto',
-            #criterion='gini',
-            #compute_importances=False
-            #)
-        #self.clf = ExtraTreesClassifier(
-            #n_estimators=50, max_depth=None,
-            #min_samples_split=1, random_state=0)
-        #self.clf = ExtraTreesClassifier()
-        #self.clf = GradientBoostingClassifier(
-            #n_estimators=500,
-            #learning_rate=1.0,
-            #max_depth=1,
-            #random_state=0)
-
-        #self.clf = AdaBoostClassifier(n_estimators=500)
         self.clf = self.clf.fit(training_data, targets)
 
     def predict(self, feature_vector):

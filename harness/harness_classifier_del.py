@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import sys
-sys.path.append('/home/gavin/dev/aissist')
+sys.path.append('/home/gavin/dev/entailment-api')
 import logging
 import numpy as np
 from model import Alignment_del as align

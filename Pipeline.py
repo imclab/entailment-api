@@ -19,7 +19,8 @@ import Joiner
 from time import time
 
 
-def get_entailment(p_tokens, h_tokens, edits):
+def get_entailment(p_tokens, h_tokens, edits, mark_monotonicity=True):
+    print 'Mark monotonicity', mark_monotonicity
     monotonicity_operators_file = os.path.join(os.path.dirname(__file__),
     'resources/monotonicity_operators_list.txt')
     with open(monotonicity_operators_file) as f:
@@ -30,27 +31,37 @@ def get_entailment(p_tokens, h_tokens, edits):
     p_start = time()
     print 'P tokens:\n%s' % [t.encode('utf-8', 'replace') for t in p_tokens]
 
-    if len([t for t in p_tokens if t in monotonicity_operators]) > 0:
-        p_mark_start = time()
-        p_monotonicity_markings = Marker.get_monotonicity_markings(p_tokens)
-        print 'P markings:   %s' % p_monotonicity_markings
-        print 'p tokens:     %s' % p_tokens
-        p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
+    if mark_monotonicity:
+        if len([t for t in p_tokens if t in monotonicity_operators]) > 0:
+            p_mark_start = time()
+            p_monotonicity_markings = Marker.get_monotonicity_markings(p_tokens)
+            print 'P markings:   %s' % p_monotonicity_markings
+            print 'p tokens:     %s' % p_tokens
+            p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
+        else:
+            print 'Not marking p'
+            p_monotonicity_markings = ['up'] * len(p_tokens)
+            p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
     else:
-        print 'Not marking p'
+        print 'not marking p and please refactor'
         p_monotonicity_markings = ['up'] * len(p_tokens)
         p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
 
     print 'H tokens:\n%s' % [t.encode('utf-8', 'replace') for t in h_tokens]
     h_start = time()
 
-    if len([t for t in h_tokens if t in monotonicity_operators]) > 0:
-        h_mark_start = time()
-        h_monotonicity_markings = Marker.get_monotonicity_markings(h_tokens)
-        h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
-        print 'H marked in %s' % (time() - h_mark_start)
+    if mark_monotonicity:
+        if len([t for t in h_tokens if t in monotonicity_operators]) > 0:
+            h_mark_start = time()
+            h_monotonicity_markings = Marker.get_monotonicity_markings(h_tokens)
+            h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
+            print 'H marked in %s' % (time() - h_mark_start)
+        else:
+            print 'Not marking h'
+            h_monotonicity_markings = ['up'] * len(h_tokens)
+            h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
     else:
-        print 'Not marking h'
+        print 'not marking h and please refactor me'
         h_monotonicity_markings = ['up'] * len(h_tokens)
         h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
 
