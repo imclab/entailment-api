@@ -2,24 +2,15 @@
 '''
 
 '''
-#import sys
-#sys.path.insert(0, '/home/gavin/dev/scikit-learn')
-#import sklearn
-#print sklearn.__version__
 import os
 try:
     import cPickle as pickle
 except:
     import pickle  # lint:ok
-
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.ensemble import GradientBoostingClassifier
-#from sklearn.ensemble import AdaBoostClassifier
-from sklearn import tree
 
 
-class Lexent_classifier_sub:
+class Lexent_classifier_sub(object):
 
     def __init__(self):
         sub_model_file = os.path.join(

@@ -48,8 +48,12 @@ import Gold_problem_featurizer as gold_featurizer
 
 def learn_weights(training_set, learning_epochs, burn_in_epochs,
 learning_rate, learning_rate_multiplier):
+    #weights = [
+        #0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     weights = [
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    ]
     weights_history = []
 
     for i in range(learning_epochs):
@@ -88,8 +92,9 @@ learning_rate, learning_rate_multiplier):
 
 
 def get_weight(training_set):
-    weights = [
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    ]
     features, weights = Aligner.align(training_set.p_str_tokens,
         training_set.h_str_tokens, weights)
     print weights

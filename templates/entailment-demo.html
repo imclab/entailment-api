@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Limelight|Flamenco|Federo|Yesteryear|Josefin Sans|Spinnaker|Sansita One|Handlee|Droid Sans|Oswald:400,300,700" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/bootstrap.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/bootstrap-responsive.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/common.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/fontawesome.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/project.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="static/stylesheets/frontend.css" media="screen" rel="stylesheet" type="text/css" />
+  <title>frontend</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <span class="span12">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <a class="brand" href="#">Entailment Prediction API Demo</a>
+          </div>
+        </div>
+      </span>
+    </div>
+    <div class="row-fluid row-fluid-1">
+      <span class="span6">
+        <form action="/e" method="get">
+          <h3 class="heading">Test sentences:</h3>
+          <label class="control-label">Premise:</label>
+          <input class="textinput" type="text" id="p" name="p" value="I ate a delicious sandwich." placeholder="I ate a delicious sandwich.">
+          <label class="control-label">Hypothesis:</label>
+          <input class="textinput" type="text" id="h" name="h" value="I ate some food." placeholder="I ate some food.">
+          <br/>
+          <input type="submit" value="Predict Entailment">
+        </form>
+      </span>
+      <span class="span6">
+        <h3 class="heading">Results:</h3>
+        <p>Entailment:</p>
+        <p>Entailment code:</p>
+      </span>
+    </div>
+    <div class="page-header">
+      <h1>About the API <small></small>
+      </h1>
+    </div>
+    <div class="row-fluid">
+      <span class="span6">
+        <h3 class="heading">What is Entailment?</h3>
+        <p>Lorem Ipsum...</p>
+      </span>
+      <span class="span6">
+        <h3 class="heading">What can Entailment Prediction be Used for?</h3>
+        <p>Lorem Ipsum...</p>
+      </span>
+    </div>
+  </div>
+</body>
+
+</html>

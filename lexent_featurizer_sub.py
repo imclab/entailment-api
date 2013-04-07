@@ -536,7 +536,9 @@ class Lexent_featurizer_sub:
 
 
 if __name__ == '__main__':
-    edit1 = Alignment_sub.Sub('his', 'his', 'PRP', 0, 'their', 'their', 'PRP', 0)
+    #edit1 = Alignment_sub.Sub('his', 'his', 'PRP', 0, 'their', 'their', 'PRP', 0)
+    #edit1 = Alignment_sub.Sub('good', 'good', 'NN', 0, 'great', 'great', 'NN', 0)
+    edit1 = Alignment_sub.Sub('good', 'good', 'NN', 0, 'terrible', 'terrible', 'NN', 0)
     featurizer = Lexent_featurizer_sub()
     pSynsets = []
     if edit1.p_wn_tag != 'SKIP':
@@ -544,4 +546,5 @@ if __name__ == '__main__':
     hSynsets = []
     if edit1.h_wn_tag != 'SKIP':
         hSynsets = wn.synsets(edit1.h_token, pos=edit1.h_wn_tag)
-    print featurizer.getPronoun(edit1)
+    #print featurizer.getPronoun(edit1)
+    print featurizer.getFeatures(edit1)

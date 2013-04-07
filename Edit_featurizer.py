@@ -92,12 +92,12 @@ def get_synsets(token, wn_tag):
 
 
 def featurize(edit, p_tokens, h_tokens, p_len, h_len):
-    features = np.zeros(41, dtype=float)
+    features = np.zeros(31, dtype=float)
 
     if edit.edit_type == 'EQ':
         features[0] = 1
         features[4] = 1
-        features[37] = 1
+        #features[37] = 1
 
     elif edit.edit_type == 'SUB':
         p_synsets = get_synsets(edit.p_token, edit.p_wn_tag)
@@ -143,21 +143,23 @@ def featurize(edit, p_tokens, h_tokens, p_len, h_len):
         features[24] = are_light(edit)
         features[25] = are_preps(edit)
         features[26] = are_pronouns(edit)
-        features[27] = is_quantifier_some(edit)
-        features[28] = is_quantifier_all(edit)
-        features[29] = is_quantifier_none(edit)
-        features[30] = is_quantifier_lexent_1(edit)
-        features[31] = is_quantifier_lexent_2(edit)
-        features[32] = is_quantifier_lexent_4(edit)
-        features[33] = is_quantifier_lexent_6(edit)
-        features[34] = are_same_entity_type(edit)
-        features[35] = is_un_in_dis_pair(edit)
-        features[36] = has_same_lemma(edit)
-        # get_coordinate_terms_score() is only for SUB
-        #features[37] = get_coordinate_terms_score(edit, p_synsets, h_synsets)
-        features[38] = are_unequal_numbers(edit)
-        features[39] = is_misc_sub_0(edit)
-        features[40] = is_misc_sub_4(edit)
+        features[27] = has_same_lemma(edit)
+        features[28] = is_un_in_dis_pair(edit)
+        features[29] = is_misc_sub_0(edit)
+        features[30] = is_misc_sub_4(edit)
+
+        #features[27] = is_quantifier_some(edit)
+        #features[28] = is_quantifier_all(edit)
+        #features[29] = is_quantifier_none(edit)
+        #features[30] = is_quantifier_lexent_1(edit)
+        #features[31] = is_quantifier_lexent_2(edit)
+        #features[32] = is_quantifier_lexent_4(edit)
+        #features[33] = is_quantifier_lexent_6(edit)
+        #features[34] = are_same_entity_type(edit)
+        ## get_coordinate_terms_score() is only for SUB
+        ##features[37] = get_coordinate_terms_score(edit, p_synsets, h_synsets)
+        #features[38] = are_unequal_numbers(edit)
+
     return features
 
 

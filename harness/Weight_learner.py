@@ -51,9 +51,8 @@ def learn_weights(training_set, learning_epochs, burn_in_epochs,
 learning_rate, learning_rate_multiplier):
     weights = [
         0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-        0,
-        ]
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+    ]
     weights_history = []
 
     for i in range(learning_epochs):
@@ -108,23 +107,3 @@ if __name__ == '__main__':
     weights_file = open('../training_data/weights.p', 'w+b')
     pickle.dump(averaged_weights, weights_file)
     weights_file.close()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

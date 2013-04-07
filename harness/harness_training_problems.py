@@ -31,7 +31,7 @@ count = 0
 
 # read the problems txt
 filename = os.path.join(os.path.dirname(__file__),
-'../training_data/rte_set_1_cleaned.txt')
+'../training_data/alignment_training_sentences.txt')
 with open(filename) as f:
     rte_raw = f.readlines()
 

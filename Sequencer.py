@@ -21,8 +21,6 @@ def get_operators_list():
             'resources/monotonicity_operators_list.txt')
     with open(monotonicity_operators_file) as f:
         monotonicty_operators = f.read().splitlines()
-    for i in monotonicty_operators:
-        print i
     monotonicty_operators = []
     #for line in lines:
         #if not line.startswith('#') \

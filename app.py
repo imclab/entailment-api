@@ -14,6 +14,11 @@ import Aligner
 from model import Response
 
 
+class EntailmentDemoHandler(tornado.web.RequestHandler):
+    def get(self):
+        self.render("entailment-demo.html")
+
+
 class EntailmentHandler(tornado.web.RequestHandler):
     def get(self):
         entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
@@ -43,6 +48,7 @@ class EntailmentHandler(tornado.web.RequestHandler):
             }
         d = json.dumps(response, sort_keys=True, indent=4)
         self.write(d)
+
 
 class NewEntailmentHandler(tornado.web.RequestHandler):
     def get(self):
@@ -83,6 +89,7 @@ class NewEntailmentHandler(tornado.web.RequestHandler):
 handlers = [
             (r"/e", EntailmentHandler),
             (r"/entail", NewEntailmentHandler),
+            (r"/entailment-demo", EntailmentDemoHandler)
             ]
 
 
