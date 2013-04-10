@@ -9,7 +9,8 @@ import subprocess
 
 
 def get_monotonicity_markings(tokens):
-    jar_call = ['java', '-jar', '/home/gavin/dev/entailment-api/MonotonicityMarker.jar', '-q']
+    #jar_call = ['java', '-jar', '/home/gavin/dev/entailment-api/MonotonicityMarker.jar', '-q']
+    jar_call = ['java', '-jar', '/home/ubuntu/entailment-api/MonotonicityMarker.jar', '-q']
     for token in tokens:
         jar_call.append(token.encode('utf-8', 'ignore'))
     print 'jar call:\n', jar_call
