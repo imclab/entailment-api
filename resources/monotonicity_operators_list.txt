@@ -25,3 +25,4 @@ failed
 fail
 fails
 failing
+neither
