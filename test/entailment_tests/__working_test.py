@@ -7,10 +7,8 @@ Created on Fri Jan 11 19:38:12 2013
 import sys
 import logging
 import unittest
-#sys.path.append('/home/gavin/dev/spyder-workspace/lexicalEntailmentClassifier')
 from nltk import word_tokenize
-sys.path.append('/home/gavin/dev/aissist')
-
+sys.path.append('/home/gavin/dev/entailment-api')
 import Aligner
 import Pipeline
 
@@ -18,13 +16,15 @@ import Pipeline
 class Test_pipeline(unittest.TestCase):
 
     def setUp(self):
-        self.p = "An Irishman won a Nobel Prize."
-        self.h = "An Irishman won the Nobel Prize for Literature."
+        #self.p = "An Irishman won a Nobel Prize."
+        #self.h = "An Irishman won the Nobel Prize for Literature."
+        self.p = "Millard Fillmore was the last president who was neither a Democrat nor a Republican."
+        self.h = "was Millard Fillmore a Democrat"
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'
         self.aligner = Aligner.Aligner()
-        self.target = 2
+        self.target = 6
 
     def runTest(self):
         alignments, alignments_score = self.aligner.align(
@@ -34,10 +34,9 @@ class Test_pipeline(unittest.TestCase):
         for a in alignments:
             print a
 
-        prediction = Pipeline.get_entailment(
-            self.p_str_tokens, self.h, alignments)
-        logging.info('Target: %s' % self.target)
-        logging.info('Prediction: %s' % prediction)
+        sequenced_edits, prediction = Pipeline.get_entailment(
+            self.p_str_tokens, self.h_str_tokens, alignments)
+
         self.assertEqual(prediction, self.target)
 
 if __name__ == '__main__':

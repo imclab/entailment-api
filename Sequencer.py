@@ -23,7 +23,7 @@ def get_operators_list():
         monotonicty_operators = f.read().splitlines()
     for i in monotonicty_operators:
         print i
-    monotonicty_operators = []
+    #monotonicty_operators = []
     #for line in lines:
         #if not line.startswith('#') \
         #and not line.startswith('\n') \
