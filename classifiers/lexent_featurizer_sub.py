@@ -51,13 +51,16 @@ Feature vector encodes:
 from __future__ import division
 import os
 import csv
+import sys
+sys.path.append('/home/gavin/dev/entailment-api')
 from nltk.corpus import wordnet as wn
 from nltk.corpus import wordnet_ic
 from nltk.metrics import edit_distance
 from nltk.corpus.reader.wordnet import WordNetError
 import numpy as np
 from model import Alignment_sub
-import coref_resolver
+from pipeline import coref_resolver
+
 
 class Lexent_featurizer_sub(object):
 

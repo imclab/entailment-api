@@ -54,19 +54,19 @@ from model import Alignment_sub as SUB
 
 # Make a list of nominals: verb, adj (nom)
 nom_adj_verb_tuples_file = os.path.join(os.path.dirname(__file__),
-    'resources/verb_nom_tuples.txt')
+    '../resources/verb_nom_tuples.txt')
 with open(nom_adj_verb_tuples_file) as f:
     nom_adj_verb_tuples = f.readlines()
 
 # Make a list of miscelleneous tuples that should be aligned
 misc_align_tuples_file = os.path.join(os.path.dirname(__file__),
-    'resources/misc_align_tuples.txt')
+    '../resources/misc_align_tuples.txt')
 with open(misc_align_tuples_file) as f:
     misc_align_tuples = f.read().splitlines()
 
 # Make list of previously misclassified antonyms
 antonym_file = os.path.join(os.path.dirname(__file__),
-    'resources/antonyms.txt')
+    '../resources/antonyms.txt')
 reader = csv.reader(open(antonym_file, "rb"), delimiter=",")
 antonym_tuples = []
 for ant_tuple in reader:

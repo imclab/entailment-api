@@ -20,7 +20,7 @@ class Sequencer(object):
     def __init__(self):
         self.mon_operators = []
         monotonicity_operators_file = join(dirname(__file__),
-                'resources/monotonicity_operators_list.txt')
+                '../resources/monotonicity_operators_list.txt')
         with open(monotonicity_operators_file) as f:
             self.mon_operators = f.read().splitlines()
 

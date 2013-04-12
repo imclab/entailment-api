@@ -7,8 +7,8 @@ Created on Fri Jan 11 19:38:12 2013
 import sys
 from nltk import word_tokenize
 sys.path.append('/home/gavin/dev/entailment-api')
-import aligner
-import pipeline
+from pipeline import pipeline
+from alignment import aligner
 from time import time
 
 

@@ -1,1 +1,3 @@
-# -*- coding: utf-8 -*-
+from app import EntailmentHandler
+from entailment_worker import entailment_worker
+from multiprocess_entailer import Multiprocess_entailer

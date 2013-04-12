@@ -7,7 +7,7 @@ import re
 import numpy as np
 from nltk import word_tokenize, pos_tag, WordNetLemmatizer
 from nltk.corpus import wordnet as wn
-import Edit_featurizer
+from classifiers import Edit_featurizer
 from model import Alignment_eq as Eq
 from model import Alignment_sub as Sub
 from model import Alignment_del as Del

@@ -5,8 +5,10 @@ Created on Wed Nov 28 23:11:02 2012
 @author: gavinhackeling@gmail.com
 """
 from os.path import dirname, join
+import sys
+sys.path.append('/home/gavin/dev/entailment-api')
 from classifiers import classifier
-import Marking_collector as Marker
+from monotonicity import Marking_collector as Marker
 import sequencer
 from projector import project
 import joiner
@@ -18,7 +20,7 @@ class Pipeline(object):
         self.sequencer = sequencer.Sequencer()
         self.joiner = joiner.Joiner()
         monotonicity_operators_file = join(dirname(__file__),
-        'resources/monotonicity_operators_list.txt')
+        '../resources/monotonicity_operators_list.txt')
         with open(monotonicity_operators_file) as f:
             monotonicity_operators = f.readlines()
         self.mon_operators = [l.rstrip() for l in monotonicity_operators]
