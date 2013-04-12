@@ -71,41 +71,41 @@ class Lexent_featurizer_sub(object):
 
         # Make list of misc sub 0
         misc_sub_0_file = os.path.join(os.path.dirname(__file__),
-            'resources/MiscSub0.txt')
+            '../resources/MiscSub0.txt')
         with open(misc_sub_0_file) as f:
             self.misc_sub_0 = f.read().splitlines()
 
         # Make list of misc sub 4
         misc_sub_4_file = os.path.join(os.path.dirname(__file__),
-            'resources/MiscSub4.txt')
+            '../resources/MiscSub4.txt')
         with open(misc_sub_4_file) as f:
             self.misc_sub_4 = f.read().splitlines()
 
         # Make list of previously misclassified antonyms
         antonym_file = os.path.join(os.path.dirname(__file__),
-            'resources/antonyms.txt')
+            '../resources/antonyms.txt')
         reader = csv.reader(open(antonym_file, "rb"), delimiter=",")
         self.antonym_tuples = []
         for ant_tuple in reader:
             self.antonym_tuples.append((ant_tuple[0], ant_tuple[1]))
 
         filename = os.path.join(os.path.dirname(__file__),
-        'resources/verb_nom_tuples.txt')
+        '../resources/verb_nom_tuples.txt')
         with open(filename) as f:
             self.nom_adj_verb_tuples = f.readlines()
         self.stoplist = []
         stoplistFile = os.path.join(os.path.dirname(__file__),
-        'resources/stoplist.txt')
+        '../resources/stoplist.txt')
         with open(stoplistFile) as f:
             self.stoplist = f.read().splitlines()
         self.prepositions = []
         prepositionsFile = os.path.join(os.path.dirname(__file__),
-        'resources/prepositions.txt')
+        '../resources/prepositions.txt')
         with open(prepositionsFile) as f:
             self.prepositions = f.read().splitlines()
         self.pronouns = []
         pronounsFile = os.path.join(os.path.dirname(__file__),
-        'resources/pronouns.txt')
+        '../resources/pronouns.txt')
         with open(pronounsFile) as f:
             self.pronouns = f.read().splitlines()
         self.noun_types = ['NN', 'NNS']

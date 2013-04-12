@@ -39,78 +39,78 @@ class Lexent_featurizer_del:
 
     def __init__(self):
         filename = os.path.join(os.path.dirname(__file__),
-        'resources/verb_nom_tuples.txt')
+        '../resources/verb_nom_tuples.txt')
         with open(filename) as f:
             self.nom_adj_verb_tuples = f.read().splitlines()
         stoplistFile = os.path.join(os.path.dirname(__file__),
-        'resources/stoplist.txt')
+        '../resources/stoplist.txt')
         with open(stoplistFile) as f:
             self.stoplist = f.read().splitlines()
         prepositionsFile = os.path.join(os.path.dirname(__file__),
-        'resources/prepositions.txt')
+        '../resources/prepositions.txt')
         with open(prepositionsFile) as f:
             self.prepositions = f.read().splitlines()
         pronounsFile = os.path.join(os.path.dirname(__file__),
-        'resources/pronouns.txt')
+        '../resources/pronouns.txt')
         with open(pronounsFile) as f:
             self.pronouns = f.read().splitlines()
         miscDel0File = os.path.join(os.path.dirname(__file__),
-        'resources/MiscDel0.txt')
+        '../resources/MiscDel0.txt')
         with open(miscDel0File) as f:
             self.miscDel0 = f.read().splitlines()
         self.miscDel1 = ['force']
         self.miscDel2 = []
         miscDel3File = os.path.join(os.path.dirname(__file__),
-        'resources/MiscDel3.txt')
+        '../resources/MiscDel3.txt')
         with open(miscDel3File) as f:
             self.miscDel3 = f.read().splitlines()
         miscDel4File = os.path.join(os.path.dirname(__file__),
-        'resources/MiscDel4.txt')
+        '../resources/MiscDel4.txt')
         with open(miscDel4File) as f:
             self.miscDel4 = f.read().splitlines()
         self.miscDel5 = []
         miscDel6File = os.path.join(os.path.dirname(__file__),
-        'resources/MiscDel6.txt')
+        '../resources/MiscDel6.txt')
         with open(miscDel6File) as f:
             self.miscDel6 = f.read().splitlines()
         v_implicatives_npFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_np.txt')
+        '../resources/v_implicatives_np.txt')
         with open(v_implicatives_npFile) as f:
             self.v_implicatives_np = f.read().splitlines()
         v_implicatives_poFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_po.txt')
+        '../resources/v_implicatives_po.txt')
         with open(v_implicatives_poFile) as f:
             self.v_implicatives_po = f.read().splitlines()
         v_implicatives_noFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_no.txt')
+        '../resources/v_implicatives_no.txt')
         with open(v_implicatives_noFile) as f:
             self.v_implicatives_no = f.read().splitlines()
         v_implicatives_pnFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_pn.txt')
+        '../resources/v_implicatives_pn.txt')
         with open(v_implicatives_pnFile) as f:
             self.v_implicatives_pn = f.read().splitlines()
         v_implicatives_onFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_on.txt')
+        '../resources/v_implicatives_on.txt')
         with open(v_implicatives_onFile) as f:
             self.v_implicatives_on = f.read().splitlines()
         v_implicatives_noFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_no.txt')
+        '../resources/v_implicatives_no.txt')
         with open(v_implicatives_noFile) as f:
             self.v_implicatives_no = f.read().splitlines()
         v_implicatives_opFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_implicatives_op.txt')
+        '../resources/v_implicatives_op.txt')
         with open(v_implicatives_opFile) as f:
             self.v_implicatives_op = f.read().splitlines()
         v_factives_ooFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_factives_oo.txt')
+        '../resources/v_factives_oo.txt')
         with open(v_factives_ooFile) as f:
             self.v_factives_oo = f.read().splitlines()
         v_factives_nnFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_factives_nn.txt')
+        '../resources/v_factives_nn.txt')
         with open(v_factives_nnFile) as f:
             self.v_factives_nn = f.read().splitlines()
         v_factives_ppFile = os.path.join(os.path.dirname(__file__),
-        'resources/v_factives_pp.txt')
+        '../resources/v_factives_pp.txt')
         with open(v_factives_ppFile) as f:
             self.v_factives_pp = f.read().splitlines()
 

@@ -7,8 +7,8 @@ Created on Sat Nov 24 11:25:40 2012
 import lexent_featurizer_del
 import lexent_featurizer_sub
 import lexent_classifier_sub
+import lexent_classifier_del
 from model import Alignment_del
-import Lexent_classifier_del_tree
 
 
 class Classifier(object):
@@ -16,7 +16,7 @@ class Classifier(object):
     def __init__(self):
         self.featurizer_del = lexent_featurizer_del.Lexent_featurizer_del()
         self.featurizer_sub = lexent_featurizer_sub.Lexent_featurizer_sub()
-        self.clf_del = Lexent_classifier_del_tree.Lexent_classifier_del()
+        self.clf_del = lexent_classifier_del.Lexent_classifier_del()
         self.clf_sub = lexent_classifier_sub.Lexent_classifier_sub()
 
     def convert_del_to_ins(self, prediction):

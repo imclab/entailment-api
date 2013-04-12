@@ -13,13 +13,13 @@ from sklearn import tree
 class Lexent_classifier_del(object):
 
     def __init__(self):
-        del_model_file = os.path.join(os.path.dirname(__file__),
-        'classifier_models/del_model.p')
+        del_model_file = join(dirname(__file__),
+            '../classifier_models/del_model.p')
         training_file = open(del_model_file)
         training_data = pickle.load(training_file)
         training_file.close()
-        del_target_file = os.path.join(os.path.dirname(__file__),
-        'classifier_models/del_targets.p')
+        del_target_file = join(dirname(__file__),
+            '../classifier_models/del_targets.p')
         targets_file = open(del_target_file)
         targets = pickle.load(targets_file)
         targets_file.close()

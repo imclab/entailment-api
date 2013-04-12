@@ -5,7 +5,7 @@ Created on Wed Nov 28 23:11:02 2012
 @author: gavinhackeling@gmail.com
 """
 from os.path import dirname, join
-import classifier
+from classifiers import classifier
 import Marking_collector as Marker
 import sequencer
 from projector import project
