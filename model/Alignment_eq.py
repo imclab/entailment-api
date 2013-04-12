@@ -4,7 +4,6 @@ Created on Fri Nov 23 11:25:40 2012
 
 @author: gavin
 """
-import logging
 from nltk.corpus import wordnet as wn
 
 
@@ -35,14 +34,12 @@ class Eq:
         if self.p_penn_tag[:2] in self.tag_conversion_dict.keys():
             return self.tag_conversion_dict[self.p_penn_tag[:2]]
         else:
-            logging.info('WN tag could not be found for %s' % self.p_penn_tag)
             return 'SKIP'
 
     def get_h_wn_tag(self):
         if self.h_penn_tag[:2] in self.tag_conversion_dict.keys():
             return self.tag_conversion_dict[self.h_penn_tag[:2]]
         else:
-            logging.info('WN tag could not be found for %s' % self.h_penn_tag)
             return 'SKIP'
 
     def __repr__(self):

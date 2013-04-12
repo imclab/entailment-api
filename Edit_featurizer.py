@@ -368,18 +368,14 @@ def get_antonymy(edit, p_synsets, h_synsets):
 def get_hypernymy(p_synsets, h_synsets):
     path_distances = []
     for p_synset in p_synsets:
-        #logging.info('p synset is ' + str(p_synset))
         p_hypernyms = p_synset.hypernym_distances()
         for h_synset in h_synsets:
-            #logging.info('h synset is ' + str(h_synset))
             if h_synset in [synset_dist_tuple[0] for synset_dist_tuple in p_hypernyms]:
                 for synset in p_hypernyms:
                     if synset[0] == h_synset:
-                        #logging.info('Found h as hypernym of p: ' + str(synset))
                         if synset[1] != 0:
                             path_distances.append(synset[1])
     if len(path_distances) > 0:
-        #logging.info(path_distances)
         shortest_path = min(path_distances)
         score = 1 - (shortest_path / 8)
         return score

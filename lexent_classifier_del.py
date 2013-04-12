@@ -2,13 +2,12 @@
 '''
 
 '''
+from os.path import dirname, join
 try:
     import cPickle as pickle
 except:
     import pickle  # lint:ok
 from sklearn import tree
-import logging
-import os
 
 
 class Lexent_classifier_del(object):
@@ -24,14 +23,12 @@ class Lexent_classifier_del(object):
         targets_file = open(del_target_file)
         targets = pickle.load(targets_file)
         targets_file.close()
-        logging.info('Trained with %s examples', len(training_data))
 
         self.clf = tree.DecisionTreeClassifier()
-        self.clf = self.clf.fit(training_data, targets)
+        self.clf.fit(training_data, targets)
 
     def predict(self, feature_vector):
         predicted_target = self.clf.predict(feature_vector)
-        logging.info('Prediction: %s', predicted_target)
         return predicted_target
 
 

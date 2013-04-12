@@ -30,7 +30,6 @@ inaccurate. Just add all surface forms to list.
 
 """
 from __future__ import division
-#from nltk.corpus import wordnet as wn
 from model import Alignment_del
 import numpy as np
 import os

@@ -44,6 +44,10 @@ class Pipeline(object):
         # Sequence the alignments
         sequenced_edits = self.sequencer.sequence(
             edits, p_marked_tokens, h_marked_tokens)
+
+        for e in sequenced_edits:
+            print e
+
         # Project the predicted entailments based on the monotonicities
         projected_atomic_entailments = project(sequenced_edits)
         # Join the projections
