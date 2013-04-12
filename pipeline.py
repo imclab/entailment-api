@@ -33,7 +33,7 @@ class Pipeline(object):
             p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
 
         if len([t for t in h_tokens if t in self.mon_operators]) > 0:
-            h_monotonicity_markings = Marker.get_monotonicity_markings(h_tokens)
+            h_monotonicity_markings = Marker.get_markings(h_tokens)
             h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
         else:
             h_monotonicity_markings = ['up'] * len(h_tokens)
