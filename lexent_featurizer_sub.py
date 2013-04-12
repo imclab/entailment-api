@@ -59,7 +59,7 @@ import numpy as np
 from model import Alignment_sub
 import coref_resolver
 
-class Lexent_featurizer_sub:
+class Lexent_featurizer_sub(object):
 
     def __init__(self):
         # Make distribution corpora
@@ -524,7 +524,7 @@ class Lexent_featurizer_sub:
             return 1
         return 0
 
-    def getFeatures(self, alignment):
+    def get_features(self, alignment):
         pSynsets = []
         if alignment.p_wn_tag != 'SKIP':
             pSynsets = wn.synsets(alignment.p_token, pos=alignment.p_wn_tag)
@@ -570,10 +570,8 @@ class Lexent_featurizer_sub:
 if __name__ == '__main__':
     #edit1 = Alignment_sub.Sub('99', 'CD', 0, '7.5', 'CD', 0)
     #edit1 = Alignment_sub.Sub('red', 'red', 'NN', 0, 'green', 'green', 'NN', 0)
-    ##edit1 = Alignment_sub.Sub('design', 'design', 'VB', 0, 'planning', 'plan', 'VBZ', 0)
-    edit1 = Alignment_sub.Sub('Carl', 'Carl', 'NNP', 0, 'John', 'John', 'NNP', 0)
-
-    # edit1 = Alignment_sub.Sub('violating', 'violate', 'VBZ', 0, 'violated', 'violate', 'VBD', 0)
+    edit1 = Alignment_sub.Sub(
+        'Carl', 'Carl', 'NNP', 0, 'John', 'John', 'NNP', 0)
     featurizer = Lexent_featurizer_sub()
     #print 'NeqNum: %s' % featurizer.getNeqNum(edit1)
     pSynsets = []

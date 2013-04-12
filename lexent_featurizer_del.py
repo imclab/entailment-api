@@ -167,7 +167,7 @@ class Lexent_featurizer_del:
             return 1
         return 0
 
-    def getFeatures(self, alignment):
+    def get_features(self, alignment):
         features = np.zeros(9, dtype=float)
         features[0] = self.getLight(alignment)
         features[1] = self.getPronoun(alignment)

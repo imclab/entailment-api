@@ -9,13 +9,30 @@ import tornado.ioloop
 from tornado.options import define, options
 import json
 from nltk import word_tokenize
-import Pipeline
-import Aligner
-from model import Response
+import pipeline
+import aligner
+#import multiprocess_entailer
 
-class CheckHandler(tornado.web.RequestHandler):
-    def get(self):
-        self.write('service minimally online')
+
+#class MultiEntailmentHandler(tornado.web.RequestHandler):
+    #"""?p[]=premise 1&p[]=premise 2&p[]=premise 3&h=hypothesis"""
+
+    #def get(self):
+        ## Get the premises and hypothesis from arguments
+        #premises = self.get_arguments("p[]", strip=True)
+        #hypothesis = self.get_argument("h", strip=True)
+
+        #premise, entailment_code, entailment = multiprocessor.entail(
+            #premises, hypothesis)
+
+        #response_dict = {
+            #'p': premise,
+            #'h': hypothesis,
+            #'entailment_code': str(entailment_code),
+            #'entailment': entailment_code
+            #}
+        #response = json.dumps(response_dict, sort_keys=True, indent=4)
+        #self.write(response)
 
 
 class EntailmentHandler(tornado.web.RequestHandler):
@@ -30,7 +47,7 @@ class EntailmentHandler(tornado.web.RequestHandler):
 
         alignments, score = aligner.align(
             p_str_tokens, h_str_tokens, 'default')
-        sequenced_edits, entailment_code = Pipeline.get_entailment(
+        sequenced_edits, entailment_code = pipeline.get_entailment(
             p_str_tokens, h_str_tokens, alignments)
 
         response = {
@@ -43,8 +60,8 @@ class EntailmentHandler(tornado.web.RequestHandler):
         self.write(d)
 
 handlers = [
-            (r"/check", CheckHandler),
             (r"/e", EntailmentHandler),
+            #(r"/v1/entail", MultiEntailmentHandler)
             ]
 
 
@@ -54,7 +71,9 @@ application = tornado.web.Application(handlers, **settings)
 define("port", default=8001, help="run on the given port", type=int)
 
 if __name__ == "__main__":
-    aligner = Aligner.Aligner()
+    #multiprocessor = multiprocess_entailer.Multiprocess_entailer()
+    aligner = aligner.Aligner()
+    pipeline = pipeline.Pipeline()
     tornado.options.parse_command_line()
     application.listen(options.port)
     tornado.ioloop.IOLoop.instance().start()

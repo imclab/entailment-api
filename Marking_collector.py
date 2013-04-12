@@ -10,7 +10,7 @@ from os.path import dirname, realpath
 import subprocess
 
 
-def get_monotonicity_markings(tokens):
+def get_markings(tokens):
     path = dirname(realpath(__file__)) + '/MonotonicityMarker.jar'
     jar_call = ['java', '-jar', path, '-q']
     for token in tokens:
@@ -20,4 +20,4 @@ def get_monotonicity_markings(tokens):
     return monotonicity_markings_out.split('\n')[1:]
 
 if __name__ == '__main__':
-    print get_monotonicity_markings(['he', 'did', 'not', 'eat'])
+    print get_markings(['he', 'did', 'not', 'eat'])

@@ -5,12 +5,11 @@ Created on Fri Jan 11 19:38:12 2013
 @author: gavin
 """
 import sys
-import logging
 import unittest
 from nltk import word_tokenize
 sys.path.append('/home/gavin/dev/entailment-api')
-import Aligner
-import Pipeline
+import aligner
+import pipeline
 
 
 class Test_pipeline(unittest.TestCase):
@@ -23,7 +22,7 @@ class Test_pipeline(unittest.TestCase):
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'
-        self.aligner = Aligner.Aligner()
+        self.aligner = aligner.Aligner()
         self.target = 6
 
     def runTest(self):
@@ -34,7 +33,7 @@ class Test_pipeline(unittest.TestCase):
         for a in alignments:
             print a
 
-        sequenced_edits, prediction = Pipeline.get_entailment(
+        sequenced_edits, prediction = pipeline.get_entailment(
             self.p_str_tokens, self.h_str_tokens, alignments)
 
         self.assertEqual(prediction, self.target)
