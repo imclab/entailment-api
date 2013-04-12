@@ -9,8 +9,8 @@ import tornado.ioloop
 from tornado.options import define, options
 import json
 from nltk import word_tokenize
-import pipeline
-import aligner
+from pipeline import pipeline
+from alignment import aligner
 #import multiprocess_entailer
 
 
