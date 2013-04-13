@@ -8,8 +8,8 @@ import sys
 import unittest
 from nltk import word_tokenize
 sys.path.append('/home/gavin/dev/entailment-api')
-import aligner
-import pipeline
+from alignment import aligner
+from pipeline import pipeline
 
 
 class Test_pipeline(unittest.TestCase):
@@ -23,6 +23,7 @@ class Test_pipeline(unittest.TestCase):
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'
         self.aligner = aligner.Aligner()
+        self.pipeline = pipeline.Pipeline()
         self.target = 6
 
     def runTest(self):
@@ -33,8 +34,8 @@ class Test_pipeline(unittest.TestCase):
         for a in alignments:
             print a
 
-        sequenced_edits, prediction = pipeline.get_entailment(
-            self.p_str_tokens, self.h_str_tokens, alignments)
+        sequenced_edits, prediction = self.pipeline.get_entailment(
+            self.p, self.h, self.p_str_tokens, self.h_str_tokens, alignments)
 
         self.assertEqual(prediction, self.target)
 

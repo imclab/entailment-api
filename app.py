@@ -48,7 +48,7 @@ class EntailmentHandler(tornado.web.RequestHandler):
         alignments, score = aligner.align(
             p_str_tokens, h_str_tokens, 'default')
         sequenced_edits, entailment_code = pipeline.get_entailment(
-            p_str_tokens, h_str_tokens, alignments)
+            p, h, p_str_tokens, h_str_tokens, alignments)
 
         response = {
             'p': p,
