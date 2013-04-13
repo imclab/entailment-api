@@ -19,6 +19,9 @@ class Test_pipeline(unittest.TestCase):
         #self.h = "An Irishman won the Nobel Prize for Literature."
         self.p = "ChaCha Answer Millard Fillmore was the last president who was neither a Democrat or a Re"
         self.h = "was Millard Fillmore a Democrat"
+        #self.p = "Carolina defeated Duke"
+        #self.h = "Carolina is a school near Duke"
+        #self.h = "Duke beat Carolina"
         self.p_str_tokens = word_tokenize(self.p)
         self.h_str_tokens = word_tokenize(self.h)
         self.weights = 'default'

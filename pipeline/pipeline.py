@@ -11,7 +11,8 @@ from classifiers import classifier
 #from monotonicity import Marking_collector as Marker
 from monotonicity import marker_interface
 import sequencer
-from projector import project
+from projector_monotonicity import project_monotonicity
+import arg_types_projector
 import joiner
 
 
@@ -27,6 +28,7 @@ class Pipeline(object):
         self.mon_operators = [l.rstrip() for l in monotonicity_operators]
         self.classifier = classifier.Classifier()
         self.marker = marker_interface.Marker_interface()
+        self.arg_types_projector = arg_types_projector.Arg_type_projector()
 
     def get_entailment(self, p, h, p_tokens, h_tokens, edits):
         if len([t for t in p_tokens if t in self.mon_operators]) > 0:
@@ -56,15 +58,23 @@ class Pipeline(object):
         # Classify the alignments
         self.classifier.classify_edits(edits)
         # Sequence the alignments
-        sequenced_edits = self.sequencer.sequence(
-            edits, p_marked_tokens, h_marked_tokens)
+        sequenced_edits, use_arg_type_features, matched_predicate = \
+        self.sequencer.sequence(p, h, edits, p_marked_tokens, h_marked_tokens)
 
-        print 'Sequenced edits\n'
-        for e in sequenced_edits:
-            print e
+        print 'the matching predicate is\n', matched_predicate
+
+        # If the sentences have similar transitive predicates, correct
+        # predicted entailments for edits with subject/object mismatches
+        if use_arg_type_features:
+            sequenced_edits = self.arg_types_projector.project(
+                p, h, matched_predicate, sequenced_edits)
 
         # Project the predicted entailments based on the monotonicities
-        projected_atomic_entailments = project(sequenced_edits)
+        projected_entailments = project_monotonicity(sequenced_edits)
+
+        for entailment in projected_entailments:
+            print entailment
+
         # Join the projections
-        entailment = self.joiner.join(projected_atomic_entailments)
+        entailment = self.joiner.join(projected_entailments)
         return sequenced_edits, entailment

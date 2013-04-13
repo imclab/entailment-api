@@ -28,7 +28,7 @@ class Classifier(object):
 
     def classify_edits(self, edits):
         for edit in edits:
-            if edit.edit_type == 'SUB':
+            if edit.edit_type == 'SUB' or edit.edit_type == 'EQ':
                 feature_vector = self.featurizer_sub.get_features(edit)
                 edit.lexical_entailment = self.clf_sub.predict(
                     feature_vector)[0]
