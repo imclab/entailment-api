@@ -13,7 +13,7 @@ class Marker_interface(object):
         Connect to the socket
         '''
         HOST = 'localhost'
-        PORT = 8003
+        PORT = 8020
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.sock.connect((HOST, PORT))
 
