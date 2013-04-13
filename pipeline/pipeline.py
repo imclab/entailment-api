@@ -31,7 +31,9 @@ class Pipeline(object):
     def get_entailment(self, p, h, p_tokens, h_tokens, edits):
         if len([t for t in p_tokens if t in self.mon_operators]) > 0:
             #p_monotonicity_markings = Marker.get_markings(p_tokens)
-            p_markings = self.marker.mark(p)
+            print 'marking'
+            p_markings = self.marker.mark(' '.join(p_tokens))
+            print 'done'
             print 'p markings', p_markings, type(p_markings)
             p_marked_tokens = dict(zip(p_tokens, p_markings))
             print 'p marked tokens', p_marked_tokens
@@ -41,7 +43,9 @@ class Pipeline(object):
 
         if len([t for t in h_tokens if t in self.mon_operators]) > 0:
             #h_monotonicity_markings = Marker.get_markings(h_tokens)
-            h_markings = self.marker.mark(h)
+            print 'marking'
+            h_markings = self.marker.mark(' '.join(h_tokens))
+            print 'done'
             print 'h markings', h_markings
             h_marked_tokens = dict(zip(h_tokens, h_markings))
             print 'h marked tokens', h_marked_tokens

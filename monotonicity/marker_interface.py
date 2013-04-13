@@ -12,21 +12,23 @@ class Marker_interface(object):
         '''
         Connect to the socket
         '''
-        HOST = 'localhost'
-        PORT = 8020
-        self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.sock.connect((HOST, PORT))
+        self.HOST = '127.0.0.1'
+        self.PORT = 8020
+        #self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        #self.sock.connect((self.HOST, self.PORT))
 
     def mark(self, sentence):
         '''
         Send a sentence to the socket and return the monotonicity markings
         '''
-        print 'Sending'
-        self.sock.sendall(sentence + '\n')
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.connect((self.HOST, self.PORT))
+        print 'Sending', sentence
+        sock.sendall(sentence + '\n')
         print 'Getting response'
-        response = self.sock.recv(4096)
+        response = sock.recv(4096)
         # Get a newline that is sent for some reason
-        self.sock.recv(4096)
+        sock.recv(4096)
         #print response, type(response)
         response = response[1:-1].split(', ')
         #print response, type(response)
