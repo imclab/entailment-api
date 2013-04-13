@@ -39,5 +39,5 @@ class Classifier(object):
             elif edit.edit_type == 'INS':
                 tmp_del = Alignment_del.Del(edit.h_token)
                 feature_vector = self.featurizer_del.get_features(tmp_del)
-                edit.lexical_entailment = self.clf_del.predict(
-                    feature_vector)[0]
+                edit.lexical_entailment = self.convert_del_to_ins(
+                    self.clf_del.predict(feature_vector)[0])

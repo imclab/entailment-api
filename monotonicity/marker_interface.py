@@ -28,10 +28,11 @@ class Marker_interface(object):
         print 'Getting response'
         response = sock.recv(4096)
         # Get a newline that is sent for some reason
-        sock.recv(4096)
+        #print 'other thing', sock.recv(4096)
         #print response, type(response)
         response = response[1:-1].split(', ')
         #print response, type(response)
+        sock.close()
         return response
 
 if __name__ == '__main__':
