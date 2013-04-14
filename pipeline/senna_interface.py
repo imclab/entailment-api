@@ -27,8 +27,10 @@ class Senna_interface(object):
         return False
 
     def get_parse(self, text_str):
+        print self.senna_path
+        print self.senna_path + '/senna2'
         pipe = Popen([
-            self.senna_path + 'senna2',
+            self.senna_path + '/senna2',
             '-posvbs'],
             cwd=self.senna_path,
             stdout=PIPE, stdin=PIPE, stderr=STDOUT)
