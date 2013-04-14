@@ -23,14 +23,15 @@ class Arg_type_projector(object):
         h_arg_types = [t[-2:] for t in h_arg_types]
 
         for alignment in alignments:
-            p_arg = p_arg_types[alignment.p_index]
-            h_arg = h_arg_types[alignment.h_index]
-            arg_types = ['A0', 'A1']
-            if p_arg != h_arg and p_arg in arg_types and h_arg in arg_types:
-                print 'mismatch on', alignment.p_token, alignment.h_token
-                if alignment.lexical_entailment in [0, 1, 2]:
-                    print 'previously was match'
-                    alignment.lexical_entailment = 4
-                    print 'now set to', alignment.lexical_entailment
+            if alignment.edit_type in ['SUB', 'EQ']:
+                p_arg = p_arg_types[alignment.p_index]
+                h_arg = h_arg_types[alignment.h_index]
+                arg_types = ['A0', 'A1']
+                if p_arg != h_arg and p_arg in arg_types and h_arg in arg_types:
+                    print 'mismatch on', alignment.p_token, alignment.h_token
+                    if alignment.lexical_entailment in [0, 1, 2]:
+                        print 'previously was match'
+                        alignment.lexical_entailment = 4
+                        print 'now set to', alignment.lexical_entailment
 
         return alignments
