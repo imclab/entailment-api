@@ -73,15 +73,7 @@ class Sequencer(object):
                     using_arg_types = self.need_to_use_arg_types(p, h, edit)
                     if using_arg_types:
                         matched_predicate = edit
-                '''
-                If h pos and p pos are v and lexent == 0/1/2
-                    if the verbs in this pair both have a0 and a1+
-                        get shallow parse
-                            for each edit, get arg type at edit index
-                        set flag to
-                        activate argtype features
-                        set sub/eq 0/1/2 to 4 if arg types mismatched a0/a1+
-                '''
+
                 # TODO determine if SUB and SUB N/D need to
                 # take monotonicity markings from p or h
                 if edit.p_token in self.mon_operators or \

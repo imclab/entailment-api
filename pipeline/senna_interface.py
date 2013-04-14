@@ -17,7 +17,7 @@ from model import semantic_role as sr
 class Senna_interface(object):
 
     def __init__(self):
-        pass
+        self.senna_path = join(dirname(__file__), '../../senna')
 
     def is_transitive(self, predicate, text):
         arg_list = self.get_arg_types_for_predicate(predicate, text)
@@ -28,9 +28,9 @@ class Senna_interface(object):
 
     def get_parse(self, text_str):
         pipe = Popen([
-            '/home/gavin/dev/senna/senna2',
+            self.senna_path + 'senna2',
             '-posvbs'],
-            cwd='/home/gavin/dev/senna',
+            cwd=self.senna_path,
             stdout=PIPE, stdin=PIPE, stderr=STDOUT)
         out = pipe.communicate(input='%s' % text_str.encode('utf-8', 'ignore'))[0]
         return out
