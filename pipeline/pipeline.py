@@ -32,25 +32,19 @@ class Pipeline(object):
 
     def get_entailment(self, p, h, p_tokens, h_tokens, edits):
         if len([t for t in p_tokens if t in self.mon_operators]) > 0:
-            #p_monotonicity_markings = Marker.get_markings(p_tokens)
-            print 'marking'
+            p_tokens = [t.encode('utf-8', 'ignore') for t in p_tokens]
+            print p_tokens
             p_markings = self.marker.mark(' '.join(p_tokens))
-            print 'done'
-            print 'p markings', p_markings, type(p_markings)
             p_marked_tokens = dict(zip(p_tokens, p_markings))
-            print 'p marked tokens', p_marked_tokens
         else:
             p_monotonicity_markings = ['up'] * len(p_tokens)
             p_marked_tokens = dict(zip(p_tokens, p_monotonicity_markings))
 
         if len([t for t in h_tokens if t in self.mon_operators]) > 0:
-            #h_monotonicity_markings = Marker.get_markings(h_tokens)
-            print 'marking'
+            h_tokens = [t.encode('utf-8', 'ignore') for t in h_tokens]
+            print h_tokens
             h_markings = self.marker.mark(' '.join(h_tokens))
-            print 'done'
-            print 'h markings', h_markings
             h_marked_tokens = dict(zip(h_tokens, h_markings))
-            print 'h marked tokens', h_marked_tokens
         else:
             h_monotonicity_markings = ['up'] * len(h_tokens)
             h_marked_tokens = dict(zip(h_tokens, h_monotonicity_markings))
@@ -65,9 +59,9 @@ class Pipeline(object):
 
         # If the sentences have similar transitive predicates, correct
         # predicted entailments for edits with subject/object mismatches
-        if use_arg_type_features:
-            sequenced_edits = self.arg_types_projector.project(
-                p, h, matched_predicate, sequenced_edits)
+        #if use_arg_type_features:
+            #sequenced_edits = self.arg_types_projector.project(
+                #p, h, matched_predicate, sequenced_edits)
 
         # Project the predicted entailments based on the monotonicities
         projected_entailments = project_monotonicity(sequenced_edits)

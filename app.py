@@ -40,10 +40,14 @@ class EntailmentHandler(tornado.web.RequestHandler):
         entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
         p = self.get_argument("p", strip=True)
         h = self.get_argument("h", strip=True)
-        p_str_tokens = word_tokenize(p)
-        h_str_tokens = word_tokenize(h)
         print 'p', p.encode('utf-8', 'replace')
         print 'h', h.encode('utf-8', 'replace')
+        p_str_tokens = word_tokenize(p)
+        h_str_tokens = word_tokenize(h)
+        p_str_tokens = [unicode(t) for t in p_str_tokens]
+        h_str_tokens = [unicode(t) for t in h_str_tokens]
+        print 'p', p
+        print 'h', h
 
         alignments, score = aligner.align(
             p_str_tokens, h_str_tokens, 'default')

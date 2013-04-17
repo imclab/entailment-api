@@ -45,18 +45,29 @@ class Senna_interface(object):
 
     def get_arg_types_for_predicate(self, predicate, text):
         predicates_and_arg_lists = self.get_arg_types_for_all_predicates(text)
-        arg_list = predicates_and_arg_lists[predicate]
+        arg_list = []
+        try:
+            arg_list = predicates_and_arg_lists[predicate]
+        except:
+            print 'SENNA did not identify %s as a predicate' % \
+            predicate.encode('utf-8', 'ignore')
         return arg_list
 
     def get_arg_types_for_all_predicates(self, text_str):
         out = self.get_parse(text_str)
         out_lines = out.split('\n')
         out_lines = [l for l in out_lines if 1 != '\n']
+        out_lines = [l for l in out_lines if not l.startswith('WARNING')]
+        print 'out\n', out_lines
         unparsed_role_labels = out_lines[5:]
         tokens = out_lines[0].split('\t')[1:]
         semantic_role_labels = {}
+        print 'unparsed role lables\n', unparsed_role_labels
         for parse in unparsed_role_labels:
+            print 'parse', parse
             roles = parse.split('\t')[1:]
+            print 'roles', roles
+            print 'toknes', tokens
             predicate = tokens[self.get_predicate_index(roles)]
             semantic_role_labels[predicate] = roles
         return semantic_role_labels
