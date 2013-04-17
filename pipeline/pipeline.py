@@ -59,9 +59,9 @@ class Pipeline(object):
 
         # If the sentences have similar transitive predicates, correct
         # predicted entailments for edits with subject/object mismatches
-        #if use_arg_type_features:
-            #sequenced_edits = self.arg_types_projector.project(
-                #p, h, matched_predicate, sequenced_edits)
+        if use_arg_type_features:
+            sequenced_edits = self.arg_types_projector.project(
+                p, h, matched_predicate, sequenced_edits)
 
         # Project the predicted entailments based on the monotonicities
         projected_entailments = project_monotonicity(sequenced_edits)

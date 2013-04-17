@@ -64,9 +64,13 @@ class Aligner(object):
         if weights == 'default':
             weights = self.weights
 
+        #alignments_score = [
+            #0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            #0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            #0, ]
         alignments_score = [
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
         all_alignments = dict()
         predicted_alignments = []
         all_features = dict()
