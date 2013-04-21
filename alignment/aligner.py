@@ -20,31 +20,58 @@ class Aligner(object):
 
     def __init__(self):
         self.weights = [
-        3.48961282e-01,
-        3.75654800e-01,
-        4.12711607e-01,
-        -7.24616082e-01,
-        3.77362029e-02,
-        1.15394180e-02,
-        1.33443409e-02,
-        1.64232249e-02,
-        -3.36975735e-02,
-        -5.02300279e-03,
-        -3.17276960e-02,
-        -2.94709012e-02,
-        1.09211720e-03,
-        -1.68436954e-02,
-        7.09680460e-03,
-        1.01815575e-03,
-        -2.07404857e-02,
-        -3.86330862e-02,
-        1.66864534e-06,
-        9.97633950e-04,
-        7.88702336e-04,
-        -1.04303582e-02,
-        6.93624232e-02,
-        7.89814727e-03
+        2.17985806e-01,
+        6.01901694e-02,
+        5.28099419e-01,
+        0.14174161e-01,
+        2.45876460e-01,
+        2.19263225e-01,
+        1.00816031e-01,
+        1.06477027e-01,
+        1.60378048e-03,
+        5.79940520e-03,
+        1.89163517e-02,
+        1.68341118e-02,
+        1.18885069e-01,
+        2.68984406e-02,
+        9.30754965e-03,
+        1.78371552e-03,
+        1.77288605e-03,
+        2.37539365e-03,
+        5.50162160e-05,
+        1.10308137e-04,
+        5.51531014e-05,
+        5.35273441e-05,
+        2.31964872e-01,
+        1.68415302e-04,
+        2.24946972e-01,
         ]
+        #self.weights = [
+        #3.48961282e-01,
+        #3.75654800e-01,
+        #4.12711607e-01,
+        #-7.24616082e-01,
+        #3.77362029e-02,
+        #1.15394180e-02,
+        #1.33443409e-02,
+        #1.64232249e-02,
+        #-3.36975735e-02,
+        #-5.02300279e-03,
+        #-3.17276960e-02,
+        #-2.94709012e-02,
+        #1.09211720e-03,
+        #-1.68436954e-02,
+        #7.09680460e-03,
+        #1.01815575e-03,
+        #-2.07404857e-02,
+        #-3.86330862e-02,
+        #1.66864534e-06,
+        #9.97633950e-04,
+        #7.88702336e-04,
+        #-1.04303582e-02,
+        #6.93624232e-02,
+        #7.89814727e-03
+        #]
         self.lemmatizer = WordNetLemmatizer()
 
     def get_tokens(self, tagged_tokens):
@@ -64,12 +91,8 @@ class Aligner(object):
         if weights == 'default':
             weights = self.weights
 
-        #alignments_score = [
-            #0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            #0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
-            #0, ]
         alignments_score = [
-            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+            0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, ]
         all_alignments = dict()
         predicted_alignments = []
@@ -125,8 +148,12 @@ class Aligner(object):
                     len(p_str_tokens), len(h_str_tokens))
                 alignment_score = np.dot(features, weights)
 
+                #print 'features for ', p_token.token, h_token.token, '\n', features
+                #print 'score\n', alignment_score
+                #print '\n'
+
                 scored_alignments_to_h.append([alignment_score,
-                h_token.lemma + u'_' + unicode(h_token.index)])
+                    h_token.lemma + u'_' + unicode(h_token.index)])
                 all_features[
                     p_token.lemma + u'_' + unicode(p_index) +
                     h_token.lemma + u'_' + unicode(h_index)] = features
@@ -183,6 +210,7 @@ class Aligner(object):
         h_preferences_smf = []
 
         for i in all_h_prefs:
+            print i[0], [j[1] for j in i[1]]
             h_preferences_smf.append((i[0], [j[1] for j in i[1]]))
 
         alignment_preferences = Stable_marriage_finder.get_marriages(
@@ -198,7 +226,6 @@ class Aligner(object):
             or re.sub(r"_.+", '', alignment[1]) not in stop_types:
                 predicted_alignments.append(
                     all_alignments[alignment[0] + alignment[1]])
-
 
         summed_weights = 0
         for alignment in predicted_alignments:

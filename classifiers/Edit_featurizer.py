@@ -50,6 +50,8 @@ from nltk.corpus.reader.wordnet import WordNetError
 from nltk.metrics import edit_distance
 from nltk.tokenize import word_tokenize
 import numpy as np
+import sys
+sys.path.append('/home/gavin/dev/entailment-api')
 from model import Alignment_sub as SUB
 
 # Make a list of nominals: verb, adj (nom)
@@ -86,10 +88,11 @@ def get_synsets(token, wn_tag):
 
 
 def featurize(edit, p_tokens, h_tokens, p_len, h_len):
-    features = np.zeros(24, dtype=float)
+    features = np.zeros(25, dtype=float)
     if edit.edit_type == 'EQ':
         features[0] = 1
         features[4] = 1
+        features[24] = 1
 
     elif edit.edit_type == 'SUB':
         p_synsets = get_synsets(edit.p_token, edit.p_wn_tag)
@@ -133,7 +136,15 @@ def featurize(edit, p_tokens, h_tokens, p_len, h_len):
         features[21] = is_matching_WRB(edit)
         features[22] = is_same_lowercased(edit)
         features[23] = misc_align(edit)
+        features[24] = has_same_lemma(edit)
+
     return features
+
+
+def has_same_lemma(alignment):
+    if alignment.p_lemma == alignment.h_lemma:
+        return 1
+    return 0
 
 
 def is_same_lowercased(edit):
@@ -471,36 +482,17 @@ if __name__ == '__main__':
         'matching successor', 'both CC', 'both CD', 'both DT', 'both IN',
         'both NN', 'both VB', 'both JJ', 'both RB', 'both POS', 'both TO',
         'both WDT', 'both WP', 'both WP$', 'both WRB']
-#    edit1 = Alignment_sub.Alignment_sub('happy', 'JJ', 'sad', 'JJ')
-#    edit1 = Alignment_sub.Alignment_sub('happy', 'JJ', 'mad', 'JJ')
-#    edit1 = Alignment_sub.Alignment_sub('abort', 'VB', 'abortion', 'NN')
-    #p = "I ate an apple at the fruit stand."
     p = "I ate an apple."
     h = "I ate a fruit."
-    #edit1 = SUB.Sub('I', 'PRP', 0, 'I', 'PRP', 0)
-    #edit2 = SUB.Sub('ate', 'VBD', 1, 'ate', 'VBD', 1)
-    #edit3 = SUB.Sub('an', 'DT', 2, 'a', 'DT', 2)
-    #edit4 = SUB.Sub('apple', 'NN', 3, 'fruit', 'NN', 3)
-    #edit5 = SUB.Sub('.', '.', 4, '.', '.', 4)
-    #edit4 = SUB.Sub('The', 'DT', 1, 'the', 'DT', 4)
-    #edit4 = SUB.Sub('living', 'NNS', 3, 'dead', 'NNS', 3)
-    edit4 = SUB.Sub("exchange", 'VB', 3, 'exchanged', 'VBD', 3)
-
+    edit4 = SUB.Sub("defeated", "defeat", 'VBD', 3, 'beat', "beat", 'VBD', 3)
     p_tokens = word_tokenize(p)
     h_tokens = word_tokenize(h)
     p_len = len(p_tokens)
     h_len = len(h_tokens)
 
     features = featurize(edit4, p_tokens, h_tokens, p_len, h_len)
-    #print 'EQ:   %s' % features[0]
-    #print 'SUB:  %s' % features[1]
-    ##print 'DEL:  %s' % features[2]
-    #print 'INS:  %s' % features[3]
-    #print 'SIM:  %s' % features[4]
-    #print 'DIST: %s' % features[5]
-    #print 'MP:   %s' % features[6]
-    #print 'MS:   %s' % features[7]
-    print features[23]
-    zipped = zip(feature_names, features)
-    for name, feature in zipped:
-        print name, feature
+    print features[4]
+    print features[24]
+    #zipped = zip(feature_names, features)
+    #for name, feature in zipped:
+        #print name, feature
