@@ -19,9 +19,9 @@ class Test_pipeline(unittest.TestCase):
         #self.h = "An Irishman won the Nobel Prize for Literature."
         #self.p = "ChaCha Answer Millard Fillmore was the last president who was neither a Democrat or a Re"
         #self.h = "was Millard Fillmore a Democrat"
-        self.p = "Carolina was not defeated by Duke"
+        self.p = "Carolina defeated the Duke Blue Devils once again"
         #self.h = "Carolina is a school near Duke"
-        self.h = "Duke beat Carolina"
+        self.h = "Carolina beat Duke"
         #self.p = "I walked away."
         #self.h = "I ran away."
         self.p_str_tokens = word_tokenize(self.p)
@@ -29,7 +29,7 @@ class Test_pipeline(unittest.TestCase):
         self.weights = 'default'
         self.aligner = aligner.Aligner()
         self.pipeline = pipeline.Pipeline()
-        self.target = 6
+        self.target = 1
 
     def runTest(self):
         alignments, alignments_score = self.aligner.align(

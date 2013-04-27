@@ -34,6 +34,11 @@ from alignment import aligner
         #response = json.dumps(response_dict, sort_keys=True, indent=4)
         #self.write(response)
 
+class PitchHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        self.render('index.html')
+
 
 class EntailmentHandler(tornado.web.RequestHandler):
     def get(self):
@@ -63,8 +68,39 @@ class EntailmentHandler(tornado.web.RequestHandler):
         d = json.dumps(response, sort_keys=True, indent=4)
         self.write(d)
 
+    def post(self):
+        data_json = tornado.escape.json_decode(self.request.body)
+        print data_json
+        p = data_json['p']
+        print 'p:', p
+        h = data_json['h']
+        print 'h:', h
+        w = data_json['w']
+        print 'w:', w
+
+        entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
+        p_str_tokens = word_tokenize(p)
+        h_str_tokens = word_tokenize(h)
+        p_str_tokens = [unicode(t) for t in p_str_tokens]
+        h_str_tokens = [unicode(t) for t in h_str_tokens]
+
+        alignments, score = aligner.align(
+            p_str_tokens, h_str_tokens, 'default')
+        sequenced_edits, entailment_code = pipeline.get_entailment(
+            p, h, p_str_tokens, h_str_tokens, alignments)
+
+        response = {
+            'p': p,
+            'h': h,
+            'entailment_code': str(entailment_code),
+            'entailment': entailment[entailment_code]
+            }
+        d = json.dumps(response, sort_keys=True, indent=4)
+        self.write(d)
+
 handlers = [
             (r"/e", EntailmentHandler),
+            (r"/pitch", PitchHandler),
             #(r"/v1/entail", MultiEntailmentHandler)
             ]
 

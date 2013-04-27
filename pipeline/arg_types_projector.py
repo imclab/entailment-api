@@ -24,6 +24,11 @@ class Arg_type_projector(object):
 
         for alignment in alignments:
             if alignment.edit_type in ['SUB', 'EQ']:
+                print '\n\n'
+                print 'p', p
+                print 'h', h
+                print p_arg_types
+                print alignment.p_index, alignment.h_index
                 p_arg = p_arg_types[alignment.p_index]
                 h_arg = h_arg_types[alignment.h_index]
                 arg_types = ['A0', 'A1']

@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Predicting Entailment | Gavin Hackeling</title>
+
+	<meta name="description" content="A presentation on predicting entailment in unstructured text by Gavin Hackeling">
+	<meta name="author" content="Gavin Hackeling">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="static/css/reveal.min.css">
+	<link rel="stylesheet" href="static/css/theme/simple.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="static/lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+	document.write( '<link rel="stylesheet" href="static/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="static/css/gavin.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides" style="width:1440px!important;height=840px;">
+
+			<!-- Title -->
+			<section>
+				<h3>
+					Predicting Entailment
+				</h3>
+				<h4>Gavin Hackeling</h4>
+				<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+			</section>
+
+			<!-- Contents -->
+			<section>
+				<h3 style="text-align:left;">In the first part of this presentation I will describe a <strong style="color:#117ada;">language-processing capability.</strong></h3>
+				<br />
+				<h3 style="text-align:left;">
+					In the second part I will demonstrate one use of this capability in an <strong style="color:#117ada;">app that answers yes-or-no questions.</strong>
+				</h3>
+			</section>
+
+			<!-- Part I -->
+			<section>
+				<h2 style="text-align:left;"><span style="color:#117ada;">Part I:</span></h2>
+				<h2 style="text-align:left;">Predicting Entailment in Unstructured Text</h2>
+			</section>
+
+			<!-- What is entailment? -->
+			<section>
+				<h3><strong style="color:#117ada;">Entailment</strong> is the relationship between sentences that holds when <strong>one sentence follows from another.</strong></h3>
+				<br>
+				<h3><span class="bluetext">"I ate food."</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
+			</section>
+
+			<!-- Examples of entailment -->
+			<section>
+				<h3><blockquote>Carolina beat Duke.</blockquote></h3>
+				<h3>follows from</h3>
+				<h3><blockquote>North Carolina defeated Duke after crushing State.</blockquote></h3>
+				<br>
+				<h3><blockquote>A student presented a project.</blockquote></h3>
+				<h3>does <strong>not</strong> follow from</h3>
+				<h3><blockquote>No student presented.</blockquote></h3>
+			</section>
+
+			<!-- Move to notes -->
+			<!-- What is my project? -->
+			<!--
+			<section>
+				<h3>I have built a system that predicts the entailment relations that exist between pairs of plain English texts.</h3>
+				<br />
+				<h3>Predicting entailment can allow applications to understand what a text means in relation to another.</h3>
+			</section>
+			-->
+
+			<!-- Live API Demo -->
+			<section style="text-align:left;">
+				<h3>Demo</h3>
+				<br>
+				<div>
+					<form name="ajax-form" id="ajax-form" action="/e" method="post">
+						<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+						<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
+						<input type="hidden" name="w" value="default" />
+						<button id="ask" style="height:70px; width:90px;">Ask</button>
+						<button id="loading" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+					</form>
+					<br>
+					<div class="padding" style="height:400px;"></div>
+					<div class="api_response" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+					">
+					<div class="response_entailment"></div>
+					<br>
+					<pre><code class="response_json"></code></pre>
+					<br>
+				</div>
+			</div>
+		</section>
+
+		<!-- Part II -->
+		<section>
+			<h2 style="text-align:left;"><span style="color:#117ada;">Part II:</span></h2>
+			<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
+		</section>
+
+		<!-- Search Engine usage -->
+		<section>
+			<h3>First, a note about search engine usage:</h3>
+			<!--
+			<br />
+			<h3 style="text-align:left;">People often use search engines to find answers, not documents.</h3>
+			<h3 style="text-align:left;">Many people use English sentences as their queries rather than keywords.</h3>
+			-->
+			<!-- quotes and statistics here about search engine usage -->
+		</section>
+		<section>
+			<h3>Search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called <strong style="color:#117ada;">factoids</strong>.</h3>
+			<h3>These systems use <strong>structured data sources</strong> to answer factoid questions.</h3>
+			add logos here
+		</section>
+
+		<!-- ZOOM IN TO ALL SCREENSHOTS -->
+		<!-- Factoid example screenshots -->
+		<!-- How long is the Brooklyn Bridge? Google screenshot -->
+		<section class="presentimg">
+			<img src="static/img/g_f_brooklyn.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<section class="presentimg">
+			<img src="static/img/b_f_uk.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<section class="presentimg">
+			<img src="static/img/w_f_declaration.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<!-- replace with screenshot in phone -->
+		<section class="presentimg">
+			<img src="static/img/gn_f_jakarta.png" alt="Factoid screenshot" height="1280" width="720">
+		</section>
+
+		<!-- Users like this feature, and have become habituated to it. GIVE JUSTIFICATION, STATISTICS, etc --> 
+		<section>
+			<h3>Users like this feature, and have become habituated to it.</h3>
+		</section>
+
+		<!-- Not all questions are factoids, and search engines do not answer many of these types of questions.
+		These other types include polar, or yes-or-no, questions.
+		-->
+		<section>
+			<h3>Not all questions are factoids, and search engines do not answer many of these types of questions.</h3>
+			<br>
+			<h3>These other types include <strong style="color:#117ada;">polar</strong>, or yes-or-no, questions.</h3>
+		</section>
+
+		<!-- Some polar questions are difficult to rephrase as factoid questions. -->
+		<section>
+			<h3>Some polar questions are difficult to rephrase as factoid questions.</h3>
+			<div>
+				<br>
+				<h3><blockquote>Are cats crepuscular?</blockquote></h3>
+				<h3><blockquote>Did Ariel Sharon have a stroke?</blockquote></h3>
+				<h3><blockquote>Is malt an ingredient in beer?</blockquote></h3>
+				<h3><blockquote>Can Bitcoin transactions be tracked?</blockquote></h3>
+			</div>
+		</section>
+
+		<!-- 
+		In my tests, users often attempted to rephrase polar questions as factoid questions.
+		When the polar question could not be rephrased, they used the polar question verbatim as their search query.
+		-->
+		<section>
+			<h3>When a polar question cannot be rephrased as a factoid question, people often use the <strong>verbatim</strong> polar question as a query.</h3>
+		</section>
+
+		<!--
+		The answers to polar questions can sometimes be found in the descriptions of the top results, 
+		but no search engine directly surfaces an answer.
+		-->
+		<section>
+			<h3>No search engine <strong>directly surfaces</strong> answers to polar questions.</h3>
+		</section>
+
+		<!-- Screenshots of polar question searches -->
+		<section class="presentimg">
+			<img src="static/img/g_p_moons.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<section class="presentimg">
+			<img src="static/img/w_p_whig.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<section class="presentimg">
+			<img src="static/img/b_p_fiber.jpg" alt="Factoid screenshot" height="838" width="1433">
+		</section>
+		<!--
+			<section>
+				ADD POSITIVE/YES EXAMPLES
+			</section>
+		-->
+
+		<!-- 
+		In the mobile, wearable future of computing, many interfaces will not be to support long pages of search results.
+		Users want services that answer their questions with as little work as possible.
+		 -->
+		<section>
+			<h3>In the mobile, wearable future of computing, many interfaces will not be to support long pages of search results.</h3>
+			<br>
+			<h3>Users want services that answer their questions with as little work as possible.</h3>
+		</section>
+
+		<!-- 
+		Entailment prediction can be used to automatically answer polar questions using only unstructured text.
+		 -->
+		<section>
+			<h3>Entailment prediction can be used to automatically answer polar questions using only unstructured text.</h3>
+		</section>
+
+		<!-- 
+		Given a query, the system retrieves relevant documents from the web that might provide evidence for an answer.
+		It predicts whether or not each document entails the query.
+		It uses these predictions to form an answer and justification.
+		 -->
+		<section class="presentimg">
+			<img src="static/img/how-it-works-1.png" alt="How it works" height="754" width="1290">
+		</section>
+
+		<!-- 
+		For example, if I ask "was Millard Fillmore the last Whig president?",
+		it might retrieve documents like
+		"Millard Fillmore was the last president who was neither a Democrat nor a Republican,"
+		"Millard Fillmore was the 13th president",
+		and "Millard Fillmore was the 13th president and the final Whig president."
+		The first and second documents are relevant, but neither entail nor contradict the question.
+		The third document, however, entails the question.
+		Based on this evidence, the system should return something like
+		"Yes, because Millard Fillmore was the 13th president and the final Whig president."
+		 -->
+		<section class="presentimg">
+			<img src="static/img/how-it-works-2.png" alt="How it works" height="754" width="1290">
+		</section>
+
+		<!-- 
+		Let's take a look at the app in action.
+		 -->
+		<section class="presentimg">
+			<iframe src="http://player.vimeo.com/video/64749911?title=0&amp;byline=0&amp;portrait=0&amp;color=cccccc" width="1433" height="807" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+		</section>
+
+
+
+		<!-- Conclusion -->
+		<section>
+			<h3>Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.</h3>
+			<br>
+			<h3>
+				Entailment prediction systems will be used in other applications as they improve.
+			</h3>
+		</section>
+
+		<!-- Questions -->
+		<section>
+			<h2>Questions</h2>
+		</section>
+	</div>
+
+
+</div>
+
+<script src="static/lib/js/head.min.js"></script>
+<script src="static/js/reveal.min.js"></script>
+
+<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+					]
+				});
+
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+
+jQuery(document).ready(function($){
+	$.fn.serializeObject = function(){
+		var o = {};
+		var a = this.serializeArray();
+		$.each(a, function() {
+			if (o[this.name] !== undefined) {
+				if (!o[this.name].push) {
+					o[this.name] = [o[this.name]];
+				}
+				o[this.name].push(this.value || '');
+			} else {
+				o[this.name] = this.value || '';
+			}
+		});
+		return o;
+	};
+
+	$(function(){
+		$('form').submit(function() {
+			// Set the containers' visibility
+			$('#ask').css("display", "none");
+			$('#loading').css("display", "block");
+			$('.padding').css("display", "none");
+			$('.api_response').css("display", "none");
+
+			texts = JSON.stringify($('form').serializeObject());
+			$.ajax({
+				type: "POST",
+				dataType: "json",
+				contentType: "application/json;charset=utf-8",
+				url: $('#ajax-form').attr('action'),
+				data: texts,
+				timeout: 60000,
+				error: function(request,error) {
+					console.log('error');
+					console.log(url);
+				},
+				success: function(data) {
+					$('#ask').css("display", "block");
+					$('#loading').css("display", "none");
+					$('.api_response').css("display", "block");
+					var $response = $(data);
+					$response = $response[0];
+					console.log($response);
+					$entailment = $response['entailment']
+					$entailment_code = $response['entailment_code']
+					$('.response_json').text(JSON.stringify($response, null, 4));
+					$('.response_entailment').text('Entailment: ' + $entailment);
+					$('.response_entailment_code').text('Entailment code: ' + $entailment_code);
+				}
+			});
+			return false;
+		});
+});
+
+});
+</script>
+
+
+</body>
+</html>
