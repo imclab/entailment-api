@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Predicting Entailment | Gavin Hackeling</title>
+
+	<meta name="description" content="A presentation on predicting entailment in unstructured text by Gavin Hackeling">
+	<meta name="author" content="Gavin Hackeling">
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="static/css/gavin.css">
+</head>
+
+<body style="padding:60px;">
+	
+	<h1>Entailment Prediction Demo</h1>
+	<br>
+	<div>
+		<form name="ajax-form" id="ajax-form" action="/e" method="post">
+			<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+			<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
+			<input type="hidden" name="w" value="default" />
+			<button id="ask" style="height:70px; width:90px;">Ask</button>
+			<button id="loading" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+		</form>
+		<br>
+		<div class="padding" style="height:400px;"></div>
+		<div class="api_response" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+		">
+		<div class="response_entailment"></div>
+		<br>
+		<pre><code class="response_json"></code></pre>
+		<br>
+	</div>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$.fn.serializeObject = function(){
+		var o = {};
+		var a = this.serializeArray();
+		$.each(a, function() {
+			if (o[this.name] !== undefined) {
+				if (!o[this.name].push) {
+					o[this.name] = [o[this.name]];
+				}
+				o[this.name].push(this.value || '');
+			} else {
+				o[this.name] = this.value || '';
+			}
+		});
+		return o;
+	};
+
+	$(function(){
+		$('form').submit(function() {
+			// Set the containers' visibility
+			$('#ask').css("display", "none");
+			$('#loading').css("display", "block");
+			$('.padding').css("display", "none");
+			$('.api_response').css("display", "none");
+
+			texts = JSON.stringify($('form').serializeObject());
+			$.ajax({
+				type: "POST",
+				dataType: "json",
+				contentType: "application/json;charset=utf-8",
+				url: $('#ajax-form').attr('action'),
+				data: texts,
+				timeout: 60000,
+				error: function(request,error) {
+					console.log('error');
+					console.log(url);
+				},
+				success: function(data) {
+					$('#ask').css("display", "block");
+					$('#loading').css("display", "none");
+					$('.api_response').css("display", "block");
+					var $response = $(data);
+					$response = $response[0];
+					console.log($response);
+					$entailment = $response['entailment']
+					$entailment_code = $response['entailment_code']
+					$('.response_json').text(JSON.stringify($response, null, 4));
+					$('.response_entailment').text('Entailment: ' + $entailment);
+					$('.response_entailment_code').text('Entailment code: ' + $entailment_code);
+				}
+			});
+			return false;
+		});
+});
+
+});
+</script>
+
+
+</body>
+</html>

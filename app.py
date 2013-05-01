@@ -40,6 +40,12 @@ class PitchHandler(tornado.web.RequestHandler):
         self.render('index.html')
 
 
+class DemoHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        self.render('demo.html')
+
+
 class EntailmentHandler(tornado.web.RequestHandler):
     def get(self):
         entailment = ['yes', 'yes', 'unknown', 'no', 'no', 'no', 'no']
@@ -101,6 +107,7 @@ class EntailmentHandler(tornado.web.RequestHandler):
 handlers = [
             (r"/e", EntailmentHandler),
             (r"/pitch", PitchHandler),
+            (r"/demo", DemoHandler),
             #(r"/v1/entail", MultiEntailmentHandler)
             ]
 
