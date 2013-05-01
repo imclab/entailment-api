@@ -112,8 +112,9 @@ handlers = [
             ]
 
 
-settings = dict(template_path=os.path.join(
-    os.path.dirname(__file__), "templates"))
+settings = dict(
+    template_path=os.path.join(os.path.dirname(__file__), "templates"), 
+    static_path = os.path.join(os.path.dirname(__file__), "static"))
 application = tornado.web.Application(handlers, **settings)
 define("port", default=8001, help="run on the given port", type=int)
 
