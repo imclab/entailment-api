@@ -49,10 +49,10 @@
 
 			<!-- Contents -->
 			<section>
-				<h3 style="text-align:left;">In the first part of this presentation I will describe a <strong style="color:#117ada;">language-processing capability.</strong></h3>
+				<h3 style="text-align:left;">In the first part of this presentation I will describe a <strong>language-processing capability.</strong> called <strong>entailment prediction</strong>.</h3>
 				<br />
 				<h3 style="text-align:left;">
-					In the second part I will demonstrate one use of this capability in an <strong style="color:#117ada;">app that answers yes-or-no questions.</strong>
+					In the second part I will demonstrate one use of entailment prediction in an <strong style="color:#117ada;">app that answers yes-or-no questions.</strong>
 				</h3>
 			</section>
 
@@ -88,123 +88,123 @@
 				<br />
 				<h3>Predicting entailment can allow applications to understand what a text means in relation to another.</h3>
 			</section>
-			-->
+		-->
 
-			<!-- Live API Demo -->
-			<section style="text-align:left;">
-				<h3>Demo</h3>
+		<!-- Live API Demo -->
+		<section style="text-align:left;">
+			<h3>Demo</h3>
+			<br>
+			<div>
+				<form name="ajax-form" id="ajax-form" action="/e" method="post">
+					<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+					<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
+					<input type="hidden" name="w" value="default" />
+					<button id="ask" style="height:70px; width:90px;">Ask</button>
+					<button id="loading" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+				</form>
 				<br>
-				<div>
-					<form name="ajax-form" id="ajax-form" action="/e" method="post">
-						<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
-						<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
-						<input type="hidden" name="w" value="default" />
-						<button id="ask" style="height:70px; width:90px;">Ask</button>
-						<button id="loading" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
-					</form>
-					<br>
-					<div class="padding" style="height:400px;"></div>
-					<div class="api_response" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
-					">
-					<div class="response_entailment"></div>
-					<br>
-					<pre><code class="response_json"></code></pre>
-					<br>
-				</div>
+				<div class="padding" style="height:400px;"></div>
+				<div class="api_response" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+				">
+				<div class="response_entailment"></div>
+				<br>
+				<pre><code class="response_json"></code></pre>
+				<br>
 			</div>
-		</section>
+		</div>
+	</section>
 
-		<!-- Part II -->
-		<section>
-			<h2 style="text-align:left;"><span style="color:#117ada;">Part II:</span></h2>
-			<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
-		</section>
+	<!-- Part II -->
+	<section>
+		<h2 style="text-align:left;"><span style="color:#117ada;">Part II:</span></h2>
+		<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
+	</section>
 
-		<!-- Search Engine usage -->
-		<section>
-			<h3>First, a note about search engine usage:</h3>
+	<!-- Search Engine usage -->
+	<section>
+		<h3>First, a note about search engine usage:</h3>
 			<!--
 			<br />
 			<h3 style="text-align:left;">People often use search engines to find answers, not documents.</h3>
 			<h3 style="text-align:left;">Many people use English sentences as their queries rather than keywords.</h3>
-			-->
-			<!-- quotes and statistics here about search engine usage -->
-		</section>
-		<section>
-			<h3>Search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called <strong style="color:#117ada;">factoids</strong>.</h3>
-			<h3>These systems use <strong>structured data sources</strong> to answer factoid questions.</h3>
-			add logos here
-		</section>
+		-->
+		<!-- quotes and statistics here about search engine usage -->
+	</section>
+	<section>
+		<h3>Search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called <strong style="color:#117ada;">factoids</strong>.</h3>
+		<img src="static/img/assistants.png" alt="wearables" height="133" width="607" style="margin:60px 0;">
+		<h3>These systems use <strong>structured data sources</strong> to answer factoid questions.</h3>
+	</section>
 
-		<!-- ZOOM IN TO ALL SCREENSHOTS -->
-		<!-- Factoid example screenshots -->
-		<!-- How long is the Brooklyn Bridge? Google screenshot -->
-		<section class="presentimg">
-			<img src="static/img/g_f_brooklyn.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
-		<section class="presentimg">
-			<img src="static/img/b_f_uk.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
-		<section class="presentimg">
-			<img src="static/img/w_f_declaration.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
-		<!-- replace with screenshot in phone -->
-		<section class="presentimg">
-			<img src="static/img/gn_f_jakarta.png" alt="Factoid screenshot" height="1280" width="720">
-		</section>
+	<!-- ZOOM IN TO ALL SCREENSHOTS -->
+	<!-- Factoid example screenshots -->
+	<!-- How long is the Brooklyn Bridge? Google screenshot -->
+	<section class="presentimg">
+		<img src="static/img/g_f_brooklyn.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
+	<section class="presentimg">
+		<img src="static/img/b_f_uk.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
+	<section class="presentimg">
+		<img src="static/img/w_f_declaration.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
+	<!-- replace with screenshot in phone -->
+	<section class="presentimg">
+		<img src="static/img/gn_f_jakarta.png" alt="Factoid screenshot" height="1280" width="720">
+	</section>
 
-		<!-- Users like this feature, and have become habituated to it. GIVE JUSTIFICATION, STATISTICS, etc --> 
-		<section>
-			<h3>Users like this feature, and have become habituated to it.</h3>
-		</section>
+	<!-- Users like this feature, and have become habituated to it. GIVE JUSTIFICATION, STATISTICS, etc --> 
+	<section>
+		<h3>Users like this feature, and have become habituated to it.</h3>
+	</section>
 
 		<!-- Not all questions are factoids, and search engines do not answer many of these types of questions.
 		These other types include polar, or yes-or-no, questions.
-		-->
-		<section>
-			<h3>Not all questions are factoids, and search engines do not answer many of these types of questions.</h3>
-			<br>
-			<h3>These other types include <strong style="color:#117ada;">polar</strong>, or yes-or-no, questions.</h3>
-		</section>
+	-->
+	<section>
+		<h3>Not all questions are factoids, and search engines do not answer many of these types of questions.</h3>
+		<br>
+		<h3>These other types include <strong style="color:#117ada;">polar</strong>, or yes-or-no, questions.</h3>
+	</section>
 
-		<!-- Some polar questions are difficult to rephrase as factoid questions. -->
-		<section>
-			<h3>Some polar questions are difficult to rephrase as factoid questions.</h3>
-			<div>
-				<br>
-				<h3><blockquote>Are cats crepuscular?</blockquote></h3>
-				<h3><blockquote>Did Ariel Sharon have a stroke?</blockquote></h3>
-				<h3><blockquote>Is malt an ingredient in beer?</blockquote></h3>
-				<h3><blockquote>Can Bitcoin transactions be tracked?</blockquote></h3>
-			</div>
-		</section>
+	<!-- Some polar questions are difficult to rephrase as factoid questions. -->
+	<section>
+		<h3>Some polar questions are difficult to rephrase as factoid questions.</h3>
+		<div>
+			<br>
+			<h3><blockquote>Are cats crepuscular?</blockquote></h3>
+			<h3><blockquote>Did Ariel Sharon have a stroke?</blockquote></h3>
+			<h3><blockquote>Is malt an ingredient in beer?</blockquote></h3>
+			<h3><blockquote>Can Bitcoin transactions be tracked?</blockquote></h3>
+		</div>
+	</section>
 
 		<!-- 
 		In my tests, users often attempted to rephrase polar questions as factoid questions.
 		When the polar question could not be rephrased, they used the polar question verbatim as their search query.
-		-->
-		<section>
-			<h3>When a polar question cannot be rephrased as a factoid question, people often use the <strong>verbatim</strong> polar question as a query.</h3>
-		</section>
+	-->
+	<section>
+		<h3>When a polar question cannot be rephrased as a factoid question, people often use the <strong>verbatim</strong> polar question as a query.</h3>
+	</section>
 
 		<!--
 		The answers to polar questions can sometimes be found in the descriptions of the top results, 
 		but no search engine directly surfaces an answer.
-		-->
-		<section>
-			<h3>No search engine <strong>directly surfaces</strong> answers to polar questions.</h3>
-		</section>
+	-->
+	<section>
+		<h3>No search engine <strong>directly surfaces</strong> answers to polar questions.</h3>
+	</section>
 
-		<!-- Screenshots of polar question searches -->
-		<section class="presentimg">
-			<img src="static/img/g_p_moons.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
-		<section class="presentimg">
-			<img src="static/img/w_p_whig.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
-		<section class="presentimg">
-			<img src="static/img/b_p_fiber.jpg" alt="Factoid screenshot" height="838" width="1433">
-		</section>
+	<!-- Screenshots of polar question searches -->
+	<section class="presentimg">
+		<img src="static/img/g_p_moons.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
+	<section class="presentimg">
+		<img src="static/img/w_p_whig.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
+	<section class="presentimg">
+		<img src="static/img/b_p_fiber.jpg" alt="Factoid screenshot" height="838" width="1433">
+	</section>
 		<!--
 			<section>
 				ADD POSITIVE/YES EXAMPLES
@@ -213,29 +213,31 @@
 
 		<!-- 
 		In the mobile, wearable future of computing, many interfaces will not be to support long pages of search results.
+		Search engines were designed for desktop and notebook computers.
+		You won't be able to navigate pages of search results using a tiny screen on your wrist or above your eye.
 		Users want services that answer their questions with as little work as possible.
-		 -->
-		<section>
-			<h3>In the mobile, wearable future of computing, many interfaces will not be to support long pages of search results.</h3>
-			<br>
-			<h3>Users want services that answer their questions with as little work as possible.</h3>
-		</section>
+	-->
+	<section>
+		<h3>In the mobile, wearable future of computing, many interfaces will not be able to support long pages of search results.</h3>
+		<br>
+		<img src="static/img/wearables.jpg" alt="wearables" height="453" width="1433">
+	</section>
 
 		<!-- 
 		Entailment prediction can be used to automatically answer polar questions using only unstructured text.
-		 -->
-		<section>
-			<h3>Entailment prediction can be used to automatically answer polar questions using only unstructured text.</h3>
-		</section>
+	-->
+	<section>
+		<h3>Entailment prediction can be used to automatically answer polar questions using only unstructured text.</h3>
+	</section>
 
 		<!-- 
 		Given a query, the system retrieves relevant documents from the web that might provide evidence for an answer.
 		It predicts whether or not each document entails the query.
 		It uses these predictions to form an answer and justification.
-		 -->
-		<section class="presentimg">
-			<img src="static/img/how-it-works-1.png" alt="How it works" height="754" width="1290">
-		</section>
+	-->
+	<section class="presentimg">
+		<img src="static/img/how-it-works-1.png" alt="How it works" height="754" width="1290">
+	</section>
 
 		<!-- 
 		For example, if I ask "was Millard Fillmore the last Whig president?",
@@ -247,35 +249,58 @@
 		The third document, however, entails the question.
 		Based on this evidence, the system should return something like
 		"Yes, because Millard Fillmore was the 13th president and the final Whig president."
-		 -->
-		<section class="presentimg">
-			<img src="static/img/how-it-works-2.png" alt="How it works" height="754" width="1290">
-		</section>
+	-->
+	<section class="presentimg">
+		<img src="static/img/how-it-works-2.png" alt="How it works" height="754" width="1290">
+	</section>
 
 		<!-- 
 		Let's take a look at the app in action.
-		 -->
-		<section class="presentimg">
-			<iframe src="http://player.vimeo.com/video/64749911?title=0&amp;byline=0&amp;portrait=0&amp;color=cccccc" width="1433" height="807" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+	-->
+	<section class="presentimg">
+		<iframe src="http://player.vimeo.com/video/64749911?title=0&amp;byline=0&amp;portrait=0&amp;color=cccccc" width="1433" height="807" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
-		</section>
+	</section>
 
+	<!-- 
+		Next Steps
+	-->
+	<section>
+		<h3>Next steps</h3>
+	</section>
 
+	<!-- 
+		Conclusion 1
+		Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+		As entailment prediction systems improve, the will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
+	-->
+	<section>
+		<h3>
+			Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+		</h3>
+		<br>
+		<h3>
+			As entailment prediction systems improve, the will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
+		</h3>
+	</section>
 
-		<!-- Conclusion -->
-		<section>
-			<h3>Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.</h3>
-			<br>
-			<h3>
-				Entailment prediction systems will be used in other applications as they improve.
-			</h3>
-		</section>
+	<!-- 
+		Conclusion 2 
+	-->
+	<section>
+		<h3>
 
-		<!-- Questions -->
-		<section>
-			<h2>Questions</h2>
-		</section>
-	</div>
+		</h3>
+	</section>
+
+	<!-- 
+	Thanks for listening
+	-->
+	<section>
+		<h3>Thanks for listening</h3>
+		<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+	</section>
+</div>
 
 
 </div>
