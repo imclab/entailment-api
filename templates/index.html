@@ -464,7 +464,7 @@ jQuery(document).ready(function($){
 						$entailment = $response['entailment']
 						$entailment_code = $response['entailment_code']
 						$('#response_json'+'-'+current).text(JSON.stringify($response, null, 4));
-						$('#response_entailment'+'-'+current).text('Entailment: ' + $entailment);
+						$('#response_entailment'+'-'+current).text('Entailed: ' + $entailment);
 						$('#response_entailment_code'+'-'+current).text('Entailment code: ' + $entailment_code);
 					}
 				});	
