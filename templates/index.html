@@ -38,91 +38,162 @@
 		<!-- Any section element inside of this container is displayed as a slide -->
 		<div class="slides" style="width:1440px!important;height=840px;">
 
-			<!-- Title -->
-			<section>
-				<h3>
-					Predicting Entailment
-				</h3>
-				<h4>Gavin Hackeling</h4>
-				<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
-			</section>
-
-			<!-- Contents -->
-			<section>
-				<h3 style="text-align:left;">In the first part of this presentation I will describe a <strong>language-processing capability.</strong> called <strong>entailment prediction</strong>.</h3>
-				<br />
-				<h3 style="text-align:left;">
-					In the second part I will demonstrate one use of entailment prediction in an <strong style="color:#117ada;">app that answers yes-or-no questions.</strong>
-				</h3>
-			</section>
-
-			<!-- Part I -->
-			<section>
-				<h2 style="text-align:left;"><span style="color:#117ada;">Part I:</span></h2>
-				<h2 style="text-align:left;">Predicting Entailment in Unstructured Text</h2>
-			</section>
-
-			<!-- What is entailment? -->
-			<section>
-				<h3><strong style="color:#117ada;">Entailment</strong> is the relationship between sentences that holds when <strong>one sentence follows from another.</strong></h3>
-				<br>
-				<h3><span class="bluetext">"I ate food."</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
-			</section>
-
-			<!-- Examples of entailment -->
-			<section>
-				<h3><blockquote>Carolina beat Duke.</blockquote></h3>
-				<h3>follows from</h3>
-				<h3><blockquote>North Carolina defeated Duke after crushing State.</blockquote></h3>
-				<br>
-				<h3><blockquote>A student presented a project.</blockquote></h3>
-				<h3>does <strong>not</strong> follow from</h3>
-				<h3><blockquote>No student presented.</blockquote></h3>
-			</section>
-
-			<!-- Move to notes -->
-			<!-- What is my project? -->
-			<!--
-			<section>
-				<h3>I have built a system that predicts the entailment relations that exist between pairs of plain English texts.</h3>
-				<br />
-				<h3>Predicting entailment can allow applications to understand what a text means in relation to another.</h3>
-			</section>
+			<!-- 
+			Elevator pitch
+			motivation
 		-->
+		<section>
+			<h3>
+				Predicting Entailment
+			</h3>
+			<h4>Gavin Hackeling</h4>
+			<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+		</section>
 
-		<!-- Live API Demo -->
-		<section style="text-align:left;">
+		<!-- Contents -->
+		<section>
+			<h3 style="text-align:left;">In the first part of this presentation I will describe a <strong>language-processing capability.</strong> called <strong>entailment prediction</strong>.</h3>
+			<br />
+			<h3 style="text-align:left;">
+				In the second part I will demonstrate one use of entailment prediction in an <strong style="color:#117ada;">app that answers yes-or-no questions.</strong>
+			</h3>
+		</section>
+
+		<!-- Part I -->
+		<section>
+			<h2 style="text-align:left;"><span style="color:#117ada;">Part I:</span></h2>
+			<h2 style="text-align:left;">Predicting Entailment in Unstructured Text</h2>
+		</section>
+
+		<!-- What is entailment? -->
+		<section>
+			<h3><strong style="color:#117ada;">Entailment</strong> is the relationship between sentences that holds when <strong>one sentence follows from another.</strong></h3>
+			<br>
+			<h3><span class="bluetext">"I ate food."</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
+		</section>
+
+		<!-- Examples of entailment -->
+		<section>
+			<h3><blockquote>Carolina beat Duke.</blockquote></h3>
+			<h3>follows from</h3>
+			<h3><blockquote>North Carolina defeated Duke after crushing State.</blockquote></h3>
+			<br>
+			<h3><blockquote>A student presented a project.</blockquote></h3>
+			<h3>does <strong>not</strong> follow from</h3>
+			<h3><blockquote>No student presented.</blockquote></h3>
+		</section>
+
+
+		<!-- Live API Demo 0 -->
+		<section>
 			<h3>Demo</h3>
 			<br>
-			<div>
-				<form name="ajax-form" id="ajax-form" action="/e" method="post">
-					<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
-					<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
-					<input type="hidden" name="w" value="default" />
-					<button id="ask" style="height:70px; width:90px;">Ask</button>
-					<button id="loading" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
-				</form>
-				<br>
-				<div class="padding" style="height:400px;"></div>
-				<div class="api_response" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
-				">
-				<div class="response_entailment"></div>
-				<br>
-				<pre><code class="response_json"></code></pre>
-				<br>
+			<div class="cont" id="cont0">
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
+				<button class="ask" id="ask-cont0" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont0" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
 			</div>
-		</div>
-	</section>
+			<br>
+			<div class="padding" id="padding-cont0" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont0" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont0"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont0"></code></pre>
+			<br>
+		</section>
 
-	<!-- Part II -->
-	<section>
-		<h2 style="text-align:left;"><span style="color:#117ada;">Part II:</span></h2>
-		<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
-	</section>
+		<!-- Live API Demo 1 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont1">
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina did not beat Duke" />
+				<button class="ask" id="ask-cont1" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont1" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont1" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont1" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont1"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont1"></code></pre>
+			<br>
+		</section>
 
-	<!-- Search Engine usage -->
-	<section>
-		<h3>First, a note about search engine usage:</h3>
+		<!-- Live API Demo 2 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont2">
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Duke was crushed by Carolina" />
+				<button class="ask" id="ask-cont2" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont2" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont2" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont2" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont2"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont2"></code></pre>
+			<br>
+		</section>
+
+		<!-- Live API Demo 3 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont3">
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina did not fail to beat Duke" />
+				<button class="ask" id="ask-cont3" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont3" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont3" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont3" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont3"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont3"></code></pre>
+			<br>
+		</section>
+
+		<!-- Live API Demo 4 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont4">
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina failed to beat Duke" />
+				<button class="ask" id="ask-cont4" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont4" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont4" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont4" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont4"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont4"></code></pre>
+			<br>
+		</section>
+
+
+		<!-- Part II -->
+		<section>
+			<h2 style="text-align:left;"><span style="color:#117ada;">Part II:</span></h2>
+			<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
+		</section>
+
+		<!-- Search Engine usage -->
+		<section>
+			<h3>First, a note about search engine usage:</h3>
 			<!--
 			<br />
 			<h3 style="text-align:left;">People often use search engines to find answers, not documents.</h3>
@@ -140,13 +211,13 @@
 	<!-- Factoid example screenshots -->
 	<!-- How long is the Brooklyn Bridge? Google screenshot -->
 	<section class="presentimg">
-		<img src="static/img/g_f_brooklyn.jpg" alt="Factoid screenshot" height="838" width="1433">
+		<img src="static/img/g_f_brooklyn-z.jpg" alt="Factoid screenshot" height="838" width="1433">
 	</section>
 	<section class="presentimg">
-		<img src="static/img/b_f_uk.jpg" alt="Factoid screenshot" height="838" width="1433">
+		<img src="static/img/b_f_uk-z.jpg" alt="Factoid screenshot" height="838" width="1433">
 	</section>
 	<section class="presentimg">
-		<img src="static/img/w_f_declaration.jpg" alt="Factoid screenshot" height="838" width="1433">
+		<img src="static/img/w_f_declaration-z.jpg" alt="Factoid screenshot" height="838" width="1433">
 	</section>
 	<!-- replace with screenshot in phone -->
 	<section class="presentimg">
@@ -192,19 +263,28 @@
 		but no search engine directly surfaces an answer.
 	-->
 	<section>
-		<h3>No search engine <strong>directly surfaces</strong> answers to polar questions.</h3>
+		<h3>Only Google Now <strong>directly surfaces</strong> answers to polar questions.</h3>
 	</section>
 
-	<!-- Screenshots of polar question searches -->
+	<!-- Google Search does not -->
 	<section class="presentimg">
-		<img src="static/img/g_p_moons.jpg" alt="Factoid screenshot" height="838" width="1433">
+		<img src="static/img/g_p_moons-z.jpg" alt="Polar screenshot" height="838" width="1433">
 	</section>
+	<!-- Wolfram Alpha does not -->
 	<section class="presentimg">
-		<img src="static/img/w_p_whig.jpg" alt="Factoid screenshot" height="838" width="1433">
+		<img src="static/img/w_p_whig-z.jpg" alt="Polar screenshot" height="838" width="1433">
 	</section>
+	<!-- Google Now can. Way to fucking steal my thunder, Google -->
+	<section class="presentimg">
+		<img src="static/img/comparison.png" alt="Comparison screenshot" height="960" width="1220">
+	</section>
+	<!--
+	REPLACE THIS IMAGE WITH A DIFFERENT
+	POLAR QUESTION FROM BING
 	<section class="presentimg">
 		<img src="static/img/b_p_fiber.jpg" alt="Factoid screenshot" height="838" width="1433">
 	</section>
+-->
 		<!--
 			<section>
 				ADD POSITIVE/YES EXAMPLES
@@ -255,6 +335,20 @@
 	</section>
 
 		<!-- 
+		Users interact with the app using speech.
+		You first address the device by its name, which in this case is tablet, as you would a person.
+		The device acknowledges you, and you proceed to ask your question.
+		It speaks its answer.
+
+		I use Android's speech recognition service.
+		As good as it is, it does not work well in big rooms, and my device has a poor mic, so I have recorded a demo.
+	-->
+	<section class="presentimg">
+		<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+	</section>
+
+
+		<!-- 
 		Let's take a look at the app in action.
 	-->
 	<section class="presentimg">
@@ -270,36 +364,28 @@
 	</section>
 
 	<!-- 
-		Conclusion 1
-		Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+		Conclusion
+		Automatically answering polar questions from unstructured text lets people use search engines intuitively; 
+		it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
 		As entailment prediction systems improve, the will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
 	-->
 	<section>
 		<h3>
-			Automatically answering polar questions from unstructured text lets people use search engines intuitively; it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+			Automatically answering polar questions from unstructured text lets people use search engines intuitively.
 		</h3>
 		<br>
 		<h3>
-			As entailment prediction systems improve, the will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
-		</h3>
-	</section>
-
-	<!-- 
-		Conclusion 2 
-	-->
-	<section>
-		<h3>
-
+			As entailment prediction systems improve, they will be used in other applications.
 		</h3>
 	</section>
 
 	<!-- 
 	Thanks for listening
-	-->
-	<section>
-		<h3>Thanks for listening</h3>
-		<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
-	</section>
+-->
+<section>
+	<h3>Thanks for listening</h3>
+	<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+</section>
 </div>
 
 
@@ -309,93 +395,84 @@
 <script src="static/js/reveal.min.js"></script>
 
 <script>
-			// Full list of configuration options available here:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
 
-				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+		theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+		transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
-				// Optional libraries used to extend on reveal.js
-				dependencies: [
-				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-				{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
-					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
-					]
-				});
-
+		// Optional libraries used to extend on reveal.js
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+			// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+			// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+			]
+		});
 </script>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
 <script type="text/javascript">
-
 jQuery(document).ready(function($){
-	$.fn.serializeObject = function(){
-		var o = {};
-		var a = this.serializeArray();
-		$.each(a, function() {
-			if (o[this.name] !== undefined) {
-				if (!o[this.name].push) {
-					o[this.name] = [o[this.name]];
-				}
-				o[this.name].push(this.value || '');
-			} else {
-				o[this.name] = this.value || '';
-			}
-		});
-		return o;
-	};
-
 	$(function(){
-		$('form').submit(function() {
-			// Set the containers' visibility
-			$('#ask').css("display", "none");
-			$('#loading').css("display", "block");
-			$('.padding').css("display", "none");
-			$('.api_response').css("display", "none");
+		$('.ask').click(function() {
+			console.log($(this).attr('id'));
+			var current = $(this).parent().attr('id');
 
-			texts = JSON.stringify($('form').serializeObject());
-			$.ajax({
-				type: "POST",
-				dataType: "json",
-				contentType: "application/json;charset=utf-8",
-				url: $('#ajax-form').attr('action'),
-				data: texts,
-				timeout: 60000,
-				error: function(request,error) {
-					console.log('error');
-					console.log(url);
-				},
-				success: function(data) {
-					$('#ask').css("display", "block");
-					$('#loading').css("display", "none");
-					$('.api_response').css("display", "block");
-					var $response = $(data);
-					$response = $response[0];
-					console.log($response);
-					$entailment = $response['entailment']
-					$entailment_code = $response['entailment_code']
-					$('.response_json').text(JSON.stringify($response, null, 4));
-					$('.response_entailment').text('Entailment: ' + $entailment);
-					$('.response_entailment_code').text('Entailment code: ' + $entailment_code);
-				}
+			var d = {
+				p: $(this).parent().find('#p').attr('value'),
+				h: $(this).parent().find('#h').attr('value'),
+				w: 'default'
+			};
+
+				// Set the containers' visibility
+				$('#ask'+'-'+current).css("display", "none");
+				$('#loading'+'-'+current).css("display", "block");
+				$('#padding'+'-'+current).css("display", "none");
+				$('#api_response'+'-'+current).css("display", "none");
+
+				texts = $.param(d);
+
+				$.ajax({
+					type: "GET",
+					dataType: "json",
+					contentType: "application/json;charset=utf-8",
+					url: "e",
+					data: texts,
+					timeout: 60000,
+					error: function(request,error) {
+						console.log('error');
+						console.log(url);
+					},
+					success: function(data) {
+						$('#ask'+'-'+current).css("display", "block");
+						$('#loading'+'-'+current).css("display", "none");
+						$('#api_response'+'-'+current).css("display", "block");
+						var $response = $(data);
+						$response = $response[0];
+						console.log($response);
+						$entailment = $response['entailment']
+						$entailment_code = $response['entailment_code']
+						$('#response_json'+'-'+current).text(JSON.stringify($response, null, 4));
+						$('#response_entailment'+'-'+current).text('Entailment: ' + $entailment);
+						$('#response_entailment_code'+'-'+current).text('Entailment code: ' + $entailment_code);
+					}
+				});	
+				
 			});
-			return false;
-		});
 });
-
 });
 </script>
-
 
 </body>
 </html>

@@ -21,7 +21,7 @@ class Test_pipeline(unittest.TestCase):
         #self.h = "was Millard Fillmore a Democrat"
         self.p = "Carolina defeated the Duke Blue Devils once again"
         #self.h = "Carolina is a school near Duke"
-        self.h = "Carolina beat Duke"
+        self.h = "Duke failed to beat Carolina"
         #self.p = "I walked away."
         #self.h = "I ran away."
         self.p_str_tokens = word_tokenize(self.p)

@@ -1,0 +1,175 @@
+My name is Gavin Hackeling.
+My thesis, called Predicting Entailment, is a web service that predicts what one text means in relation to another, and a mobile app that uses this service to answer yes-or-no questions.
+
+I am fascinated by the vision of software that can read;
+entailment prediction is one capability that such software would require.
+<adv>
+
+This presentation has two parts.
+In the first part I will describe a language processing capability called entailment prediction.
+
+In the second part I will demonstrate an app that uses entailment prediction to answer yes or no questions.
+<adv>
+
+Entailment is the relation that holds between texts, and for our purposes we will assume sentences, when one sentence follows from another.
+<adv>
+
+An example of this is the sentence "I ate food," which follows from the sentence "I ate pizza."
+<adv>
+
+In a more complicated example, "Carolina beat Duke," follows from "North Carolina defeated Duke after crushing State."
+
+In a negative example, "A student presented a project" does not follow from "No student presented."
+<adv>
+
+Let's try the system.
+It should correctly predict that "Carolina beat Duke" follows from "Carolina defeated the Duke Blue Devils once again", and it does.
+<adv>
+
+The system should predict that "Carolina did not beat Duke" is not entailed, and it does.
+<adv>
+
+Let's try a more complicated example involving passive voice: "Duke was crushed by Carolina." Again, the system predicts correctly.
+<adv>
+
+We can try another, more difficult case, like "Carolina did not fail to beat Duke". The system answers correctly. Changing the hypothesis text to "Carolina failed to beat Duke" still returns the correct answer.
+<adv>
+
+It is important to clarify that this system only uses information contained within the two texts.
+It does not possess common sense and cannot make any intermediate inferences using outside knowledge.
+For example, it is a fact that Duke's squad consists of floppers, but the system cannot make that inference as the premise texts contains no information about that.
+<adv>
+
+Now let's look at how this capability can be used in a real application.
+<adv>
+
+First, I am going to discuss what I learned about how people use search engines during my user tests.
+
+Originally, search engines returned lists of documents. 
+However, people frequently use search engines to find specific answers, rather than documents. 
+People want to retrieve these answers as easily as possible. 
+We don't always want to open one or several web pages to find an answer. 
+Many people do not know how to use their browsers' document search functions.
+Many people--including myself, as I found my analyzing my Google search history--use natural questions when searching for answers.
+<adv>
+
+Many search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called factoids in their search results.
+These systems commonly use structured data sources when retrieving these answers. Structured data is slow and expensive to produce.
+<adv>
+
+
+For example, if you type "how long is the Brooklyn Bridge into Google", it will tell you 5,988'.
+<adv>
+
+Bing can also answer some factoid questions.
+<adv>
+
+Wolfram Alpha answers some factoid questions,
+<adv>
+
+Google Now does as well.
+<adv>
+
+People like this feature, and have become habituated to it.
+<adv>
+
+Unfortunately, not all questions are factoids. 
+Search engines do not answer many of these types of questions.
+These other types include polar, or yes or no questions.
+<adv>
+
+Sometimes polar questions can be rephrased as factoid questions, but many times they cannot.
+For instance, questions like
+"Are cats crepuscular",
+"Did Ariel Sharon have a stroke",
+or "can Bitcoin transactions be tracked"
+cannot be rephrased as factoid questions.
+<adv>
+
+I asked people to answer a list of factoid and polar questions using a search engine.
+For factoid questions, most people used the verbatim questions as their query.
+Many people tried to rephrase the polar questions as factoid questions.
+When this was not possible, they used the verbatim polar question as their queries.
+<adv>
+
+In past presentations I have claimed that no search engine surfaces answers to polar questions.
+
+Google Now has begun surfacing answers to polar questions.
+<adv>
+
+Google Search still does not. In many cases one can read the result descriptions to find an answer. In this case, in which I asked if Phobos were a moon of Saturn, I cannot, as there is conflicting evidence.
+One result says that Phobos is a moon of Saturn; others say it is a moon of Mars.
+<adv>
+
+Wolfram Alpha similarly does not.
+<adv>
+
+If you ask Google Now "was John Adams the second president", it will speak an answer back to you.
+
+HelloTablet does as well.
+
+I imagine that Google Now uses a structured data source for this capability.
+
+It is important to note some performance measures called precision and recall.
+Google Now has extremely high precision, but low recall. 
+That is, Google Now almost never provides an incorrect answer. Instead, it frequently provides no answer at all, and returns only search results.
+Structured data sources contain only correct information, so as long as the query is interpreted correctly, the answer will likely be correct. 
+However, structured data sources have limited coverage, and do not represent all of the information that is available on the web.
+
+I have not yet completed an answer acceptance filter for my app, so it always returns an answer. It can correctly answer more questions than Google Now, but also incorrectly answers more questions. That is, this app currently has higher recall but lower precision than Google Now.
+
+Ideally, a system has both high precision and recall, but that is not currently feasible for this task.
+
+In Google Now's case, it is better to have high precision and low recall so that people will believe the app is reliable. 
+<adv>
+
+In the mobile, wearable (near) future of computing, many devices will lack the large screens necessary to display long lists of search results.
+Search engines were designed when you interacted with 17" displays on notebooks and desktops, not tiny screens on your wrist or above your eye.
+<adv>
+
+Entailment prediction can be used to automatically answer polar questions using plain, unstructured text.
+<adv>
+
+The process is as follows:
+The user submits a query.
+The system retrieves relevant documents from the web.
+It predicts whether or not each document entails the query, and uses these predictions to predict a final answer.
+It then returns the prediction and justification to the user.
+<adv>
+
+For example, if I asked "was Millard Fillmore the last Whig president?"
+it might retrieve documents like
+"Millard fillmore was the last president who was neither a democrat nor a republican",
+"millard fillmore was the 13th president",
+and "millard fillmore was the 13th and final whig president".
+The first document neither entails nor contradicts the query.
+The second document is relevant to the topic of Millard Fillmore, but not the question.
+The third document entails the query.
+The system uses this evidence to predict, "yes", Millard Fillmore was the last Whig president.
+<adv>
+
+Users interact with the app using speech.
+You first address the device by its name, which in this case is tablet, as you would a person.
+The device acknowledges you, and you proceed to ask your question.
+It speaks its answer.
+
+I use Android's speech recognition service.
+As good as it is, it does not work well in big rooms, and my device has a poor mic, so I have recorded a demo.
+<adv>
+
+Let's see the app in action.
+
+You can see that the app has a graphic user interface, but it is designed in anticipation of devices in which such a UI would not be feasible, due to a small or absent screen.
+<adv>
+
+The projects that comprise the app are open source. My next steps are to document the projects so that they are accessible to other people.
+
+There are also some common types of errors, such as errors due to associating a proper noun in one sentence with a pronoun in another, and determining the scope of adjectives.
+<adv>
+
+To summarize,
+automatically answering polar questions from unstructured text lets people use search engines intuitively;
+it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+
+As entailment prediction systems improve, they will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
+<adv>

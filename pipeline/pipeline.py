@@ -55,7 +55,11 @@ class Pipeline(object):
         sequenced_edits, use_arg_type_features, matched_predicate = \
         self.sequencer.sequence(p, h, edits, p_marked_tokens, h_marked_tokens)
 
-        print 'the matching predicate is\n', matched_predicate
+        print '\nSequenced edits:'
+        for i in sequenced_edits:
+            print i
+
+        #print 'the matching predicate is\n', matched_predicate
 
         # If the sentences have similar transitive predicates, correct
         # predicted entailments for edits with subject/object mismatches
@@ -66,6 +70,7 @@ class Pipeline(object):
         # Project the predicted entailments based on the monotonicities
         projected_entailments = project_monotonicity(sequenced_edits)
 
+        print 'Projected entailment relations:'
         for entailment in projected_entailments:
             print entailment
 
