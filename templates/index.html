@@ -69,7 +69,7 @@
 		<section>
 			<h3><strong style="color:#117ada;">Entailment</strong> is the relationship between sentences that holds when <strong>one sentence follows from another.</strong></h3>
 			<br>
-			<h3><span class="bluetext">"I ate food."</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
+			<h3><span class="bluetext">"I ate food"</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
 		</section>
 
 		<!-- Examples of entailment -->
@@ -88,7 +88,7 @@
 		<section>
 			<h3>Demo</h3>
 			<br>
-			<div class="cont" id="cont0">
+			<div class="cont" id="cont0" >
 				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
 				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina beat Duke" />
 				<button class="ask" id="ask-cont0" style="height:70px; width:90px;">Ask</button>
@@ -108,7 +108,7 @@
 		<section>
 			<h3>Demo</h3>
 			<br>
-			<div class="cont" id="cont1">
+			<div class="cont" id="cont1" >
 				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
 				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina did not beat Duke" />
 				<button class="ask" id="ask-cont1" style="height:70px; width:90px;">Ask</button>
@@ -128,7 +128,7 @@
 		<section>
 			<h3>Demo</h3>
 			<br>
-			<div class="cont" id="cont2">
+			<div class="cont" id="cont2" >
 				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina crushed the Duke Blue Devils once again" />
 				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Duke was defeated by Carolina" />
 				<button class="ask" id="ask-cont2" style="height:70px; width:90px;">Ask</button>
@@ -148,7 +148,7 @@
 		<section>
 			<h3>Demo</h3>
 			<br>
-			<div class="cont" id="cont3">
+			<div class="cont" id="cont3" >
 				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
 				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina did not fail to defeat Duke" />
 				<button class="ask" id="ask-cont3" style="height:70px; width:90px;">Ask</button>
@@ -168,7 +168,7 @@
 		<section>
 			<h3>Demo</h3>
 			<br>
-			<div class="cont" id="cont4">
+			<div class="cont" id="cont4" >
 				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
 				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina failed to defeat Duke" />
 				<button class="ask" id="ask-cont4" style="height:70px; width:90px;">Ask</button>
@@ -426,7 +426,6 @@
 jQuery(document).ready(function($){
 	$(function(){
 		$('.ask').click(function() {
-			console.log($(this).attr('id'));
 			var current = $(this).parent().attr('id');
 
 			var d = {
@@ -435,41 +434,41 @@ jQuery(document).ready(function($){
 				w: 'default'
 			};
 
-				// Set the containers' visibility
-				$('#ask'+'-'+current).css("display", "none");
-				$('#loading'+'-'+current).css("display", "block");
-				$('#padding'+'-'+current).css("display", "none");
-				$('#api_response'+'-'+current).css("display", "none");
+			// Set the containers' visibility
+			$('#ask'+'-'+current).css("display", "none");
+			$('#loading'+'-'+current).css("display", "block");
+			$('#padding'+'-'+current).css("display", "none");
+			$('#api_response'+'-'+current).css("display", "none");
 
-				texts = $.param(d);
+			texts = $.param(d);
 
-				$.ajax({
-					type: "GET",
-					dataType: "json",
-					contentType: "application/json;charset=utf-8",
-					url: "e",
-					data: texts,
-					timeout: 60000,
-					error: function(request,error) {
-						console.log('error');
-						console.log(url);
-					},
-					success: function(data) {
-						$('#ask'+'-'+current).css("display", "block");
-						$('#loading'+'-'+current).css("display", "none");
-						$('#api_response'+'-'+current).css("display", "block");
-						var $response = $(data);
-						$response = $response[0];
-						console.log($response);
-						$entailment = $response['entailment']
-						$entailment_code = $response['entailment_code']
-						$('#response_json'+'-'+current).text(JSON.stringify($response, null, 4));
-						$('#response_entailment'+'-'+current).text('Entailed: ' + $entailment);
-						$('#response_entailment_code'+'-'+current).text('Entailment code: ' + $entailment_code);
-					}
-				});	
-				
-			});
+			$.ajax({
+				type: "GET",
+				dataType: "json",
+				contentType: "application/json;charset=utf-8",
+				url: "e",
+				data: texts,
+				timeout: 60000,
+				error: function(request,error) {
+					console.log('error');
+					console.log(url);
+				},
+				success: function(data) {
+					$('#ask'+'-'+current).css("display", "block");
+					$('#loading'+'-'+current).css("display", "none");
+					$('#api_response'+'-'+current).css("display", "block");
+					var $response = $(data);
+					$response = $response[0];
+					console.log($response);
+					$entailment = $response['entailment']
+					$entailment_code = $response['entailment_code']
+					$('#response_json'+'-'+current).text(JSON.stringify($response, null, 4));
+					$('#response_entailment'+'-'+current).text('Entailed: ' + $entailment);
+					$('#response_entailment_code'+'-'+current).text('Entailment code: ' + $entailment_code);
+				}
+			});	
+			
+		});
 });
 });
 </script>

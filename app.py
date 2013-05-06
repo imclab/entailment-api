@@ -74,6 +74,7 @@ class EntailmentHandler(tornado.web.RequestHandler):
         d = json.dumps(response, sort_keys=True, indent=4)
         self.write(d)
 
+    # this method should be deleted.
     def post(self):
         data_json = tornado.escape.json_decode(self.request.body)
         print data_json

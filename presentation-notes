@@ -54,11 +54,11 @@ Many people--including myself, as I found my analyzing my Google search history-
 <adv>
 
 Many search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called factoids in their search results.
-These systems commonly use structured data sources when retrieving these answers. Structured data is slow and expensive to produce.
+These systems commonly use structured data sources when retrieving these answers. Structured data is slow to produce and expensive.
 <adv>
 
 
-For example, if you type "how long is the Brooklyn Bridge into Google", it will tell you 5,988'.
+For example, if you type "how long is the Brooklyn Bridge" into Google, it will tell you 5,988'.
 <adv>
 
 Bing can also answer some factoid questions.
@@ -97,7 +97,7 @@ In past presentations I have claimed that no search engine surfaces answers to p
 Google Now has begun surfacing answers to polar questions.
 <adv>
 
-Google Search still does not. In many cases one can read the result descriptions to find an answer. In this case, in which I asked if Phobos were a moon of Saturn, I cannot, as there is conflicting evidence.
+Google Search still does not. In many cases one can read the result descriptions to find an answer. In this case, in which I asked if Phobos is a moon of Saturn, I cannot, as there is conflicting evidence.
 One result says that Phobos is a moon of Saturn; others say it is a moon of Mars.
 <adv>
 
@@ -143,7 +143,7 @@ it might retrieve documents like
 "millard fillmore was the 13th president",
 and "millard fillmore was the 13th and final whig president".
 The first document neither entails nor contradicts the query.
-The second document is relevant to the topic of Millard Fillmore, but not the question.
+The second document is relevant to the topic of Millard Fillmore, but not to the question.
 The third document entails the query.
 The system uses this evidence to predict, "yes", Millard Fillmore was the last Whig president.
 <adv>
@@ -159,12 +159,12 @@ As good as it is, it does not work well in big rooms, and my device has a poor m
 
 Let's see the app in action.
 
-You can see that the app has a graphic user interface, but it is designed in anticipation of devices in which such a UI would not be feasible, due to a small or absent screen.
+You can see that the app has a graphic user interface, but it is designed in anticipation of devices with small or absent screens.
 <adv>
 
 The projects that comprise the app are open source. My next steps are to document the projects so that they are accessible to other people.
 
-There are also some common types of errors, such as errors due to associating a proper noun in one sentence with a pronoun in another, and determining the scope of adjectives.
+There are also some common types of errors, such as errors due to associating a proper noun in one sentence with a pronoun in another, and determining the scope of adjectives, that require work.
 <adv>
 
 To summarize,
@@ -173,3 +173,5 @@ it solves a problem that will be exacerbated as mobile and wearable interfaces b
 
 As entailment prediction systems improve, they will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
 <adv>
+
+Thank you for listening, I'll take questions now.
