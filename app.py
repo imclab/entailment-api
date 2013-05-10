@@ -40,6 +40,12 @@ class PitchHandler(tornado.web.RequestHandler):
         self.render('index.html')
 
 
+class ShortPitchHandler(tornado.web.RequestHandler):
+
+    def get(self):
+        self.render('index_short.html')
+
+
 class DemoHandler(tornado.web.RequestHandler):
 
     def get(self):
@@ -109,6 +115,7 @@ handlers = [
             (r"/e", EntailmentHandler),
             (r"/pitch", PitchHandler),
             (r"/demo", DemoHandler),
+            (r"/short_pitch", ShortPitchHandler),
             #(r"/v1/entail", MultiEntailmentHandler)
             ]
 

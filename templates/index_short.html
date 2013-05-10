@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Predicting Entailment | Gavin Hackeling</title>
+
+	<meta name="description" content="A presentation on predicting entailment in unstructured text by Gavin Hackeling">
+	<meta name="author" content="Gavin Hackeling">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="static/css/reveal.min.css">
+	<link rel="stylesheet" href="static/css/theme/simple.css" id="theme">
+
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="static/lib/css/zenburn.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+	document.write( '<link rel="stylesheet" href="static/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="static/css/gavin.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides" style="width:1440px!important;height=840px;">
+
+			<!-- 
+			Elevator pitch
+			motivation
+		-->
+		<section>
+			<h3>
+				Predicting Entailment
+			</h3>
+			<h4>Gavin Hackeling</h4>
+			<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+		</section>
+
+		<!-- What is entailment? -->
+		<section>
+			<h3><strong style="color:#117ada;">Entailment</strong> is the relationship between sentences that holds when <strong>one sentence follows from another.</strong></h3>
+			<br>
+			<h3><span class="bluetext">"I ate food"</span> follows from <span class="bluetext">"I ate pizza"</span>.</h3>
+		</section>
+
+		<!-- Examples of entailment -->
+		<section>
+			<h3><blockquote>Carolina beat Duke.</blockquote></h3>
+			<h3>follows from</h3>
+			<h3><blockquote>North Carolina defeated Duke after crushing State.</blockquote></h3>
+			<br>
+			<h3><blockquote>A student presented a project.</blockquote></h3>
+			<h3>does <strong>not</strong> follow from</h3>
+			<h3><blockquote>No student presented.</blockquote></h3>
+		</section>
+
+		<!-- Live API Demo 2 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont2" >
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina crushed the Duke Blue Devils" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Duke was defeated by Carolina" />
+				<button class="ask" id="ask-cont2" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont2" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont2" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont2" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont2"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont2"></code></pre>
+			<br>
+		</section>
+
+		<!-- Live API Demo 4 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont4" >
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Ultimately, Carolina was unable to defeat Duke" />
+				<button class="ask" id="ask-cont4" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont4" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont4" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont4" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont4"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont4"></code></pre>
+			<br>
+		</section>
+
+		<!-- Live API Demo 3 -->
+		<section>
+			<h3>Demo</h3>
+			<br>
+			<div class="cont" id="cont3" >
+				<input id="p" style="width:40%; float:left; margin-right:20px;" type="text" name="p" value="Once again, Carolina defeated the Duke Blue Devils" />
+				<input id="h" style="width:40%; float:left; margin-right:20px;" type="text" name="h" value="Carolina did not fail to defeat Duke" />
+				<button class="ask" id="ask-cont3" style="height:70px; width:90px;">Ask</button>
+				<button class="loading" id="loading-cont3" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
+			</div>
+			<br>
+			<div class="padding" id="padding-cont3" style="height:400px;"></div>
+			<div class="api_response" id="api_response-cont3" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
+			">
+			<div class="response_entailment" id="response_entailment-cont3"></div>
+			<br>
+			<pre><code class="response_json" id="response_json-cont3"></code></pre>
+			<br>
+		</section>
+
+		<section>
+			<h3>Search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called <strong style="color:#117ada;">factoids</strong>.</h3>
+			<img src="static/img/assistants.png" alt="wearables" height="133" width="607" style="margin:60px 0;">
+			<h3>These systems use <strong>structured data sources</strong> to answer factoid questions.</h3>
+		</section>
+
+		<section>
+			<h3><blockquote>Are cats crepuscular?</blockquote></h3>
+			<h3><blockquote>Did Ariel Sharon have a stroke?</blockquote></h3>
+			<h3><blockquote>Is malt an ingredient in beer?</blockquote></h3>
+			<h3><blockquote>Can Bitcoin transactions be tracked?</blockquote></h3>
+		</section>
+
+		<section>
+			<h3>Entailment prediction can be used to automatically answer polar questions using only unstructured text.</h3>
+		</section>
+
+		<!-- 
+		For example, if I ask "was Millard Fillmore the last Whig president?",
+		it might retrieve documents like
+		"Millard Fillmore was the last president who was neither a Democrat nor a Republican,"
+		"Millard Fillmore was the 13th president",
+		and "Millard Fillmore was the 13th president and the final Whig president."
+		The first and second documents are relevant, but neither entail nor contradict the question.
+		The third document, however, entails the question.
+		Based on this evidence, the system should return something like
+		"Yes, because Millard Fillmore was the 13th president and the final Whig president."
+		-->
+		<section class="presentimg">
+			<img src="static/img/how-it-works-2.png" alt="How it works" height="754" width="1290">
+		</section>
+
+		<!-- 
+		Users interact with the app using speech.
+		You first address the device by its name, which in this case is tablet, as you would a person.
+		The device acknowledges you, and you proceed to ask your question.
+		It speaks its answer.
+
+		I use Android's speech recognition service.
+		As good as it is, it does not work well in big rooms, and my device has a poor mic, so I have recorded a demo.
+		-->
+		<section class="presentimg">
+			<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+		</section>
+
+		<!-- 
+		Let's take a look at the app in action.
+		-->
+		<section class="presentimg">
+			<iframe src="http://player.vimeo.com/video/64749911?title=0&amp;byline=0&amp;portrait=0&amp;color=cccccc" width="1433" height="807" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+		</section>
+
+		<!-- 
+			Conclusion
+			Automatically answering polar questions from unstructured text lets people use search engines intuitively; 
+			it solves a problem that will be exacerbated as mobile and wearable interfaces become more prevalent.
+			As entailment prediction systems improve, the will be used in other applications, like detecting paraphrases, measuring the similarity of documents, and summarizing specific topics or arguments within documents.
+		-->
+		<section>
+			<h3>
+				Automatically answering polar questions lets people use search engines intuitively.
+			</h3>
+			<br>
+			<h3>
+				As entailment prediction systems can be valuable in other applications.
+			</h3>
+		</section>
+
+		<!-- 
+		Thanks for listening
+		-->
+		<section>
+			<h3>Thanks for listening</h3>
+			<img src="static/img/screen-dallas.png" alt="Tablet and app screenshot" height="800" width="500">
+		</section>
+	
+	</div>
+</div>
+
+<script src="static/lib/js/head.min.js"></script>
+<script src="static/js/reveal.min.js"></script>
+
+<script>
+	// Full list of configuration options available here:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+
+		theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+		transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+		// Optional libraries used to extend on reveal.js
+		dependencies: [
+		{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+		{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+		{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+		{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+		{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+			// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+			// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+			]
+		});
+</script>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+	$(function(){
+		$('.ask').click(function() {
+			var current = $(this).parent().attr('id');
+
+			var d = {
+				p: $(this).parent().find('#p').attr('value'),
+				h: $(this).parent().find('#h').attr('value'),
+				w: 'default'
+			};
+
+			// Set the containers' visibility
+			$('#ask'+'-'+current).css("display", "none");
+			$('#loading'+'-'+current).css("display", "block");
+			$('#padding'+'-'+current).css("display", "none");
+			$('#api_response'+'-'+current).css("display", "none");
+
+			texts = $.param(d);
+
+			$.ajax({
+				type: "GET",
+				dataType: "json",
+				contentType: "application/json;charset=utf-8",
+				url: "e",
+				data: texts,
+				timeout: 60000,
+				error: function(request,error) {
+					console.log('error');
+					console.log(url);
+				},
+				success: function(data) {
+					$('#ask'+'-'+current).css("display", "block");
+					$('#loading'+'-'+current).css("display", "none");
+					$('#api_response'+'-'+current).css("display", "block");
+					var $response = $(data);
+					$response = $response[0];
+					console.log($response);
+					$entailment = $response['entailment']
+					$entailment_code = $response['entailment_code']
+					$('#response_json'+'-'+current).text(JSON.stringify($response, null, 4));
+					$('#response_entailment'+'-'+current).text('Entailed: ' + $entailment);
+					$('#response_entailment_code'+'-'+current).text('Entailment code: ' + $entailment_code);
+				}
+			});	
+			
+		});
+});
+});
+</script>
+
+</body>
+</html>
