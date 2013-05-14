@@ -128,7 +128,7 @@
 				<button class="loading" id="loading-cont1" style="display:none; height:70px; width:90px;"><img src="static/img/loadinfo.net.gif" width="32" height="32"></button>
 			</div>
 			<br>
-			<div class="padding" id="padding-cont1" style="height:400px;"></div>
+			<!--<div class="padding" id="padding-cont1" style="height:400px;"></div>-->
 			<div class="api_response" id="api_response-cont1" style="background-color:#fff; padding:20px; display:none; box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);;
 			">
 			<div class="response_entailment" id="response_entailment-cont1"></div>
@@ -204,16 +204,6 @@
 			<h2 style="text-align:left;">An Application of Entailment Prediction: Polar Question Answering</h2>
 		</section>
 
-		<!-- Search Engine usage -->
-		<section>
-			<h3>First, a note about search engine usage:</h3>
-			<!--
-			<br />
-			<h3 style="text-align:left;">People often use search engines to find answers, not documents.</h3>
-			<h3 style="text-align:left;">Many people use English sentences as their queries rather than keywords.</h3>
-		-->
-		<!-- quotes and statistics here about search engine usage -->
-	</section>
 	<section>
 		<h3>Search engines, and assistants like Google Now and Siri, sometimes surface answers to a type of question called <strong style="color:#117ada;">factoids</strong>.</h3>
 		<img src="static/img/assistants.png" alt="wearables" height="133" width="607" style="margin:60px 0;">
@@ -269,14 +259,6 @@
 	-->
 	<section>
 		<h3>When a polar question cannot be rephrased as a factoid question, people often use the <strong>verbatim</strong> polar question as a query.</h3>
-	</section>
-
-		<!--
-		The answers to polar questions can sometimes be found in the descriptions of the top results, 
-		but no search engine directly surfaces an answer.
-	-->
-	<section>
-		<h3>Only Google Now <strong>directly surfaces</strong> answers to polar questions.</h3>
 	</section>
 
 	<!-- Google Search does not -->
@@ -450,7 +432,7 @@ jQuery(document).ready(function($){
 			// Set the containers' visibility
 			$('#ask'+'-'+current).css("display", "none");
 			$('#loading'+'-'+current).css("display", "block");
-			$('#padding'+'-'+current).css("display", "none");
+			// $('#padding'+'-'+current).css("display", "none");
 			$('#api_response'+'-'+current).css("display", "none");
 
 			texts = $.param(d);
