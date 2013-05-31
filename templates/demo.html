@@ -26,7 +26,7 @@
   	<h1>Entailment Prediction Demo</h1>
   	<div class="row-fluid">
   		<div class="span6">
-  			<form name="ajax-form" id="ajax-form" action="/e" method="post">
+  			<form name="ajax-form" id="ajax-form" action="/v1/entailment" method="GET">
   				<input id="p" type="text" name="p" value="Carolina defeated the Duke Blue Devils once again" />
   				<br>
   				<input id="h" type="text" name="h" value="Carolina beat Duke" />
@@ -90,7 +90,7 @@
 
 			texts = JSON.stringify($('form').serializeObject());
 			$.ajax({
-				type: "POST",
+				type: "GET",
 				dataType: "json",
 				contentType: "application/json;charset=utf-8",
 				url: $('#ajax-form').attr('action'),
@@ -98,7 +98,6 @@
 				timeout: 60000,
 				error: function(request,error) {
 					console.log('error');
-					console.log(url);
 				},
 				success: function(data) {
 					$('#ask').css("display", "block");

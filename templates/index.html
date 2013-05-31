@@ -441,12 +441,11 @@ jQuery(document).ready(function($){
 				type: "GET",
 				dataType: "json",
 				contentType: "application/json;charset=utf-8",
-				url: "e",
+				url: "v1/entailment",
 				data: texts,
 				timeout: 60000,
 				error: function(request,error) {
 					console.log('error');
-					console.log(url);
 				},
 				success: function(data) {
 					$('#ask'+'-'+current).css("display", "block");
